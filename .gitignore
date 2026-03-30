@@ -1,10 +1,49 @@
+# Dependencies
 node_modules/
+
+# Environment variables (never commit real secrets)
 .env
-dist/
-.vercel/
-.claude/activity.log
-.mcp.json
-.vercel
 .env*.local
+server/.env
+
+# Build output
+dist/
+client/dist/
+
+# Vercel
+.vercel/
+.vercel
+
+# Coverage reports
 coverage/
 server/coverage/
+client/coverage/
+
+# Playwright test artifacts
+e2e/test-results/
+e2e/playwright-report/
+e2e/.auth/
+
+# Claude Code local settings (machine-specific, not project config)
+.claude/settings.local.json
+.claude/activity.log
+
+# MCP local config
+.mcp.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
