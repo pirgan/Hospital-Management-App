@@ -6,3 +6,5 @@ dist/
 .mcp.json
 .vercel
 .env*.local
+coverage/
+server/coverage/
