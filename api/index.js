@@ -1,26 +1,19 @@
-import 'dotenv/config';
+// Vercel injects all env vars directly into process.env — no dotenv needed here.
+// Server deps are installed via: cd server && npm install (in vercel.json buildCommand)
+import connectDB from '../server/src/config/db.js';
+import app from '../server/src/app.js';
 
-let app;
 let connected = false;
-
-async function init() {
-  const [{ default: connectDB }, { default: expressApp }] = await Promise.all([
-    import('../server/src/config/db.js'),
-    import('../server/src/app.js'),
-  ]);
-  if (!connected) {
-    await connectDB();
-    connected = true;
-  }
-  app = expressApp;
-}
 
 export default async function handler(req, res) {
   try {
-    if (!app) await init();
+    if (!connected) {
+      await connectDB();
+      connected = true;
+    }
     return app(req, res);
   } catch (err) {
-    console.error('[api/index] boot error:', err);
-    return res.status(500).json({ error: err.message, stack: err.stack?.split('\n').slice(0, 5) });
+    console.error('[api/index] error:', err.message);
+    return res.status(500).json({ error: err.message });
   }
 }
