@@ -15,7 +15,7 @@ import dashboardRoutes from './routes/dashboardRoutes.js';
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL ?? 'http://localhost:5173' }));
+app.use(cors({ origin: (process.env.CLIENT_URL ?? 'http://localhost:5173').trim() }));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
@@ -34,7 +34,7 @@ app.get('/health', (_req, res) => res.json({ status: 'ok' }));
 
 app.use((err, _req, res, _next) => {
   console.error(err.stack);
-  res.status(500).json({ message: err.message || 'Internal server error' });
+  res.status(500).json({ message: 'Internal server error' });
 });
 
 export default app;
