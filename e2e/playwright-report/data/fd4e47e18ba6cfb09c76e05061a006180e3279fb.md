@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - button "◀" [ref=e6]
+      - navigation [ref=e7]:
+        - link "🏠 Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e9]: 🏠
+          - generic [ref=e10]: Dashboard
+        - link "👥 Patients" [ref=e11] [cursor=pointer]:
+          - /url: /patients
+          - generic [ref=e12]: 👥
+          - generic [ref=e13]: Patients
+        - link "📅 Appointments" [ref=e14] [cursor=pointer]:
+          - /url: /appointments
+          - generic [ref=e15]: 📅
+          - generic [ref=e16]: Appointments
+        - link "📋 EHR Records" [ref=e17] [cursor=pointer]:
+          - /url: /records
+          - generic [ref=e18]: 📋
+          - generic [ref=e19]: EHR Records
+        - link "💊 Pharmacy" [ref=e20] [cursor=pointer]:
+          - /url: /pharmacy
+          - generic [ref=e21]: 💊
+          - generic [ref=e22]: Pharmacy
+        - link "🔬 Lab Results" [ref=e23] [cursor=pointer]:
+          - /url: /lab
+          - generic [ref=e24]: 🔬
+          - generic [ref=e25]: Lab Results
+        - link "🏥 Ward Map" [ref=e26] [cursor=pointer]:
+          - /url: /wards
+          - generic [ref=e27]: 🏥
+          - generic [ref=e28]: Ward Map
+    - generic [ref=e29]:
+      - banner [ref=e30]:
+        - link "MediCore" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Dashboard" [ref=e32] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e33]:
+          - generic "doctor" [ref=e34]
+          - generic [ref=e35]: E2E doctor 2
+          - button "Logout" [ref=e36]
+      - main [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e40]:
+            - heading "Tabbed Patient" [level=1] [ref=e41]
+            - paragraph [ref=e42]: "NHS: NHS-TAB-1774823243055"
+            - generic [ref=e43]:
+              - generic [ref=e44]: 6/15/1990
+              - generic [ref=e45]: female
+          - generic [ref=e46]:
+            - button "Overview" [ref=e47]
+            - button "EHR History" [ref=e48]
+            - button "Prescriptions" [ref=e49]
+            - button "Lab Orders" [ref=e50]
+            - button "Invoices" [ref=e51]
+            - button "AI Summary" [ref=e52]
+    - button "💬" [ref=e53]
+  - region "Notifications Alt+T"
+```

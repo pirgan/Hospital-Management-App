@@ -1,0 +1,5699 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - button "◀" [ref=e6]
+      - navigation [ref=e7]:
+        - link "🏠 Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e9]: 🏠
+          - generic [ref=e10]: Dashboard
+        - link "👥 Patients" [ref=e11] [cursor=pointer]:
+          - /url: /patients
+          - generic [ref=e12]: 👥
+          - generic [ref=e13]: Patients
+        - link "📅 Appointments" [ref=e14] [cursor=pointer]:
+          - /url: /appointments
+          - generic [ref=e15]: 📅
+          - generic [ref=e16]: Appointments
+        - link "📋 EHR Records" [ref=e17] [cursor=pointer]:
+          - /url: /records
+          - generic [ref=e18]: 📋
+          - generic [ref=e19]: EHR Records
+        - link "💊 Pharmacy" [ref=e20] [cursor=pointer]:
+          - /url: /pharmacy
+          - generic [ref=e21]: 💊
+          - generic [ref=e22]: Pharmacy
+        - link "🔬 Lab Results" [ref=e23] [cursor=pointer]:
+          - /url: /lab
+          - generic [ref=e24]: 🔬
+          - generic [ref=e25]: Lab Results
+        - link "🏥 Ward Map" [ref=e26] [cursor=pointer]:
+          - /url: /wards
+          - generic [ref=e27]: 🏥
+          - generic [ref=e28]: Ward Map
+    - generic [ref=e29]:
+      - banner [ref=e30]:
+        - link "MediCore" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Dashboard" [ref=e32] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e33]:
+          - generic "doctor" [ref=e34]
+          - generic [ref=e35]: E2E doctor 1
+          - button "Logout" [ref=e36]
+      - main [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "EHR Records" [level=1] [ref=e40]
+            - button "+ New Record" [ref=e41]
+          - table [ref=e43]:
+            - rowgroup [ref=e44]:
+              - row "Patient Doctor Visit Date Chief Complaint Diagnoses" [ref=e45]:
+                - columnheader "Patient" [ref=e46]
+                - columnheader "Doctor" [ref=e47]
+                - columnheader "Visit Date" [ref=e48]
+                - columnheader "Chief Complaint" [ref=e49]
+                - columnheader "Diagnoses" [ref=e50]
+            - rowgroup [ref=e51]:
+              - row "— Dr. E2E doctor 4 3/30/2026 Test complaint Acute URTI" [ref=e52] [cursor=pointer]:
+                - cell "—" [ref=e53]
+                - cell "Dr. E2E doctor 4" [ref=e54]
+                - cell "3/30/2026" [ref=e55]
+                - cell "Test complaint" [ref=e56]
+                - cell "Acute URTI" [ref=e57]:
+                  - generic [ref=e59]: Acute URTI
+              - row "— Dr. Dr. Aiden Callahan 11/25/2025 Epigastric burning pain, worse after meals C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side F41.1 — Generalised anxiety disorder L40.0 — Psoriasis vulgaris" [ref=e60] [cursor=pointer]:
+                - cell "—" [ref=e61]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e62]
+                - cell "11/25/2025" [ref=e63]
+                - cell "Epigastric burning pain, worse after meals" [ref=e64]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side F41.1 — Generalised anxiety disorder L40.0 — Psoriasis vulgaris" [ref=e65]:
+                  - generic [ref=e66]:
+                    - generic [ref=e67]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e68]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e69]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Chloe Nakamura 11/25/2025 Dysuria, frequency, and suprapubic pain for 3 days E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e70] [cursor=pointer]:
+                - cell "—" [ref=e71]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e72]
+                - cell "11/25/2025" [ref=e73]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e74]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e78]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e79]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Yasmin Aziz 11/24/2025 Right knee swelling and warmth since yesterday K74.60 — Unspecified cirrhosis of liver" [ref=e80] [cursor=pointer]:
+                - cell "—" [ref=e81]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e82]
+                - cell "11/24/2025" [ref=e83]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e84]
+                - cell "K74.60 — Unspecified cirrhosis of liver" [ref=e85]:
+                  - generic [ref=e87]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Mei Zhang 11/24/2025 Gait instability and recurrent falls N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e88] [cursor=pointer]:
+                - cell "—" [ref=e89]
+                - cell "Dr. Dr. Mei Zhang" [ref=e90]
+                - cell "11/24/2025" [ref=e91]
+                - cell "Gait instability and recurrent falls" [ref=e92]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e93]:
+                  - generic [ref=e95]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Mei Zhang 11/23/2025 Polyuria and polydipsia for past 2 weeks J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding F41.1 — Generalised anxiety disorder" [ref=e96] [cursor=pointer]:
+                - cell "—" [ref=e97]
+                - cell "Dr. Dr. Mei Zhang" [ref=e98]
+                - cell "11/23/2025" [ref=e99]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e100]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding F41.1 — Generalised anxiety disorder" [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e104]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e105]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Liam Sullivan 11/22/2025 Pre-operative assessment for elective procedure F41.1 — Generalised anxiety disorder M16.11 — Unilateral primary osteoarthritis, right hip J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e106] [cursor=pointer]:
+                - cell "—" [ref=e107]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e108]
+                - cell "11/22/2025" [ref=e109]
+                - cell "Pre-operative assessment for elective procedure" [ref=e110]
+                - cell "F41.1 — Generalised anxiety disorder M16.11 — Unilateral primary osteoarthritis, right hip J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e111]:
+                  - generic [ref=e112]:
+                    - generic [ref=e113]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e114]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e115]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Tariq Hassan 11/22/2025 Auditory hallucinations and disorganised behaviour reported by carer K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e116] [cursor=pointer]:
+                - cell "—" [ref=e117]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e118]
+                - cell "11/22/2025" [ref=e119]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e120]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e121]:
+                  - generic [ref=e123]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Tariq Hassan 11/21/2025 Bilateral hand numbness and tingling at night E11.65 — Type 2 diabetes mellitus with hyperglycaemia I63.9 — Cerebral infarction, unspecified" [ref=e124] [cursor=pointer]:
+                - cell "—" [ref=e125]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e126]
+                - cell "11/21/2025" [ref=e127]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e128]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia I63.9 — Cerebral infarction, unspecified" [ref=e129]:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e132]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 11/13/2025 Hypertensive urgency — BP 185/110 at home F41.1 — Generalised anxiety disorder" [ref=e133] [cursor=pointer]:
+                - cell "—" [ref=e134]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e135]
+                - cell "11/13/2025" [ref=e136]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e137]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e138]:
+                  - generic [ref=e140]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Sienna Whitmore 11/10/2025 Annual chronic disease review — diabetes and hypertension J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e141] [cursor=pointer]:
+                - cell "—" [ref=e142]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e143]
+                - cell "11/10/2025" [ref=e144]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e145]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e146]:
+                  - generic [ref=e148]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Amara Diallo 11/9/2025 Productive cough with yellow sputum for 5 days J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e149] [cursor=pointer]:
+                - cell "—" [ref=e150]
+                - cell "Dr. Dr. Amara Diallo" [ref=e151]
+                - cell "11/9/2025" [ref=e152]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e153]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e154]:
+                  - generic [ref=e156]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Marcus Chen 11/7/2025 Morning stiffness in both hands lasting over 1 hour J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e157] [cursor=pointer]:
+                - cell "—" [ref=e158]
+                - cell "Dr. Dr. Marcus Chen" [ref=e159]
+                - cell "11/7/2025" [ref=e160]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e161]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e162]:
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e165]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e166]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Darius Osei 11/5/2025 Flank pain with haematuria — possible renal colic E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e167] [cursor=pointer]:
+                - cell "—" [ref=e168]
+                - cell "Dr. Dr. Darius Osei" [ref=e169]
+                - cell "11/5/2025" [ref=e170]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e171]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e172]:
+                  - generic [ref=e174]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Hannah Bergmann 11/4/2025 Persistent low mood, anhedonia, and poor sleep for 6 weeks K74.60 — Unspecified cirrhosis of liver K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e175] [cursor=pointer]:
+                - cell "—" [ref=e176]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e177]
+                - cell "11/4/2025" [ref=e178]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e179]
+                - cell "K74.60 — Unspecified cirrhosis of liver K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e180]:
+                  - generic [ref=e181]:
+                    - generic [ref=e182]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e183]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Victor Reyes 11/4/2025 Shoulder pain limiting range of motion for 2 weeks I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side" [ref=e184] [cursor=pointer]:
+                - cell "—" [ref=e185]
+                - cell "Dr. Dr. Victor Reyes" [ref=e186]
+                - cell "11/4/2025" [ref=e187]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e188]
+                - cell "I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side" [ref=e189]:
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: I10 — Essential (primary) hypertension
+                    - generic [ref=e192]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Diego Ferreira 11/4/2025 Nausea, vomiting, and inability to tolerate fluids for 48 hours M06.9 — Rheumatoid arthritis, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e193] [cursor=pointer]:
+                - cell "—" [ref=e194]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e195]
+                - cell "11/4/2025" [ref=e196]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e197]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e198]:
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e201]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Kenji Tanaka 11/2/2025 Increasing anxiety interfering with daily activities I10 — Essential (primary) hypertension A41.9 — Sepsis, unspecified organism I48.0 — Paroxysmal atrial fibrillation" [ref=e202] [cursor=pointer]:
+                - cell "—" [ref=e203]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e204]
+                - cell "11/2/2025" [ref=e205]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e206]
+                - cell "I10 — Essential (primary) hypertension A41.9 — Sepsis, unspecified organism I48.0 — Paroxysmal atrial fibrillation" [ref=e207]:
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: I10 — Essential (primary) hypertension
+                    - generic [ref=e210]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e211]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Mei Zhang 10/28/2025 Pre-operative assessment for elective procedure F32.1 — Major depressive disorder, single episode, moderate C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side K92.1 — Melaena" [ref=e212] [cursor=pointer]:
+                - cell "—" [ref=e213]
+                - cell "Dr. Dr. Mei Zhang" [ref=e214]
+                - cell "10/28/2025" [ref=e215]
+                - cell "Pre-operative assessment for elective procedure" [ref=e216]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side K92.1 — Melaena" [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e220]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e221]: K92.1 — Melaena
+              - row "— Dr. Dr. James Okafor 10/28/2025 Polyuria and polydipsia for past 2 weeks E66.01 — Morbid (severe) obesity due to excess calories I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e222] [cursor=pointer]:
+                - cell "—" [ref=e223]
+                - cell "Dr. Dr. James Okafor" [ref=e224]
+                - cell "10/28/2025" [ref=e225]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e226]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e227]:
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e230]: I10 — Essential (primary) hypertension
+                    - generic [ref=e231]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Fatima Al-Rashid 10/28/2025 Annual chronic disease review — diabetes and hypertension E03.9 — Hypothyroidism, unspecified E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e232] [cursor=pointer]:
+                - cell "—" [ref=e233]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e234]
+                - cell "10/28/2025" [ref=e235]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e236]
+                - cell "E03.9 — Hypothyroidism, unspecified E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e240]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Sofia Patel 10/27/2025 Sudden onset severe headache — \"worst of my life\" J18.9 — Pneumonia, unspecified organism I10 — Essential (primary) hypertension" [ref=e241] [cursor=pointer]:
+                - cell "—" [ref=e242]
+                - cell "Dr. Dr. Sofia Patel" [ref=e243]
+                - cell "10/27/2025" [ref=e244]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e245]
+                - cell "J18.9 — Pneumonia, unspecified organism I10 — Essential (primary) hypertension" [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e249]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. James Okafor 10/26/2025 Polyuria and polydipsia for past 2 weeks I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E66.01 — Morbid (severe) obesity due to excess calories" [ref=e250] [cursor=pointer]:
+                - cell "—" [ref=e251]
+                - cell "Dr. Dr. James Okafor" [ref=e252]
+                - cell "10/26/2025" [ref=e253]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e254]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E66.01 — Morbid (severe) obesity due to excess calories" [ref=e255]:
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e258]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Aiden Callahan 10/25/2025 Widespread urticarial rash after new medication I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris C18.9 — Malignant neoplasm of colon, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e259] [cursor=pointer]:
+                - cell "—" [ref=e260]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e261]
+                - cell "10/25/2025" [ref=e262]
+                - cell "Widespread urticarial rash after new medication" [ref=e263]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris C18.9 — Malignant neoplasm of colon, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e264]:
+                  - generic [ref=e265]:
+                    - generic [ref=e266]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e267]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e268]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Hannah Bergmann 10/23/2025 Acute panic attack with palpitations and sense of doom A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin F41.1 — Generalised anxiety disorder J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e269] [cursor=pointer]:
+                - cell "—" [ref=e270]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e271]
+                - cell "10/23/2025" [ref=e272]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e273]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin F41.1 — Generalised anxiety disorder J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e274]:
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e277]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e278]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Kenji Tanaka 10/22/2025 Vaccination and travel health consultation I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e279] [cursor=pointer]:
+                - cell "—" [ref=e280]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e281]
+                - cell "10/22/2025" [ref=e282]
+                - cell "Vaccination and travel health consultation" [ref=e283]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e284]:
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e287]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 10/20/2025 Acute panic attack with palpitations and sense of doom E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e288] [cursor=pointer]:
+                - cell "—" [ref=e289]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e290]
+                - cell "10/20/2025" [ref=e291]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e292]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e293]:
+                  - generic [ref=e295]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Marcus Chen 10/20/2025 Acute onset severe abdominal pain, periumbilical I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e296] [cursor=pointer]:
+                - cell "—" [ref=e297]
+                - cell "Dr. Dr. Marcus Chen" [ref=e298]
+                - cell "10/20/2025" [ref=e299]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e300]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e301]:
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e304]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Tariq Hassan 10/16/2025 Nocturia ×4 and weak urinary stream L40.0 — Psoriasis vulgaris" [ref=e305] [cursor=pointer]:
+                - cell "—" [ref=e306]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e307]
+                - cell "10/16/2025" [ref=e308]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e309]
+                - cell "L40.0 — Psoriasis vulgaris" [ref=e310]:
+                  - generic [ref=e312]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Hannah Bergmann 10/16/2025 Medication review and repeat prescriptions E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e313] [cursor=pointer]:
+                - cell "—" [ref=e314]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e315]
+                - cell "10/16/2025" [ref=e316]
+                - cell "Medication review and repeat prescriptions" [ref=e317]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e318]:
+                  - generic [ref=e320]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 10/16/2025 Jaundice and right upper quadrant discomfort I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M79.3 — Panniculitis, unspecified" [ref=e321] [cursor=pointer]:
+                - cell "—" [ref=e322]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e323]
+                - cell "10/16/2025" [ref=e324]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e325]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M79.3 — Panniculitis, unspecified" [ref=e326]:
+                  - generic [ref=e327]:
+                    - generic [ref=e328]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e329]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Darius Osei 10/14/2025 Reduced urine output and lower limb oedema for 5 days J06.9 — Acute upper respiratory infection, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e330] [cursor=pointer]:
+                - cell "—" [ref=e331]
+                - cell "Dr. Dr. Darius Osei" [ref=e332]
+                - cell "10/14/2025" [ref=e333]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e334]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e338]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e339]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Carlos Mendoza 10/13/2025 Auditory hallucinations and disorganised behaviour reported by carer E78.00 — Pure hypercholesterolaemia, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e340] [cursor=pointer]:
+                - cell "—" [ref=e341]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e342]
+                - cell "10/13/2025" [ref=e343]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e344]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e345]:
+                  - generic [ref=e346]:
+                    - generic [ref=e347]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e348]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Amara Diallo 10/11/2025 Worsening dyspnea, unable to complete sentences A41.9 — Sepsis, unspecified organism C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side E03.9 — Hypothyroidism, unspecified" [ref=e349] [cursor=pointer]:
+                - cell "—" [ref=e350]
+                - cell "Dr. Dr. Amara Diallo" [ref=e351]
+                - cell "10/11/2025" [ref=e352]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e353]
+                - cell "A41.9 — Sepsis, unspecified organism C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side E03.9 — Hypothyroidism, unspecified" [ref=e354]:
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e357]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e358]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 10/11/2025 Suicidal ideation — passive, no plan or intent I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I48.0 — Paroxysmal atrial fibrillation" [ref=e359] [cursor=pointer]:
+                - cell "—" [ref=e360]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e361]
+                - cell "10/11/2025" [ref=e362]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e363]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I48.0 — Paroxysmal atrial fibrillation" [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e367]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e368]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Owen Fitzgerald 10/10/2025 Tremor, heat intolerance, and unintentional weight loss I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension" [ref=e369] [cursor=pointer]:
+                - cell "—" [ref=e370]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e371]
+                - cell "10/10/2025" [ref=e372]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e373]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension" [ref=e374]:
+                  - generic [ref=e375]:
+                    - generic [ref=e376]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e377]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e378]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Victor Reyes 10/9/2025 Dysuria, frequency, and suprapubic pain for 3 days I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e379] [cursor=pointer]:
+                - cell "—" [ref=e380]
+                - cell "Dr. Dr. Victor Reyes" [ref=e381]
+                - cell "10/9/2025" [ref=e382]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e383]
+                - cell "I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e384]:
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: I10 — Essential (primary) hypertension
+                    - generic [ref=e387]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e388]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Sofia Patel 10/9/2025 Polyuria and polydipsia for past 2 weeks E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e389] [cursor=pointer]:
+                - cell "—" [ref=e390]
+                - cell "Dr. Dr. Sofia Patel" [ref=e391]
+                - cell "10/9/2025" [ref=e392]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e393]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e394]:
+                  - generic [ref=e396]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 10/1/2025 Acute onset severe abdominal pain, periumbilical I48.0 — Paroxysmal atrial fibrillation" [ref=e397] [cursor=pointer]:
+                - cell "—" [ref=e398]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e399]
+                - cell "10/1/2025" [ref=e400]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e401]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e402]:
+                  - generic [ref=e404]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Sienna Whitmore 9/28/2025 Sudden onset severe headache — \"worst of my life\" N20.0 — Calculus of kidney E03.9 — Hypothyroidism, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e405] [cursor=pointer]:
+                - cell "—" [ref=e406]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e407]
+                - cell "9/28/2025" [ref=e408]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e409]
+                - cell "N20.0 — Calculus of kidney E03.9 — Hypothyroidism, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e410]:
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: N20.0 — Calculus of kidney
+                    - generic [ref=e413]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e414]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. James Okafor 9/28/2025 Acute onset severe abdominal pain, periumbilical J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e415] [cursor=pointer]:
+                - cell "—" [ref=e416]
+                - cell "Dr. Dr. James Okafor" [ref=e417]
+                - cell "9/28/2025" [ref=e418]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e419]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e420]:
+                  - generic [ref=e422]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Rachel Kowalski 9/28/2025 Shoulder pain limiting range of motion for 2 weeks E66.01 — Morbid (severe) obesity due to excess calories K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e423] [cursor=pointer]:
+                - cell "—" [ref=e424]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e425]
+                - cell "9/28/2025" [ref=e426]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e427]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e428]:
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e431]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Tariq Hassan 9/27/2025 Polyuria and polydipsia for past 2 weeks L40.0 — Psoriasis vulgaris F41.1 — Generalised anxiety disorder" [ref=e432] [cursor=pointer]:
+                - cell "—" [ref=e433]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e434]
+                - cell "9/27/2025" [ref=e435]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e436]
+                - cell "L40.0 — Psoriasis vulgaris F41.1 — Generalised anxiety disorder" [ref=e437]:
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e440]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Aiden Callahan 9/26/2025 Epigastric burning pain, worse after meals E03.9 — Hypothyroidism, unspecified F20.9 — Schizophrenia, unspecified" [ref=e441] [cursor=pointer]:
+                - cell "—" [ref=e442]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e443]
+                - cell "9/26/2025" [ref=e444]
+                - cell "Epigastric burning pain, worse after meals" [ref=e445]
+                - cell "E03.9 — Hypothyroidism, unspecified F20.9 — Schizophrenia, unspecified" [ref=e446]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e449]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 9/26/2025 Dysuria, frequency, and suprapubic pain for 3 days F41.1 — Generalised anxiety disorder" [ref=e450] [cursor=pointer]:
+                - cell "—" [ref=e451]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e452]
+                - cell "9/26/2025" [ref=e453]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e454]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e455]:
+                  - generic [ref=e457]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Kenji Tanaka 9/25/2025 Fever 38.9 °C, rigors, and night sweats for 4 days I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension" [ref=e458] [cursor=pointer]:
+                - cell "—" [ref=e459]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e460]
+                - cell "9/25/2025" [ref=e461]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e462]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension" [ref=e463]:
+                  - generic [ref=e464]:
+                    - generic [ref=e465]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e466]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Yasmin Aziz 9/23/2025 Rectal bleeding noted for 3 days, bright red I73.9 — Peripheral vascular disease, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e467] [cursor=pointer]:
+                - cell "—" [ref=e468]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e469]
+                - cell "9/23/2025" [ref=e470]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e471]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e472]:
+                  - generic [ref=e473]:
+                    - generic [ref=e474]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e475]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 9/19/2025 Progressive memory loss noticed by family over 6 months N20.0 — Calculus of kidney M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e476] [cursor=pointer]:
+                - cell "—" [ref=e477]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e478]
+                - cell "9/19/2025" [ref=e479]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e480]
+                - cell "N20.0 — Calculus of kidney M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e481]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: N20.0 — Calculus of kidney
+                    - generic [ref=e484]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Marcus Chen 9/18/2025 Morning stiffness in both hands lasting over 1 hour I50.32 — Chronic diastolic (congestive) heart failure, decompensated N20.0 — Calculus of kidney A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e485] [cursor=pointer]:
+                - cell "—" [ref=e486]
+                - cell "Dr. Dr. Marcus Chen" [ref=e487]
+                - cell "9/18/2025" [ref=e488]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e489]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated N20.0 — Calculus of kidney A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e490]:
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e493]: N20.0 — Calculus of kidney
+                    - generic [ref=e494]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Rachel Kowalski 9/17/2025 Morning stiffness in both hands lasting over 1 hour L03.115 — Cellulitis of right lower limb I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e495] [cursor=pointer]:
+                - cell "—" [ref=e496]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e497]
+                - cell "9/17/2025" [ref=e498]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e499]
+                - cell "L03.115 — Cellulitis of right lower limb I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e500]:
+                  - generic [ref=e501]:
+                    - generic [ref=e502]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e503]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Amara Diallo 9/16/2025 Shoulder pain limiting range of motion for 2 weeks E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I10 — Essential (primary) hypertension" [ref=e504] [cursor=pointer]:
+                - cell "—" [ref=e505]
+                - cell "Dr. Dr. Amara Diallo" [ref=e506]
+                - cell "9/16/2025" [ref=e507]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e508]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I10 — Essential (primary) hypertension" [ref=e509]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e512]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Priya Krishnamurthy 9/16/2025 Palpitations and shortness of breath on exertion E66.01 — Morbid (severe) obesity due to excess calories" [ref=e513] [cursor=pointer]:
+                - cell "—" [ref=e514]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e515]
+                - cell "9/16/2025" [ref=e516]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e517]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e518]:
+                  - generic [ref=e520]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Priya Krishnamurthy 9/15/2025 Nausea, vomiting, and inability to tolerate fluids for 48 hours I50.32 — Chronic diastolic (congestive) heart failure, decompensated J18.9 — Pneumonia, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories" [ref=e521] [cursor=pointer]:
+                - cell "—" [ref=e522]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e523]
+                - cell "9/15/2025" [ref=e524]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e525]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated J18.9 — Pneumonia, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories" [ref=e526]:
+                  - generic [ref=e527]:
+                    - generic [ref=e528]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e529]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e530]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Eleanor Hartmann 9/13/2025 Productive cough with yellow sputum for 5 days N39.0 — Urinary tract infection, site not specified I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e531] [cursor=pointer]:
+                - cell "—" [ref=e532]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e533]
+                - cell "9/13/2025" [ref=e534]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e535]
+                - cell "N39.0 — Urinary tract infection, site not specified I50.32 — Chronic diastolic (congestive) heart failure, decompensated M06.9 — Rheumatoid arthritis, unspecified" [ref=e536]:
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e539]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e540]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 9/11/2025 Gait instability and recurrent falls N20.0 — Calculus of kidney I10 — Essential (primary) hypertension" [ref=e541] [cursor=pointer]:
+                - cell "—" [ref=e542]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e543]
+                - cell "9/11/2025" [ref=e544]
+                - cell "Gait instability and recurrent falls" [ref=e545]
+                - cell "N20.0 — Calculus of kidney I10 — Essential (primary) hypertension" [ref=e546]:
+                  - generic [ref=e547]:
+                    - generic [ref=e548]: N20.0 — Calculus of kidney
+                    - generic [ref=e549]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Yasmin Aziz 9/11/2025 Rectal bleeding noted for 3 days, bright red J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e550] [cursor=pointer]:
+                - cell "—" [ref=e551]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e552]
+                - cell "9/11/2025" [ref=e553]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e554]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e555]:
+                  - generic [ref=e557]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Mei Zhang 9/9/2025 Pleuritic chest pain, worse on deep inspiration I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e558] [cursor=pointer]:
+                - cell "—" [ref=e559]
+                - cell "Dr. Dr. Mei Zhang" [ref=e560]
+                - cell "9/9/2025" [ref=e561]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e562]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e563]:
+                  - generic [ref=e564]:
+                    - generic [ref=e565]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e566]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e567]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Tariq Hassan 9/8/2025 Post-operative wound check — day 10 I73.9 — Peripheral vascular disease, unspecified C18.9 — Malignant neoplasm of colon, unspecified F20.9 — Schizophrenia, unspecified" [ref=e568] [cursor=pointer]:
+                - cell "—" [ref=e569]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e570]
+                - cell "9/8/2025" [ref=e571]
+                - cell "Post-operative wound check — day 10" [ref=e572]
+                - cell "I73.9 — Peripheral vascular disease, unspecified C18.9 — Malignant neoplasm of colon, unspecified F20.9 — Schizophrenia, unspecified" [ref=e573]:
+                  - generic [ref=e574]:
+                    - generic [ref=e575]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e576]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e577]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 9/6/2025 Acute low back pain after lifting heavy objects I63.9 — Cerebral infarction, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation L03.115 — Cellulitis of right lower limb" [ref=e578] [cursor=pointer]:
+                - cell "—" [ref=e579]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e580]
+                - cell "9/6/2025" [ref=e581]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e582]
+                - cell "I63.9 — Cerebral infarction, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation L03.115 — Cellulitis of right lower limb" [ref=e583]:
+                  - generic [ref=e584]:
+                    - generic [ref=e585]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e586]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e587]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Priya Krishnamurthy 9/6/2025 Gait instability and recurrent falls I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I48.0 — Paroxysmal atrial fibrillation" [ref=e588] [cursor=pointer]:
+                - cell "—" [ref=e589]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e590]
+                - cell "9/6/2025" [ref=e591]
+                - cell "Gait instability and recurrent falls" [ref=e592]
+                - cell "I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I48.0 — Paroxysmal atrial fibrillation" [ref=e593]:
+                  - generic [ref=e594]:
+                    - generic [ref=e595]: I10 — Essential (primary) hypertension
+                    - generic [ref=e596]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e597]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Aiden Callahan 9/6/2025 Nocturnal wheezing and cough disturbing sleep L40.0 — Psoriasis vulgaris" [ref=e598] [cursor=pointer]:
+                - cell "—" [ref=e599]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e600]
+                - cell "9/6/2025" [ref=e601]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e602]
+                - cell "L40.0 — Psoriasis vulgaris" [ref=e603]:
+                  - generic [ref=e605]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Chloe Nakamura 9/4/2025 Recurrent episodes of loss of consciousness M16.11 — Unilateral primary osteoarthritis, right hip L03.115 — Cellulitis of right lower limb M79.3 — Panniculitis, unspecified" [ref=e606] [cursor=pointer]:
+                - cell "—" [ref=e607]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e608]
+                - cell "9/4/2025" [ref=e609]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e610]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip L03.115 — Cellulitis of right lower limb M79.3 — Panniculitis, unspecified" [ref=e611]:
+                  - generic [ref=e612]:
+                    - generic [ref=e613]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e614]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e615]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 9/4/2025 Bilateral hand numbness and tingling at night J18.9 — Pneumonia, unspecified organism N18.3 — Chronic kidney disease, stage 3 (moderate) N39.0 — Urinary tract infection, site not specified" [ref=e616] [cursor=pointer]:
+                - cell "—" [ref=e617]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e618]
+                - cell "9/4/2025" [ref=e619]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e620]
+                - cell "J18.9 — Pneumonia, unspecified organism N18.3 — Chronic kidney disease, stage 3 (moderate) N39.0 — Urinary tract infection, site not specified" [ref=e621]:
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e624]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e625]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Nadia Volkov 9/2/2025 Chest pain radiating to left arm, onset 2 hours ago A41.9 — Sepsis, unspecified organism" [ref=e626] [cursor=pointer]:
+                - cell "—" [ref=e627]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e628]
+                - cell "9/2/2025" [ref=e629]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e630]
+                - cell "A41.9 — Sepsis, unspecified organism" [ref=e631]:
+                  - generic [ref=e633]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Carlos Mendoza 9/2/2025 Medication review and repeat prescriptions J18.9 — Pneumonia, unspecified organism" [ref=e634] [cursor=pointer]:
+                - cell "—" [ref=e635]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e636]
+                - cell "9/2/2025" [ref=e637]
+                - cell "Medication review and repeat prescriptions" [ref=e638]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e639]:
+                  - generic [ref=e641]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Darius Osei 9/1/2025 Vaccination and travel health consultation E78.00 — Pure hypercholesterolaemia, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e642] [cursor=pointer]:
+                - cell "—" [ref=e643]
+                - cell "Dr. Dr. Darius Osei" [ref=e644]
+                - cell "9/1/2025" [ref=e645]
+                - cell "Vaccination and travel health consultation" [ref=e646]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e647]:
+                  - generic [ref=e648]:
+                    - generic [ref=e649]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e650]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e651]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Darius Osei 8/31/2025 Excessive fatigue, cold intolerance, and constipation N18.3 — Chronic kidney disease, stage 3 (moderate) M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e652] [cursor=pointer]:
+                - cell "—" [ref=e653]
+                - cell "Dr. Dr. Darius Osei" [ref=e654]
+                - cell "8/31/2025" [ref=e655]
+                - cell "Excessive fatigue, cold intolerance, and constipation" [ref=e656]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e657]:
+                  - generic [ref=e658]:
+                    - generic [ref=e659]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e660]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e661]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Kenji Tanaka 8/31/2025 Hemoptysis — small amount noted this morning A41.9 — Sepsis, unspecified organism" [ref=e662] [cursor=pointer]:
+                - cell "—" [ref=e663]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e664]
+                - cell "8/31/2025" [ref=e665]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e666]
+                - cell "A41.9 — Sepsis, unspecified organism" [ref=e667]:
+                  - generic [ref=e669]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Liam Sullivan 8/30/2025 Auditory hallucinations and disorganised behaviour reported by carer J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e670] [cursor=pointer]:
+                - cell "—" [ref=e671]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e672]
+                - cell "8/30/2025" [ref=e673]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e674]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e675]:
+                  - generic [ref=e677]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. James Okafor 8/28/2025 Rectal bleeding noted for 3 days, bright red F41.1 — Generalised anxiety disorder" [ref=e678] [cursor=pointer]:
+                - cell "—" [ref=e679]
+                - cell "Dr. Dr. James Okafor" [ref=e680]
+                - cell "8/28/2025" [ref=e681]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e682]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e683]:
+                  - generic [ref=e685]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Sienna Whitmore 8/28/2025 Flank pain with haematuria — possible renal colic E78.00 — Pure hypercholesterolaemia, unspecified I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e686] [cursor=pointer]:
+                - cell "—" [ref=e687]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e688]
+                - cell "8/28/2025" [ref=e689]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e690]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e691]:
+                  - generic [ref=e692]:
+                    - generic [ref=e693]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e694]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e695]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Hannah Bergmann 8/22/2025 Increasing anxiety interfering with daily activities M16.11 — Unilateral primary osteoarthritis, right hip I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J06.9 — Acute upper respiratory infection, unspecified" [ref=e696] [cursor=pointer]:
+                - cell "—" [ref=e697]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e698]
+                - cell "8/22/2025" [ref=e699]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e700]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J06.9 — Acute upper respiratory infection, unspecified" [ref=e701]:
+                  - generic [ref=e702]:
+                    - generic [ref=e703]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e704]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e705]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 8/22/2025 Right-sided facial droop and arm weakness, onset 1 hour ago I50.32 — Chronic diastolic (congestive) heart failure, decompensated M16.11 — Unilateral primary osteoarthritis, right hip F32.1 — Major depressive disorder, single episode, moderate" [ref=e706] [cursor=pointer]:
+                - cell "—" [ref=e707]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e708]
+                - cell "8/22/2025" [ref=e709]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e710]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated M16.11 — Unilateral primary osteoarthritis, right hip F32.1 — Major depressive disorder, single episode, moderate" [ref=e711]:
+                  - generic [ref=e712]:
+                    - generic [ref=e713]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e714]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e715]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Sofia Patel 8/20/2025 Nocturia ×4 and weak urinary stream I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e716] [cursor=pointer]:
+                - cell "—" [ref=e717]
+                - cell "Dr. Dr. Sofia Patel" [ref=e718]
+                - cell "8/20/2025" [ref=e719]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e720]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e721]:
+                  - generic [ref=e723]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Hannah Bergmann 8/17/2025 Pre-operative assessment for elective procedure I50.32 — Chronic diastolic (congestive) heart failure, decompensated I63.9 — Cerebral infarction, unspecified N39.0 — Urinary tract infection, site not specified" [ref=e724] [cursor=pointer]:
+                - cell "—" [ref=e725]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e726]
+                - cell "8/17/2025" [ref=e727]
+                - cell "Pre-operative assessment for elective procedure" [ref=e728]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated I63.9 — Cerebral infarction, unspecified N39.0 — Urinary tract infection, site not specified" [ref=e729]:
+                  - generic [ref=e730]:
+                    - generic [ref=e731]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e732]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e733]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Sofia Patel 8/14/2025 Shoulder pain limiting range of motion for 2 weeks A41.9 — Sepsis, unspecified organism E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e734] [cursor=pointer]:
+                - cell "—" [ref=e735]
+                - cell "Dr. Dr. Sofia Patel" [ref=e736]
+                - cell "8/14/2025" [ref=e737]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e738]
+                - cell "A41.9 — Sepsis, unspecified organism E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e739]:
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e742]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Hannah Bergmann 8/13/2025 Epigastric burning pain, worse after meals E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e743] [cursor=pointer]:
+                - cell "—" [ref=e744]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e745]
+                - cell "8/13/2025" [ref=e746]
+                - cell "Epigastric burning pain, worse after meals" [ref=e747]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e748]:
+                  - generic [ref=e750]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Priya Krishnamurthy 8/12/2025 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home J18.9 — Pneumonia, unspecified organism E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e751] [cursor=pointer]:
+                - cell "—" [ref=e752]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e753]
+                - cell "8/12/2025" [ref=e754]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e755]
+                - cell "J18.9 — Pneumonia, unspecified organism E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e756]:
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e759]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Marcus Chen 8/11/2025 Polyuria and polydipsia for past 2 weeks N39.0 — Urinary tract infection, site not specified" [ref=e760] [cursor=pointer]:
+                - cell "—" [ref=e761]
+                - cell "Dr. Dr. Marcus Chen" [ref=e762]
+                - cell "8/11/2025" [ref=e763]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e764]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e765]:
+                  - generic [ref=e767]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Fatima Al-Rashid 8/8/2025 Pleuritic chest pain, worse on deep inspiration E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M79.3 — Panniculitis, unspecified" [ref=e768] [cursor=pointer]:
+                - cell "—" [ref=e769]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e770]
+                - cell "8/8/2025" [ref=e771]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e772]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M79.3 — Panniculitis, unspecified" [ref=e773]:
+                  - generic [ref=e774]:
+                    - generic [ref=e775]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e776]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 8/7/2025 Auditory hallucinations and disorganised behaviour reported by carer N39.0 — Urinary tract infection, site not specified M06.9 — Rheumatoid arthritis, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e777] [cursor=pointer]:
+                - cell "—" [ref=e778]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e779]
+                - cell "8/7/2025" [ref=e780]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e781]
+                - cell "N39.0 — Urinary tract infection, site not specified M06.9 — Rheumatoid arthritis, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e782]:
+                  - generic [ref=e783]:
+                    - generic [ref=e784]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e785]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e786]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Victor Reyes 8/7/2025 Erythematous scaly plaques on elbows and scalp E66.01 — Morbid (severe) obesity due to excess calories E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e787] [cursor=pointer]:
+                - cell "—" [ref=e788]
+                - cell "Dr. Dr. Victor Reyes" [ref=e789]
+                - cell "8/7/2025" [ref=e790]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e791]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e792]:
+                  - generic [ref=e793]:
+                    - generic [ref=e794]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e795]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Hannah Bergmann 8/3/2025 Widespread urticarial rash after new medication J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e796] [cursor=pointer]:
+                - cell "—" [ref=e797]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e798]
+                - cell "8/3/2025" [ref=e799]
+                - cell "Widespread urticarial rash after new medication" [ref=e800]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e801]:
+                  - generic [ref=e803]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Owen Fitzgerald 7/30/2025 Right knee swelling and warmth since yesterday J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e804] [cursor=pointer]:
+                - cell "—" [ref=e805]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e806]
+                - cell "7/30/2025" [ref=e807]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e808]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e809]:
+                  - generic [ref=e811]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Mei Zhang 7/28/2025 Right-sided facial droop and arm weakness, onset 1 hour ago M06.9 — Rheumatoid arthritis, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e812] [cursor=pointer]:
+                - cell "—" [ref=e813]
+                - cell "Dr. Dr. Mei Zhang" [ref=e814]
+                - cell "7/28/2025" [ref=e815]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e816]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e817]:
+                  - generic [ref=e818]:
+                    - generic [ref=e819]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e820]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Sienna Whitmore 7/28/2025 Intermittent claudication in both calves I10 — Essential (primary) hypertension" [ref=e821] [cursor=pointer]:
+                - cell "—" [ref=e822]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e823]
+                - cell "7/28/2025" [ref=e824]
+                - cell "Intermittent claudication in both calves" [ref=e825]
+                - cell "I10 — Essential (primary) hypertension" [ref=e826]:
+                  - generic [ref=e828]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Diego Ferreira 7/26/2025 Right knee swelling and warmth since yesterday F32.1 — Major depressive disorder, single episode, moderate" [ref=e829] [cursor=pointer]:
+                - cell "—" [ref=e830]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e831]
+                - cell "7/26/2025" [ref=e832]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e833]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e834]:
+                  - generic [ref=e836]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Owen Fitzgerald 7/26/2025 Worsening dyspnea, unable to complete sentences M54.4 — Lumbago with sciatica, right side" [ref=e837] [cursor=pointer]:
+                - cell "—" [ref=e838]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e839]
+                - cell "7/26/2025" [ref=e840]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e841]
+                - cell "M54.4 — Lumbago with sciatica, right side" [ref=e842]:
+                  - generic [ref=e844]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Rachel Kowalski 7/26/2025 Nausea, vomiting, and inability to tolerate fluids for 48 hours I10 — Essential (primary) hypertension" [ref=e845] [cursor=pointer]:
+                - cell "—" [ref=e846]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e847]
+                - cell "7/26/2025" [ref=e848]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e849]
+                - cell "I10 — Essential (primary) hypertension" [ref=e850]:
+                  - generic [ref=e852]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Sienna Whitmore 7/25/2025 Widespread urticarial rash after new medication E11.65 — Type 2 diabetes mellitus with hyperglycaemia A41.9 — Sepsis, unspecified organism J06.9 — Acute upper respiratory infection, unspecified" [ref=e853] [cursor=pointer]:
+                - cell "—" [ref=e854]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e855]
+                - cell "7/25/2025" [ref=e856]
+                - cell "Widespread urticarial rash after new medication" [ref=e857]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia A41.9 — Sepsis, unspecified organism J06.9 — Acute upper respiratory infection, unspecified" [ref=e858]:
+                  - generic [ref=e859]:
+                    - generic [ref=e860]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e861]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e862]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 7/24/2025 Unintentional weight loss of 8 kg over 3 months F41.1 — Generalised anxiety disorder" [ref=e863] [cursor=pointer]:
+                - cell "—" [ref=e864]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e865]
+                - cell "7/24/2025" [ref=e866]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e867]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e868]:
+                  - generic [ref=e870]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Chloe Nakamura 7/24/2025 Widespread urticarial rash after new medication I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e871] [cursor=pointer]:
+                - cell "—" [ref=e872]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e873]
+                - cell "7/24/2025" [ref=e874]
+                - cell "Widespread urticarial rash after new medication" [ref=e875]
+                - cell "I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e876]:
+                  - generic [ref=e877]:
+                    - generic [ref=e878]: I10 — Essential (primary) hypertension
+                    - generic [ref=e879]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Diego Ferreira 7/23/2025 Intermittent claudication in both calves J45.41 — Moderate persistent asthma with (acute) exacerbation N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e880] [cursor=pointer]:
+                - cell "—" [ref=e881]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e882]
+                - cell "7/23/2025" [ref=e883]
+                - cell "Intermittent claudication in both calves" [ref=e884]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e885]:
+                  - generic [ref=e886]:
+                    - generic [ref=e887]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e888]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sienna Whitmore 7/23/2025 Auditory hallucinations and disorganised behaviour reported by carer I63.9 — Cerebral infarction, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate) N39.0 — Urinary tract infection, site not specified" [ref=e889] [cursor=pointer]:
+                - cell "—" [ref=e890]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e891]
+                - cell "7/23/2025" [ref=e892]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e893]
+                - cell "I63.9 — Cerebral infarction, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate) N39.0 — Urinary tract infection, site not specified" [ref=e894]:
+                  - generic [ref=e895]:
+                    - generic [ref=e896]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e897]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e898]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Ethan Blackwood 7/15/2025 Vaccination and travel health consultation M06.9 — Rheumatoid arthritis, unspecified F20.9 — Schizophrenia, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e899] [cursor=pointer]:
+                - cell "—" [ref=e900]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e901]
+                - cell "7/15/2025" [ref=e902]
+                - cell "Vaccination and travel health consultation" [ref=e903]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified F20.9 — Schizophrenia, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e904]:
+                  - generic [ref=e905]:
+                    - generic [ref=e906]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e907]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e908]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Aiden Callahan 7/14/2025 Productive cough with yellow sputum for 5 days I63.9 — Cerebral infarction, unspecified E78.00 — Pure hypercholesterolaemia, unspecified K74.60 — Unspecified cirrhosis of liver" [ref=e909] [cursor=pointer]:
+                - cell "—" [ref=e910]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e911]
+                - cell "7/14/2025" [ref=e912]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e913]
+                - cell "I63.9 — Cerebral infarction, unspecified E78.00 — Pure hypercholesterolaemia, unspecified K74.60 — Unspecified cirrhosis of liver" [ref=e914]:
+                  - generic [ref=e915]:
+                    - generic [ref=e916]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e917]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e918]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Hannah Bergmann 7/14/2025 Suicidal ideation — passive, no plan or intent F20.9 — Schizophrenia, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e919] [cursor=pointer]:
+                - cell "—" [ref=e920]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e921]
+                - cell "7/14/2025" [ref=e922]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e923]
+                - cell "F20.9 — Schizophrenia, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e924]:
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e927]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e928]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Nadia Volkov 7/13/2025 Polyuria and polydipsia for past 2 weeks F32.1 — Major depressive disorder, single episode, moderate" [ref=e929] [cursor=pointer]:
+                - cell "—" [ref=e930]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e931]
+                - cell "7/13/2025" [ref=e932]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e933]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e934]:
+                  - generic [ref=e936]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Victor Reyes 7/11/2025 Acute onset severe abdominal pain, periumbilical E66.01 — Morbid (severe) obesity due to excess calories" [ref=e937] [cursor=pointer]:
+                - cell "—" [ref=e938]
+                - cell "Dr. Dr. Victor Reyes" [ref=e939]
+                - cell "7/11/2025" [ref=e940]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e941]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e942]:
+                  - generic [ref=e944]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Marcus Chen 7/9/2025 Rectal bleeding noted for 3 days, bright red I48.0 — Paroxysmal atrial fibrillation" [ref=e945] [cursor=pointer]:
+                - cell "—" [ref=e946]
+                - cell "Dr. Dr. Marcus Chen" [ref=e947]
+                - cell "7/9/2025" [ref=e948]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e949]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e950]:
+                  - generic [ref=e952]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. James Okafor 7/6/2025 Epigastric burning pain, worse after meals M79.3 — Panniculitis, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e953] [cursor=pointer]:
+                - cell "—" [ref=e954]
+                - cell "Dr. Dr. James Okafor" [ref=e955]
+                - cell "7/6/2025" [ref=e956]
+                - cell "Epigastric burning pain, worse after meals" [ref=e957]
+                - cell "M79.3 — Panniculitis, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e958]:
+                  - generic [ref=e959]:
+                    - generic [ref=e960]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e961]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Victor Reyes 7/4/2025 Sudden onset severe headache — \"worst of my life\" M06.9 — Rheumatoid arthritis, unspecified" [ref=e962] [cursor=pointer]:
+                - cell "—" [ref=e963]
+                - cell "Dr. Dr. Victor Reyes" [ref=e964]
+                - cell "7/4/2025" [ref=e965]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e966]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified" [ref=e967]:
+                  - generic [ref=e969]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 7/2/2025 Intermittent claudication in both calves E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e970] [cursor=pointer]:
+                - cell "—" [ref=e971]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e972]
+                - cell "7/2/2025" [ref=e973]
+                - cell "Intermittent claudication in both calves" [ref=e974]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e975]:
+                  - generic [ref=e977]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Marcus Chen 6/28/2025 Productive cough with yellow sputum for 5 days F20.9 — Schizophrenia, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified N39.0 — Urinary tract infection, site not specified" [ref=e978] [cursor=pointer]:
+                - cell "—" [ref=e979]
+                - cell "Dr. Dr. Marcus Chen" [ref=e980]
+                - cell "6/28/2025" [ref=e981]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e982]
+                - cell "F20.9 — Schizophrenia, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified N39.0 — Urinary tract infection, site not specified" [ref=e983]:
+                  - generic [ref=e984]:
+                    - generic [ref=e985]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e986]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e987]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Owen Fitzgerald 6/25/2025 Bilateral hand numbness and tingling at night I50.32 — Chronic diastolic (congestive) heart failure, decompensated K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e988] [cursor=pointer]:
+                - cell "—" [ref=e989]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e990]
+                - cell "6/25/2025" [ref=e991]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e992]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e993]:
+                  - generic [ref=e994]:
+                    - generic [ref=e995]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e996]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Victor Reyes 6/25/2025 Shoulder pain limiting range of motion for 2 weeks A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E03.9 — Hypothyroidism, unspecified" [ref=e997] [cursor=pointer]:
+                - cell "—" [ref=e998]
+                - cell "Dr. Dr. Victor Reyes" [ref=e999]
+                - cell "6/25/2025" [ref=e1000]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e1001]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E03.9 — Hypothyroidism, unspecified" [ref=e1002]:
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e1005]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 6/23/2025 Chest pain radiating to left arm, onset 2 hours ago F41.1 — Generalised anxiety disorder" [ref=e1006] [cursor=pointer]:
+                - cell "—" [ref=e1007]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1008]
+                - cell "6/23/2025" [ref=e1009]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1010]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e1011]:
+                  - generic [ref=e1013]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Amara Diallo 6/23/2025 Shoulder pain limiting range of motion for 2 weeks M16.11 — Unilateral primary osteoarthritis, right hip E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1014] [cursor=pointer]:
+                - cell "—" [ref=e1015]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1016]
+                - cell "6/23/2025" [ref=e1017]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e1018]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1019]:
+                  - generic [ref=e1020]:
+                    - generic [ref=e1021]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1022]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Eleanor Hartmann 6/22/2025 Recurrent episodes of loss of consciousness L03.115 — Cellulitis of right lower limb C18.9 — Malignant neoplasm of colon, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1023] [cursor=pointer]:
+                - cell "—" [ref=e1024]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e1025]
+                - cell "6/22/2025" [ref=e1026]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e1027]
+                - cell "L03.115 — Cellulitis of right lower limb C18.9 — Malignant neoplasm of colon, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1028]:
+                  - generic [ref=e1029]:
+                    - generic [ref=e1030]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e1031]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e1032]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Isabelle Moreau 6/18/2025 Acute panic attack with palpitations and sense of doom I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1033] [cursor=pointer]:
+                - cell "—" [ref=e1034]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1035]
+                - cell "6/18/2025" [ref=e1036]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e1037]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1038]:
+                  - generic [ref=e1040]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Amara Diallo 6/17/2025 Acute onset severe abdominal pain, periumbilical J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e1041] [cursor=pointer]:
+                - cell "—" [ref=e1042]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1043]
+                - cell "6/17/2025" [ref=e1044]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e1045]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e1046]:
+                  - generic [ref=e1047]:
+                    - generic [ref=e1048]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e1049]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 6/16/2025 Tremor, heat intolerance, and unintentional weight loss F32.1 — Major depressive disorder, single episode, moderate" [ref=e1050] [cursor=pointer]:
+                - cell "—" [ref=e1051]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1052]
+                - cell "6/16/2025" [ref=e1053]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e1054]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e1055]:
+                  - generic [ref=e1057]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Rachel Kowalski 6/15/2025 Palpitations and shortness of breath on exertion E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1058] [cursor=pointer]:
+                - cell "—" [ref=e1059]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e1060]
+                - cell "6/15/2025" [ref=e1061]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e1062]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1063]:
+                  - generic [ref=e1065]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Owen Fitzgerald 6/15/2025 Erythematous scaly plaques on elbows and scalp I48.0 — Paroxysmal atrial fibrillation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1066] [cursor=pointer]:
+                - cell "—" [ref=e1067]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e1068]
+                - cell "6/15/2025" [ref=e1069]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e1070]
+                - cell "I48.0 — Paroxysmal atrial fibrillation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1071]:
+                  - generic [ref=e1072]:
+                    - generic [ref=e1073]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1074]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Rachel Kowalski 6/14/2025 Reduced urine output and lower limb oedema for 5 days N39.0 — Urinary tract infection, site not specified I48.0 — Paroxysmal atrial fibrillation I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1075] [cursor=pointer]:
+                - cell "—" [ref=e1076]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e1077]
+                - cell "6/14/2025" [ref=e1078]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e1079]
+                - cell "N39.0 — Urinary tract infection, site not specified I48.0 — Paroxysmal atrial fibrillation I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1080]:
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e1083]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1084]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Ethan Blackwood 6/14/2025 Chest pain radiating to left arm, onset 2 hours ago I48.0 — Paroxysmal atrial fibrillation N20.0 — Calculus of kidney" [ref=e1085] [cursor=pointer]:
+                - cell "—" [ref=e1086]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e1087]
+                - cell "6/14/2025" [ref=e1088]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1089]
+                - cell "I48.0 — Paroxysmal atrial fibrillation N20.0 — Calculus of kidney" [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - generic [ref=e1092]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1093]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Aiden Callahan 6/14/2025 Palpitations and shortness of breath on exertion J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I10 — Essential (primary) hypertension" [ref=e1094] [cursor=pointer]:
+                - cell "—" [ref=e1095]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e1096]
+                - cell "6/14/2025" [ref=e1097]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e1098]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I10 — Essential (primary) hypertension" [ref=e1099]:
+                  - generic [ref=e1100]:
+                    - generic [ref=e1101]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e1102]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1103]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Kenji Tanaka 6/13/2025 Annual chronic disease review — diabetes and hypertension I10 — Essential (primary) hypertension K92.1 — Melaena L03.115 — Cellulitis of right lower limb" [ref=e1104] [cursor=pointer]:
+                - cell "—" [ref=e1105]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1106]
+                - cell "6/13/2025" [ref=e1107]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e1108]
+                - cell "I10 — Essential (primary) hypertension K92.1 — Melaena L03.115 — Cellulitis of right lower limb" [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - generic [ref=e1111]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1112]: K92.1 — Melaena
+                    - generic [ref=e1113]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Liam Sullivan 6/13/2025 Gait instability and recurrent falls I50.32 — Chronic diastolic (congestive) heart failure, decompensated E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e1114] [cursor=pointer]:
+                - cell "—" [ref=e1115]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e1116]
+                - cell "6/13/2025" [ref=e1117]
+                - cell "Gait instability and recurrent falls" [ref=e1118]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e1119]:
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e1122]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1123]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Diego Ferreira 6/11/2025 Worsening dyspnea, unable to complete sentences J18.9 — Pneumonia, unspecified organism" [ref=e1124] [cursor=pointer]:
+                - cell "—" [ref=e1125]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1126]
+                - cell "6/11/2025" [ref=e1127]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e1128]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e1129]:
+                  - generic [ref=e1131]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Isabelle Moreau 6/11/2025 Fever 38.9 °C, rigors, and night sweats for 4 days I73.9 — Peripheral vascular disease, unspecified" [ref=e1132] [cursor=pointer]:
+                - cell "—" [ref=e1133]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1134]
+                - cell "6/11/2025" [ref=e1135]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e1136]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e1137]:
+                  - generic [ref=e1139]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 6/11/2025 Rectal bleeding noted for 3 days, bright red M16.11 — Unilateral primary osteoarthritis, right hip I48.0 — Paroxysmal atrial fibrillation" [ref=e1140] [cursor=pointer]:
+                - cell "—" [ref=e1141]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e1142]
+                - cell "6/11/2025" [ref=e1143]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e1144]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip I48.0 — Paroxysmal atrial fibrillation" [ref=e1145]:
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1148]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Darius Osei 6/11/2025 Gait instability and recurrent falls M54.4 — Lumbago with sciatica, right side M06.9 — Rheumatoid arthritis, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1149] [cursor=pointer]:
+                - cell "—" [ref=e1150]
+                - cell "Dr. Dr. Darius Osei" [ref=e1151]
+                - cell "6/11/2025" [ref=e1152]
+                - cell "Gait instability and recurrent falls" [ref=e1153]
+                - cell "M54.4 — Lumbago with sciatica, right side M06.9 — Rheumatoid arthritis, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1154]:
+                  - generic [ref=e1155]:
+                    - generic [ref=e1156]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e1157]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e1158]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Diego Ferreira 6/4/2025 Shoulder pain limiting range of motion for 2 weeks N18.3 — Chronic kidney disease, stage 3 (moderate) A41.9 — Sepsis, unspecified organism E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1159] [cursor=pointer]:
+                - cell "—" [ref=e1160]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1161]
+                - cell "6/4/2025" [ref=e1162]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e1163]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) A41.9 — Sepsis, unspecified organism E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1164]:
+                  - generic [ref=e1165]:
+                    - generic [ref=e1166]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e1167]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e1168]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Carlos Mendoza 6/4/2025 Nausea, vomiting, and inability to tolerate fluids for 48 hours E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1169] [cursor=pointer]:
+                - cell "—" [ref=e1170]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1171]
+                - cell "6/4/2025" [ref=e1172]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e1173]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1174]:
+                  - generic [ref=e1176]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Darius Osei 6/2/2025 Rectal bleeding noted for 3 days, bright red E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I63.9 — Cerebral infarction, unspecified I10 — Essential (primary) hypertension" [ref=e1177] [cursor=pointer]:
+                - cell "—" [ref=e1178]
+                - cell "Dr. Dr. Darius Osei" [ref=e1179]
+                - cell "6/2/2025" [ref=e1180]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e1181]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I63.9 — Cerebral infarction, unspecified I10 — Essential (primary) hypertension" [ref=e1182]:
+                  - generic [ref=e1183]:
+                    - generic [ref=e1184]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1185]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e1186]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Sienna Whitmore 6/1/2025 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home I48.0 — Paroxysmal atrial fibrillation I63.9 — Cerebral infarction, unspecified" [ref=e1187] [cursor=pointer]:
+                - cell "—" [ref=e1188]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e1189]
+                - cell "6/1/2025" [ref=e1190]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e1191]
+                - cell "I48.0 — Paroxysmal atrial fibrillation I63.9 — Cerebral infarction, unspecified" [ref=e1192]:
+                  - generic [ref=e1193]:
+                    - generic [ref=e1194]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1195]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 6/1/2025 Rapidly spreading cellulitis of the left lower leg I10 — Essential (primary) hypertension" [ref=e1196] [cursor=pointer]:
+                - cell "—" [ref=e1197]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e1198]
+                - cell "6/1/2025" [ref=e1199]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e1200]
+                - cell "I10 — Essential (primary) hypertension" [ref=e1201]:
+                  - generic [ref=e1203]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Sofia Patel 5/30/2025 Palpitations and shortness of breath on exertion I63.9 — Cerebral infarction, unspecified N20.0 — Calculus of kidney" [ref=e1204] [cursor=pointer]:
+                - cell "—" [ref=e1205]
+                - cell "Dr. Dr. Sofia Patel" [ref=e1206]
+                - cell "5/30/2025" [ref=e1207]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e1208]
+                - cell "I63.9 — Cerebral infarction, unspecified N20.0 — Calculus of kidney" [ref=e1209]:
+                  - generic [ref=e1210]:
+                    - generic [ref=e1211]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e1212]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Darius Osei 5/30/2025 Productive cough with yellow sputum for 5 days I48.0 — Paroxysmal atrial fibrillation" [ref=e1213] [cursor=pointer]:
+                - cell "—" [ref=e1214]
+                - cell "Dr. Dr. Darius Osei" [ref=e1215]
+                - cell "5/30/2025" [ref=e1216]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e1217]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e1218]:
+                  - generic [ref=e1220]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Ethan Blackwood 5/19/2025 Bilateral leg edema worsening over past week C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e1221] [cursor=pointer]:
+                - cell "—" [ref=e1222]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e1223]
+                - cell "5/19/2025" [ref=e1224]
+                - cell "Bilateral leg edema worsening over past week" [ref=e1225]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e1226]:
+                  - generic [ref=e1228]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Kenji Tanaka 5/18/2025 Chest pain radiating to left arm, onset 2 hours ago E11.65 — Type 2 diabetes mellitus with hyperglycaemia M79.3 — Panniculitis, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1229] [cursor=pointer]:
+                - cell "—" [ref=e1230]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1231]
+                - cell "5/18/2025" [ref=e1232]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1233]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia M79.3 — Panniculitis, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1234]:
+                  - generic [ref=e1235]:
+                    - generic [ref=e1236]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e1237]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1238]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Carlos Mendoza 5/17/2025 Bilateral leg edema worsening over past week E03.9 — Hypothyroidism, unspecified" [ref=e1239] [cursor=pointer]:
+                - cell "—" [ref=e1240]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1241]
+                - cell "5/17/2025" [ref=e1242]
+                - cell "Bilateral leg edema worsening over past week" [ref=e1243]
+                - cell "E03.9 — Hypothyroidism, unspecified" [ref=e1244]:
+                  - generic [ref=e1246]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Tariq Hassan 5/16/2025 Palpitations and shortness of breath on exertion I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1247] [cursor=pointer]:
+                - cell "—" [ref=e1248]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e1249]
+                - cell "5/16/2025" [ref=e1250]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e1251]
+                - cell "I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1252]:
+                  - generic [ref=e1253]:
+                    - generic [ref=e1254]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1255]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Owen Fitzgerald 5/12/2025 Auditory hallucinations and disorganised behaviour reported by carer E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e1256] [cursor=pointer]:
+                - cell "—" [ref=e1257]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e1258]
+                - cell "5/12/2025" [ref=e1259]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e1260]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e1261]:
+                  - generic [ref=e1263]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Kenji Tanaka 5/12/2025 Nocturnal wheezing and cough disturbing sleep C50.912 — Malignant neoplasm of unspecified site of left female breast N18.3 — Chronic kidney disease, stage 3 (moderate) I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1264] [cursor=pointer]:
+                - cell "—" [ref=e1265]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1266]
+                - cell "5/12/2025" [ref=e1267]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e1268]
+                - cell "C50.912 — Malignant neoplasm of unspecified site of left female breast N18.3 — Chronic kidney disease, stage 3 (moderate) I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1269]:
+                  - generic [ref=e1270]:
+                    - generic [ref=e1271]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e1272]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e1273]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Sofia Patel 5/12/2025 Suicidal ideation — passive, no plan or intent I50.32 — Chronic diastolic (congestive) heart failure, decompensated N39.0 — Urinary tract infection, site not specified" [ref=e1274] [cursor=pointer]:
+                - cell "—" [ref=e1275]
+                - cell "Dr. Dr. Sofia Patel" [ref=e1276]
+                - cell "5/12/2025" [ref=e1277]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e1278]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated N39.0 — Urinary tract infection, site not specified" [ref=e1279]:
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e1282]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Marcus Chen 5/12/2025 Unintentional weight loss of 8 kg over 3 months I10 — Essential (primary) hypertension" [ref=e1283] [cursor=pointer]:
+                - cell "—" [ref=e1284]
+                - cell "Dr. Dr. Marcus Chen" [ref=e1285]
+                - cell "5/12/2025" [ref=e1286]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e1287]
+                - cell "I10 — Essential (primary) hypertension" [ref=e1288]:
+                  - generic [ref=e1290]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Rachel Kowalski 5/10/2025 Dysuria, frequency, and suprapubic pain for 3 days I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1291] [cursor=pointer]:
+                - cell "—" [ref=e1292]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e1293]
+                - cell "5/10/2025" [ref=e1294]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e1295]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1296]:
+                  - generic [ref=e1298]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Sienna Whitmore 5/4/2025 Acute panic attack with palpitations and sense of doom C18.9 — Malignant neoplasm of colon, unspecified N20.0 — Calculus of kidney" [ref=e1299] [cursor=pointer]:
+                - cell "—" [ref=e1300]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e1301]
+                - cell "5/4/2025" [ref=e1302]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e1303]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified N20.0 — Calculus of kidney" [ref=e1304]:
+                  - generic [ref=e1305]:
+                    - generic [ref=e1306]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e1307]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Carlos Mendoza 5/4/2025 Increasing anxiety interfering with daily activities I48.0 — Paroxysmal atrial fibrillation" [ref=e1308] [cursor=pointer]:
+                - cell "—" [ref=e1309]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1310]
+                - cell "5/4/2025" [ref=e1311]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e1312]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e1313]:
+                  - generic [ref=e1315]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Aiden Callahan 5/1/2025 Acute panic attack with palpitations and sense of doom M79.3 — Panniculitis, unspecified M54.4 — Lumbago with sciatica, right side N20.0 — Calculus of kidney" [ref=e1316] [cursor=pointer]:
+                - cell "—" [ref=e1317]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e1318]
+                - cell "5/1/2025" [ref=e1319]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e1320]
+                - cell "M79.3 — Panniculitis, unspecified M54.4 — Lumbago with sciatica, right side N20.0 — Calculus of kidney" [ref=e1321]:
+                  - generic [ref=e1322]:
+                    - generic [ref=e1323]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1324]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e1325]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Victor Reyes 4/28/2025 Pre-operative assessment for elective procedure N39.0 — Urinary tract infection, site not specified" [ref=e1326] [cursor=pointer]:
+                - cell "—" [ref=e1327]
+                - cell "Dr. Dr. Victor Reyes" [ref=e1328]
+                - cell "4/28/2025" [ref=e1329]
+                - cell "Pre-operative assessment for elective procedure" [ref=e1330]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e1331]:
+                  - generic [ref=e1333]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Amara Diallo 4/23/2025 Morning stiffness in both hands lasting over 1 hour E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1334] [cursor=pointer]:
+                - cell "—" [ref=e1335]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1336]
+                - cell "4/23/2025" [ref=e1337]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e1338]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1339]:
+                  - generic [ref=e1341]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. James Okafor 4/23/2025 Erythematous scaly plaques on elbows and scalp J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e1342] [cursor=pointer]:
+                - cell "—" [ref=e1343]
+                - cell "Dr. Dr. James Okafor" [ref=e1344]
+                - cell "4/23/2025" [ref=e1345]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e1346]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e1347]:
+                  - generic [ref=e1348]:
+                    - generic [ref=e1349]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e1350]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 4/21/2025 Chest pain radiating to left arm, onset 2 hours ago K74.60 — Unspecified cirrhosis of liver I10 — Essential (primary) hypertension" [ref=e1351] [cursor=pointer]:
+                - cell "—" [ref=e1352]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e1353]
+                - cell "4/21/2025" [ref=e1354]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1355]
+                - cell "K74.60 — Unspecified cirrhosis of liver I10 — Essential (primary) hypertension" [ref=e1356]:
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e1359]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. James Okafor 3/29/2025 Reduced urine output and lower limb oedema for 5 days E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney J18.9 — Pneumonia, unspecified organism" [ref=e1360] [cursor=pointer]:
+                - cell "—" [ref=e1361]
+                - cell "Dr. Dr. James Okafor" [ref=e1362]
+                - cell "3/29/2025" [ref=e1363]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e1364]
+                - cell "E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney J18.9 — Pneumonia, unspecified organism" [ref=e1365]:
+                  - generic [ref=e1366]:
+                    - generic [ref=e1367]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e1368]: N20.0 — Calculus of kidney
+                    - generic [ref=e1369]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Amara Diallo 3/28/2025 Vaccination and travel health consultation I48.0 — Paroxysmal atrial fibrillation J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1370] [cursor=pointer]:
+                - cell "—" [ref=e1371]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1372]
+                - cell "3/28/2025" [ref=e1373]
+                - cell "Vaccination and travel health consultation" [ref=e1374]
+                - cell "I48.0 — Paroxysmal atrial fibrillation J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1375]:
+                  - generic [ref=e1376]:
+                    - generic [ref=e1377]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1378]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e1379]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Fatima Al-Rashid 3/27/2025 Shoulder pain limiting range of motion for 2 weeks J18.9 — Pneumonia, unspecified organism" [ref=e1380] [cursor=pointer]:
+                - cell "—" [ref=e1381]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e1382]
+                - cell "3/27/2025" [ref=e1383]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e1384]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e1385]:
+                  - generic [ref=e1387]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Amara Diallo 3/27/2025 Acute onset severe abdominal pain, periumbilical L03.115 — Cellulitis of right lower limb E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e1388] [cursor=pointer]:
+                - cell "—" [ref=e1389]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1390]
+                - cell "3/27/2025" [ref=e1391]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e1392]
+                - cell "L03.115 — Cellulitis of right lower limb E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e1393]:
+                  - generic [ref=e1394]:
+                    - generic [ref=e1395]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e1396]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1397]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Priya Krishnamurthy 3/26/2025 Sudden onset severe headache — \"worst of my life\" F32.1 — Major depressive disorder, single episode, moderate F41.1 — Generalised anxiety disorder" [ref=e1398] [cursor=pointer]:
+                - cell "—" [ref=e1399]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e1400]
+                - cell "3/26/2025" [ref=e1401]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e1402]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate F41.1 — Generalised anxiety disorder" [ref=e1403]:
+                  - generic [ref=e1404]:
+                    - generic [ref=e1405]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e1406]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Chloe Nakamura 3/25/2025 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home I73.9 — Peripheral vascular disease, unspecified K92.1 — Melaena I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1407] [cursor=pointer]:
+                - cell "—" [ref=e1408]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e1409]
+                - cell "3/25/2025" [ref=e1410]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e1411]
+                - cell "I73.9 — Peripheral vascular disease, unspecified K92.1 — Melaena I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1412]:
+                  - generic [ref=e1413]:
+                    - generic [ref=e1414]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e1415]: K92.1 — Melaena
+                    - generic [ref=e1416]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 3/24/2025 Increasing anxiety interfering with daily activities L40.0 — Psoriasis vulgaris I50.32 — Chronic diastolic (congestive) heart failure, decompensated C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e1417] [cursor=pointer]:
+                - cell "—" [ref=e1418]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e1419]
+                - cell "3/24/2025" [ref=e1420]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e1421]
+                - cell "L40.0 — Psoriasis vulgaris I50.32 — Chronic diastolic (congestive) heart failure, decompensated C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e1422]:
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e1425]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e1426]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Aiden Callahan 3/23/2025 Intermittent claudication in both calves M79.3 — Panniculitis, unspecified L40.0 — Psoriasis vulgaris" [ref=e1427] [cursor=pointer]:
+                - cell "—" [ref=e1428]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e1429]
+                - cell "3/23/2025" [ref=e1430]
+                - cell "Intermittent claudication in both calves" [ref=e1431]
+                - cell "M79.3 — Panniculitis, unspecified L40.0 — Psoriasis vulgaris" [ref=e1432]:
+                  - generic [ref=e1433]:
+                    - generic [ref=e1434]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1435]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Yasmin Aziz 3/23/2025 Chest pain radiating to left arm, onset 2 hours ago J45.41 — Moderate persistent asthma with (acute) exacerbation N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e1436] [cursor=pointer]:
+                - cell "—" [ref=e1437]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e1438]
+                - cell "3/23/2025" [ref=e1439]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1440]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e1441]:
+                  - generic [ref=e1442]:
+                    - generic [ref=e1443]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e1444]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Darius Osei 3/23/2025 Persistent low mood, anhedonia, and poor sleep for 6 weeks J45.41 — Moderate persistent asthma with (acute) exacerbation F41.1 — Generalised anxiety disorder" [ref=e1445] [cursor=pointer]:
+                - cell "—" [ref=e1446]
+                - cell "Dr. Dr. Darius Osei" [ref=e1447]
+                - cell "3/23/2025" [ref=e1448]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e1449]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation F41.1 — Generalised anxiety disorder" [ref=e1450]:
+                  - generic [ref=e1451]:
+                    - generic [ref=e1452]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e1453]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Mei Zhang 3/22/2025 Polyuria and polydipsia for past 2 weeks N39.0 — Urinary tract infection, site not specified" [ref=e1454] [cursor=pointer]:
+                - cell "—" [ref=e1455]
+                - cell "Dr. Dr. Mei Zhang" [ref=e1456]
+                - cell "3/22/2025" [ref=e1457]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e1458]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e1459]:
+                  - generic [ref=e1461]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Fatima Al-Rashid 3/22/2025 Right knee swelling and warmth since yesterday J06.9 — Acute upper respiratory infection, unspecified" [ref=e1462] [cursor=pointer]:
+                - cell "—" [ref=e1463]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e1464]
+                - cell "3/22/2025" [ref=e1465]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e1466]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified" [ref=e1467]:
+                  - generic [ref=e1469]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Darius Osei 3/21/2025 Erythematous scaly plaques on elbows and scalp I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1470] [cursor=pointer]:
+                - cell "—" [ref=e1471]
+                - cell "Dr. Dr. Darius Osei" [ref=e1472]
+                - cell "3/21/2025" [ref=e1473]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e1474]
+                - cell "I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1475]:
+                  - generic [ref=e1476]:
+                    - generic [ref=e1477]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1478]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e1479]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Sienna Whitmore 3/21/2025 Auditory hallucinations and disorganised behaviour reported by carer I10 — Essential (primary) hypertension" [ref=e1480] [cursor=pointer]:
+                - cell "—" [ref=e1481]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e1482]
+                - cell "3/21/2025" [ref=e1483]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e1484]
+                - cell "I10 — Essential (primary) hypertension" [ref=e1485]:
+                  - generic [ref=e1487]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Priya Krishnamurthy 3/21/2025 Rapidly spreading cellulitis of the left lower leg I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension M06.9 — Rheumatoid arthritis, unspecified" [ref=e1488] [cursor=pointer]:
+                - cell "—" [ref=e1489]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e1490]
+                - cell "3/21/2025" [ref=e1491]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e1492]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension M06.9 — Rheumatoid arthritis, unspecified" [ref=e1493]:
+                  - generic [ref=e1494]:
+                    - generic [ref=e1495]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e1496]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1497]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 3/20/2025 Excessive fatigue, cold intolerance, and constipation I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1498] [cursor=pointer]:
+                - cell "—" [ref=e1499]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e1500]
+                - cell "3/20/2025" [ref=e1501]
+                - cell "Excessive fatigue, cold intolerance, and constipation" [ref=e1502]
+                - cell "I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1503]:
+                  - generic [ref=e1504]:
+                    - generic [ref=e1505]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1506]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Yasmin Aziz 3/20/2025 Palpitations and shortness of breath on exertion J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation L40.0 — Psoriasis vulgaris" [ref=e1507] [cursor=pointer]:
+                - cell "—" [ref=e1508]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e1509]
+                - cell "3/20/2025" [ref=e1510]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e1511]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation L40.0 — Psoriasis vulgaris" [ref=e1512]:
+                  - generic [ref=e1513]:
+                    - generic [ref=e1514]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e1515]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Tariq Hassan 3/18/2025 Pre-operative assessment for elective procedure A41.9 — Sepsis, unspecified organism M79.3 — Panniculitis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1516] [cursor=pointer]:
+                - cell "—" [ref=e1517]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e1518]
+                - cell "3/18/2025" [ref=e1519]
+                - cell "Pre-operative assessment for elective procedure" [ref=e1520]
+                - cell "A41.9 — Sepsis, unspecified organism M79.3 — Panniculitis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e1521]:
+                  - generic [ref=e1522]:
+                    - generic [ref=e1523]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e1524]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1525]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Isabelle Moreau 3/18/2025 Fever 38.9 °C, rigors, and night sweats for 4 days I63.9 — Cerebral infarction, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1526] [cursor=pointer]:
+                - cell "—" [ref=e1527]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1528]
+                - cell "3/18/2025" [ref=e1529]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e1530]
+                - cell "I63.9 — Cerebral infarction, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1531]:
+                  - generic [ref=e1532]:
+                    - generic [ref=e1533]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e1534]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Kenji Tanaka 3/18/2025 Productive cough with yellow sputum for 5 days E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e1535] [cursor=pointer]:
+                - cell "—" [ref=e1536]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1537]
+                - cell "3/18/2025" [ref=e1538]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e1539]
+                - cell "E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e1540]:
+                  - generic [ref=e1541]:
+                    - generic [ref=e1542]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e1543]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Priya Krishnamurthy 3/17/2025 Productive cough with yellow sputum for 5 days I10 — Essential (primary) hypertension E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e1544] [cursor=pointer]:
+                - cell "—" [ref=e1545]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e1546]
+                - cell "3/17/2025" [ref=e1547]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e1548]
+                - cell "I10 — Essential (primary) hypertension E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e1549]:
+                  - generic [ref=e1550]:
+                    - generic [ref=e1551]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1552]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Ethan Blackwood 3/15/2025 Bilateral hand numbness and tingling at night E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1553] [cursor=pointer]:
+                - cell "—" [ref=e1554]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e1555]
+                - cell "3/15/2025" [ref=e1556]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e1557]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1558]:
+                  - generic [ref=e1559]:
+                    - generic [ref=e1560]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1561]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Liam Sullivan 3/15/2025 Morning stiffness in both hands lasting over 1 hour K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1562] [cursor=pointer]:
+                - cell "—" [ref=e1563]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e1564]
+                - cell "3/15/2025" [ref=e1565]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e1566]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1567]:
+                  - generic [ref=e1569]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Liam Sullivan 3/14/2025 Suicidal ideation — passive, no plan or intent A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E78.00 — Pure hypercholesterolaemia, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1570] [cursor=pointer]:
+                - cell "—" [ref=e1571]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e1572]
+                - cell "3/14/2025" [ref=e1573]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e1574]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E78.00 — Pure hypercholesterolaemia, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1575]:
+                  - generic [ref=e1576]:
+                    - generic [ref=e1577]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e1578]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e1579]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 3/13/2025 Widespread urticarial rash after new medication M79.3 — Panniculitis, unspecified A41.9 — Sepsis, unspecified organism J18.9 — Pneumonia, unspecified organism" [ref=e1580] [cursor=pointer]:
+                - cell "—" [ref=e1581]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1582]
+                - cell "3/13/2025" [ref=e1583]
+                - cell "Widespread urticarial rash after new medication" [ref=e1584]
+                - cell "M79.3 — Panniculitis, unspecified A41.9 — Sepsis, unspecified organism J18.9 — Pneumonia, unspecified organism" [ref=e1585]:
+                  - generic [ref=e1586]:
+                    - generic [ref=e1587]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1588]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e1589]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Victor Reyes 3/12/2025 Recurrent episodes of loss of consciousness E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e1590] [cursor=pointer]:
+                - cell "—" [ref=e1591]
+                - cell "Dr. Dr. Victor Reyes" [ref=e1592]
+                - cell "3/12/2025" [ref=e1593]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e1594]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e1595]:
+                  - generic [ref=e1596]:
+                    - generic [ref=e1597]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e1598]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Yasmin Aziz 3/11/2025 Acute onset severe abdominal pain, periumbilical M54.4 — Lumbago with sciatica, right side K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1599] [cursor=pointer]:
+                - cell "—" [ref=e1600]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e1601]
+                - cell "3/11/2025" [ref=e1602]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e1603]
+                - cell "M54.4 — Lumbago with sciatica, right side K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e1604]:
+                  - generic [ref=e1605]:
+                    - generic [ref=e1606]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e1607]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Carlos Mendoza 3/11/2025 Unintentional weight loss of 8 kg over 3 months L40.0 — Psoriasis vulgaris I10 — Essential (primary) hypertension M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e1608] [cursor=pointer]:
+                - cell "—" [ref=e1609]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e1610]
+                - cell "3/11/2025" [ref=e1611]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e1612]
+                - cell "L40.0 — Psoriasis vulgaris I10 — Essential (primary) hypertension M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e1613]:
+                  - generic [ref=e1614]:
+                    - generic [ref=e1615]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e1616]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1617]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Marcus Chen 3/11/2025 Polyuria and polydipsia for past 2 weeks I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1618] [cursor=pointer]:
+                - cell "—" [ref=e1619]
+                - cell "Dr. Dr. Marcus Chen" [ref=e1620]
+                - cell "3/11/2025" [ref=e1621]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e1622]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1623]:
+                  - generic [ref=e1625]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Eleanor Hartmann 3/11/2025 Increasing anxiety interfering with daily activities J18.9 — Pneumonia, unspecified organism" [ref=e1626] [cursor=pointer]:
+                - cell "—" [ref=e1627]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e1628]
+                - cell "3/11/2025" [ref=e1629]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e1630]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e1631]:
+                  - generic [ref=e1633]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Darius Osei 3/4/2025 Dysuria, frequency, and suprapubic pain for 3 days K74.60 — Unspecified cirrhosis of liver N18.3 — Chronic kidney disease, stage 3 (moderate) M06.9 — Rheumatoid arthritis, unspecified" [ref=e1634] [cursor=pointer]:
+                - cell "—" [ref=e1635]
+                - cell "Dr. Dr. Darius Osei" [ref=e1636]
+                - cell "3/4/2025" [ref=e1637]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e1638]
+                - cell "K74.60 — Unspecified cirrhosis of liver N18.3 — Chronic kidney disease, stage 3 (moderate) M06.9 — Rheumatoid arthritis, unspecified" [ref=e1639]:
+                  - generic [ref=e1640]:
+                    - generic [ref=e1641]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e1642]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e1643]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 3/4/2025 Morning stiffness in both hands lasting over 1 hour I63.9 — Cerebral infarction, unspecified F32.1 — Major depressive disorder, single episode, moderate E03.9 — Hypothyroidism, unspecified" [ref=e1644] [cursor=pointer]:
+                - cell "—" [ref=e1645]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e1646]
+                - cell "3/4/2025" [ref=e1647]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e1648]
+                - cell "I63.9 — Cerebral infarction, unspecified F32.1 — Major depressive disorder, single episode, moderate E03.9 — Hypothyroidism, unspecified" [ref=e1649]:
+                  - generic [ref=e1650]:
+                    - generic [ref=e1651]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e1652]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e1653]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Tariq Hassan 3/3/2025 Recurrent episodes of loss of consciousness F32.1 — Major depressive disorder, single episode, moderate" [ref=e1654] [cursor=pointer]:
+                - cell "—" [ref=e1655]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e1656]
+                - cell "3/3/2025" [ref=e1657]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e1658]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e1659]:
+                  - generic [ref=e1661]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Mei Zhang 3/3/2025 Widespread urticarial rash after new medication L40.0 — Psoriasis vulgaris J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1662] [cursor=pointer]:
+                - cell "—" [ref=e1663]
+                - cell "Dr. Dr. Mei Zhang" [ref=e1664]
+                - cell "3/3/2025" [ref=e1665]
+                - cell "Widespread urticarial rash after new medication" [ref=e1666]
+                - cell "L40.0 — Psoriasis vulgaris J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1667]:
+                  - generic [ref=e1668]:
+                    - generic [ref=e1669]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e1670]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Tariq Hassan 3/3/2025 Rapidly spreading cellulitis of the left lower leg J45.41 — Moderate persistent asthma with (acute) exacerbation I73.9 — Peripheral vascular disease, unspecified" [ref=e1671] [cursor=pointer]:
+                - cell "—" [ref=e1672]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e1673]
+                - cell "3/3/2025" [ref=e1674]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e1675]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I73.9 — Peripheral vascular disease, unspecified" [ref=e1676]:
+                  - generic [ref=e1677]:
+                    - generic [ref=e1678]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e1679]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Mei Zhang 3/1/2025 Right-sided facial droop and arm weakness, onset 1 hour ago E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e1680] [cursor=pointer]:
+                - cell "—" [ref=e1681]
+                - cell "Dr. Dr. Mei Zhang" [ref=e1682]
+                - cell "3/1/2025" [ref=e1683]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e1684]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e1685]:
+                  - generic [ref=e1687]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Aiden Callahan 2/28/2025 Progressive memory loss noticed by family over 6 months J18.9 — Pneumonia, unspecified organism" [ref=e1688] [cursor=pointer]:
+                - cell "—" [ref=e1689]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e1690]
+                - cell "2/28/2025" [ref=e1691]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e1692]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e1693]:
+                  - generic [ref=e1695]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Nadia Volkov 2/27/2025 Bilateral leg edema worsening over past week I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1696] [cursor=pointer]:
+                - cell "—" [ref=e1697]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e1698]
+                - cell "2/27/2025" [ref=e1699]
+                - cell "Bilateral leg edema worsening over past week" [ref=e1700]
+                - cell "I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1701]:
+                  - generic [ref=e1702]:
+                    - generic [ref=e1703]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1704]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Victor Reyes 2/11/2025 Epigastric burning pain, worse after meals E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e1705] [cursor=pointer]:
+                - cell "—" [ref=e1706]
+                - cell "Dr. Dr. Victor Reyes" [ref=e1707]
+                - cell "2/11/2025" [ref=e1708]
+                - cell "Epigastric burning pain, worse after meals" [ref=e1709]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e1710]:
+                  - generic [ref=e1711]:
+                    - generic [ref=e1712]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e1713]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e1714]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Isabelle Moreau 2/8/2025 Hemoptysis — small amount noted this morning F41.1 — Generalised anxiety disorder M54.4 — Lumbago with sciatica, right side N20.0 — Calculus of kidney" [ref=e1715] [cursor=pointer]:
+                - cell "—" [ref=e1716]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1717]
+                - cell "2/8/2025" [ref=e1718]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e1719]
+                - cell "F41.1 — Generalised anxiety disorder M54.4 — Lumbago with sciatica, right side N20.0 — Calculus of kidney" [ref=e1720]:
+                  - generic [ref=e1721]:
+                    - generic [ref=e1722]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e1723]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e1724]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Fatima Al-Rashid 2/7/2025 Hemoptysis — small amount noted this morning J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e1725] [cursor=pointer]:
+                - cell "—" [ref=e1726]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e1727]
+                - cell "2/7/2025" [ref=e1728]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e1729]
+                - cell "J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e1730]:
+                  - generic [ref=e1731]:
+                    - generic [ref=e1732]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e1733]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 2/6/2025 Polyuria and polydipsia for past 2 weeks M16.11 — Unilateral primary osteoarthritis, right hip J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1734] [cursor=pointer]:
+                - cell "—" [ref=e1735]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1736]
+                - cell "2/6/2025" [ref=e1737]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e1738]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1739]:
+                  - generic [ref=e1740]:
+                    - generic [ref=e1741]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1742]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Diego Ferreira 2/4/2025 Increasing anxiety interfering with daily activities E78.00 — Pure hypercholesterolaemia, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e1743] [cursor=pointer]:
+                - cell "—" [ref=e1744]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1745]
+                - cell "2/4/2025" [ref=e1746]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e1747]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e1748]:
+                  - generic [ref=e1749]:
+                    - generic [ref=e1750]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e1751]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 2/3/2025 Epigastric burning pain, worse after meals I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e1752] [cursor=pointer]:
+                - cell "—" [ref=e1753]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e1754]
+                - cell "2/3/2025" [ref=e1755]
+                - cell "Epigastric burning pain, worse after meals" [ref=e1756]
+                - cell "I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e1757]:
+                  - generic [ref=e1758]:
+                    - generic [ref=e1759]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1760]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Kenji Tanaka 2/1/2025 Pleuritic chest pain, worse on deep inspiration M16.11 — Unilateral primary osteoarthritis, right hip E03.9 — Hypothyroidism, unspecified" [ref=e1761] [cursor=pointer]:
+                - cell "—" [ref=e1762]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1763]
+                - cell "2/1/2025" [ref=e1764]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e1765]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip E03.9 — Hypothyroidism, unspecified" [ref=e1766]:
+                  - generic [ref=e1767]:
+                    - generic [ref=e1768]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1769]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Liam Sullivan 1/29/2025 Acute panic attack with palpitations and sense of doom B02.9 — Zoster without complications" [ref=e1770] [cursor=pointer]:
+                - cell "—" [ref=e1771]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e1772]
+                - cell "1/29/2025" [ref=e1773]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e1774]
+                - cell "B02.9 — Zoster without complications" [ref=e1775]:
+                  - generic [ref=e1777]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Darius Osei 1/28/2025 Bilateral hand numbness and tingling at night K74.60 — Unspecified cirrhosis of liver B02.9 — Zoster without complications E03.9 — Hypothyroidism, unspecified" [ref=e1778] [cursor=pointer]:
+                - cell "—" [ref=e1779]
+                - cell "Dr. Dr. Darius Osei" [ref=e1780]
+                - cell "1/28/2025" [ref=e1781]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e1782]
+                - cell "K74.60 — Unspecified cirrhosis of liver B02.9 — Zoster without complications E03.9 — Hypothyroidism, unspecified" [ref=e1783]:
+                  - generic [ref=e1784]:
+                    - generic [ref=e1785]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e1786]: B02.9 — Zoster without complications
+                    - generic [ref=e1787]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Amara Diallo 1/27/2025 Excessive fatigue, cold intolerance, and constipation I63.9 — Cerebral infarction, unspecified" [ref=e1788] [cursor=pointer]:
+                - cell "—" [ref=e1789]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1790]
+                - cell "1/27/2025" [ref=e1791]
+                - cell "Excessive fatigue, cold intolerance, and constipation" [ref=e1792]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e1793]:
+                  - generic [ref=e1795]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 1/25/2025 Rectal bleeding noted for 3 days, bright red N18.3 — Chronic kidney disease, stage 3 (moderate) L40.0 — Psoriasis vulgaris" [ref=e1796] [cursor=pointer]:
+                - cell "—" [ref=e1797]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e1798]
+                - cell "1/25/2025" [ref=e1799]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e1800]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) L40.0 — Psoriasis vulgaris" [ref=e1801]:
+                  - generic [ref=e1802]:
+                    - generic [ref=e1803]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e1804]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Ethan Blackwood 1/23/2025 Erythematous scaly plaques on elbows and scalp M16.11 — Unilateral primary osteoarthritis, right hip J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1805] [cursor=pointer]:
+                - cell "—" [ref=e1806]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e1807]
+                - cell "1/23/2025" [ref=e1808]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e1809]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1810]:
+                  - generic [ref=e1811]:
+                    - generic [ref=e1812]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1813]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Eleanor Hartmann 1/21/2025 Post-operative wound check — day 10 J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1814] [cursor=pointer]:
+                - cell "—" [ref=e1815]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e1816]
+                - cell "1/21/2025" [ref=e1817]
+                - cell "Post-operative wound check — day 10" [ref=e1818]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1819]:
+                  - generic [ref=e1821]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Rachel Kowalski 1/20/2025 Rectal bleeding noted for 3 days, bright red K74.60 — Unspecified cirrhosis of liver N39.0 — Urinary tract infection, site not specified" [ref=e1822] [cursor=pointer]:
+                - cell "—" [ref=e1823]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e1824]
+                - cell "1/20/2025" [ref=e1825]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e1826]
+                - cell "K74.60 — Unspecified cirrhosis of liver N39.0 — Urinary tract infection, site not specified" [ref=e1827]:
+                  - generic [ref=e1828]:
+                    - generic [ref=e1829]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e1830]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Marcus Chen 1/19/2025 Vaccination and travel health consultation L03.115 — Cellulitis of right lower limb M16.11 — Unilateral primary osteoarthritis, right hip J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1831] [cursor=pointer]:
+                - cell "—" [ref=e1832]
+                - cell "Dr. Dr. Marcus Chen" [ref=e1833]
+                - cell "1/19/2025" [ref=e1834]
+                - cell "Vaccination and travel health consultation" [ref=e1835]
+                - cell "L03.115 — Cellulitis of right lower limb M16.11 — Unilateral primary osteoarthritis, right hip J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e1836]:
+                  - generic [ref=e1837]:
+                    - generic [ref=e1838]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e1839]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e1840]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Diego Ferreira 1/15/2025 Hemoptysis — small amount noted this morning J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1841] [cursor=pointer]:
+                - cell "—" [ref=e1842]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1843]
+                - cell "1/15/2025" [ref=e1844]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e1845]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1846]:
+                  - generic [ref=e1847]:
+                    - generic [ref=e1848]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e1849]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Owen Fitzgerald 1/13/2025 Sudden onset severe headache — \"worst of my life\" A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1850] [cursor=pointer]:
+                - cell "—" [ref=e1851]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e1852]
+                - cell "1/13/2025" [ref=e1853]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e1854]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1855]:
+                  - generic [ref=e1856]:
+                    - generic [ref=e1857]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e1858]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Sienna Whitmore 1/12/2025 Bilateral leg edema worsening over past week J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1859] [cursor=pointer]:
+                - cell "—" [ref=e1860]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e1861]
+                - cell "1/12/2025" [ref=e1862]
+                - cell "Bilateral leg edema worsening over past week" [ref=e1863]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e1864]:
+                  - generic [ref=e1866]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Amara Diallo 1/11/2025 Unintentional weight loss of 8 kg over 3 months I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris C18.9 — Malignant neoplasm of colon, unspecified K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e1867] [cursor=pointer]:
+                - cell "—" [ref=e1868]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1869]
+                - cell "1/11/2025" [ref=e1870]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e1871]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris C18.9 — Malignant neoplasm of colon, unspecified K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e1872]:
+                  - generic [ref=e1873]:
+                    - generic [ref=e1874]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e1875]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e1876]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Priya Krishnamurthy 1/9/2025 Right knee swelling and warmth since yesterday I73.9 — Peripheral vascular disease, unspecified" [ref=e1877] [cursor=pointer]:
+                - cell "—" [ref=e1878]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e1879]
+                - cell "1/9/2025" [ref=e1880]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e1881]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e1882]:
+                  - generic [ref=e1884]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Tariq Hassan 1/8/2025 Post-operative wound check — day 10 A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I48.0 — Paroxysmal atrial fibrillation" [ref=e1885] [cursor=pointer]:
+                - cell "—" [ref=e1886]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e1887]
+                - cell "1/8/2025" [ref=e1888]
+                - cell "Post-operative wound check — day 10" [ref=e1889]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I48.0 — Paroxysmal atrial fibrillation" [ref=e1890]:
+                  - generic [ref=e1891]:
+                    - generic [ref=e1892]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e1893]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Diego Ferreira 1/7/2025 Chest pain radiating to left arm, onset 2 hours ago E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1894] [cursor=pointer]:
+                - cell "—" [ref=e1895]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1896]
+                - cell "1/7/2025" [ref=e1897]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1898]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1899]:
+                  - generic [ref=e1901]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Amara Diallo 1/5/2025 Hemoptysis — small amount noted this morning E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1902] [cursor=pointer]:
+                - cell "—" [ref=e1903]
+                - cell "Dr. Dr. Amara Diallo" [ref=e1904]
+                - cell "1/5/2025" [ref=e1905]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e1906]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1907]:
+                  - generic [ref=e1909]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Diego Ferreira 1/2/2025 Flank pain with haematuria — possible renal colic I63.9 — Cerebral infarction, unspecified A41.9 — Sepsis, unspecified organism I73.9 — Peripheral vascular disease, unspecified" [ref=e1910] [cursor=pointer]:
+                - cell "—" [ref=e1911]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1912]
+                - cell "1/2/2025" [ref=e1913]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e1914]
+                - cell "I63.9 — Cerebral infarction, unspecified A41.9 — Sepsis, unspecified organism I73.9 — Peripheral vascular disease, unspecified" [ref=e1915]:
+                  - generic [ref=e1916]:
+                    - generic [ref=e1917]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e1918]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e1919]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. James Okafor 1/1/2025 Chest pain radiating to left arm, onset 2 hours ago N39.0 — Urinary tract infection, site not specified I48.0 — Paroxysmal atrial fibrillation N20.0 — Calculus of kidney" [ref=e1920] [cursor=pointer]:
+                - cell "—" [ref=e1921]
+                - cell "Dr. Dr. James Okafor" [ref=e1922]
+                - cell "1/1/2025" [ref=e1923]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e1924]
+                - cell "N39.0 — Urinary tract infection, site not specified I48.0 — Paroxysmal atrial fibrillation N20.0 — Calculus of kidney" [ref=e1925]:
+                  - generic [ref=e1926]:
+                    - generic [ref=e1927]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e1928]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e1929]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Yasmin Aziz 12/31/2024 Hemoptysis — small amount noted this morning F20.9 — Schizophrenia, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1930] [cursor=pointer]:
+                - cell "—" [ref=e1931]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e1932]
+                - cell "12/31/2024" [ref=e1933]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e1934]
+                - cell "F20.9 — Schizophrenia, unspecified C18.9 — Malignant neoplasm of colon, unspecified" [ref=e1935]:
+                  - generic [ref=e1936]:
+                    - generic [ref=e1937]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e1938]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Kenji Tanaka 12/31/2024 Rectal bleeding noted for 3 days, bright red E03.9 — Hypothyroidism, unspecified E66.01 — Morbid (severe) obesity due to excess calories E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1939] [cursor=pointer]:
+                - cell "—" [ref=e1940]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1941]
+                - cell "12/31/2024" [ref=e1942]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e1943]
+                - cell "E03.9 — Hypothyroidism, unspecified E66.01 — Morbid (severe) obesity due to excess calories E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e1944]:
+                  - generic [ref=e1945]:
+                    - generic [ref=e1946]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e1947]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e1948]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. James Okafor 12/29/2024 Post-operative wound check — day 10 A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1949] [cursor=pointer]:
+                - cell "—" [ref=e1950]
+                - cell "Dr. Dr. James Okafor" [ref=e1951]
+                - cell "12/29/2024" [ref=e1952]
+                - cell "Post-operative wound check — day 10" [ref=e1953]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1954]:
+                  - generic [ref=e1955]:
+                    - generic [ref=e1956]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e1957]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Mei Zhang 12/28/2024 Sudden onset severe headache — \"worst of my life\" M79.3 — Panniculitis, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1958] [cursor=pointer]:
+                - cell "—" [ref=e1959]
+                - cell "Dr. Dr. Mei Zhang" [ref=e1960]
+                - cell "12/28/2024" [ref=e1961]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e1962]
+                - cell "M79.3 — Panniculitis, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e1963]:
+                  - generic [ref=e1964]:
+                    - generic [ref=e1965]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e1966]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Sofia Patel 12/27/2024 Excessive fatigue, cold intolerance, and constipation I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension F32.1 — Major depressive disorder, single episode, moderate" [ref=e1967] [cursor=pointer]:
+                - cell "—" [ref=e1968]
+                - cell "Dr. Dr. Sofia Patel" [ref=e1969]
+                - cell "12/27/2024" [ref=e1970]
+                - cell "Excessive fatigue, cold intolerance, and constipation" [ref=e1971]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I10 — Essential (primary) hypertension F32.1 — Major depressive disorder, single episode, moderate" [ref=e1972]:
+                  - generic [ref=e1973]:
+                    - generic [ref=e1974]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e1975]: I10 — Essential (primary) hypertension
+                    - generic [ref=e1976]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. James Okafor 12/24/2024 Vaccination and travel health consultation J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1977] [cursor=pointer]:
+                - cell "—" [ref=e1978]
+                - cell "Dr. Dr. James Okafor" [ref=e1979]
+                - cell "12/24/2024" [ref=e1980]
+                - cell "Vaccination and travel health consultation" [ref=e1981]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e1982]:
+                  - generic [ref=e1983]:
+                    - generic [ref=e1984]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e1985]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Kenji Tanaka 12/20/2024 Painful vesicular eruption following a dermatomal distribution J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation B02.9 — Zoster without complications" [ref=e1986] [cursor=pointer]:
+                - cell "—" [ref=e1987]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e1988]
+                - cell "12/20/2024" [ref=e1989]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e1990]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation B02.9 — Zoster without complications" [ref=e1991]:
+                  - generic [ref=e1992]:
+                    - generic [ref=e1993]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e1994]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Diego Ferreira 12/19/2024 Morning stiffness in both hands lasting over 1 hour N20.0 — Calculus of kidney F20.9 — Schizophrenia, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e1995] [cursor=pointer]:
+                - cell "—" [ref=e1996]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e1997]
+                - cell "12/19/2024" [ref=e1998]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e1999]
+                - cell "N20.0 — Calculus of kidney F20.9 — Schizophrenia, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e2000]:
+                  - generic [ref=e2001]:
+                    - generic [ref=e2002]: N20.0 — Calculus of kidney
+                    - generic [ref=e2003]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e2004]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Marcus Chen 12/19/2024 Acute onset severe abdominal pain, periumbilical E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2005] [cursor=pointer]:
+                - cell "—" [ref=e2006]
+                - cell "Dr. Dr. Marcus Chen" [ref=e2007]
+                - cell "12/19/2024" [ref=e2008]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e2009]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2010]:
+                  - generic [ref=e2012]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 12/18/2024 Gait instability and recurrent falls K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding F20.9 — Schizophrenia, unspecified I10 — Essential (primary) hypertension" [ref=e2013] [cursor=pointer]:
+                - cell "—" [ref=e2014]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2015]
+                - cell "12/18/2024" [ref=e2016]
+                - cell "Gait instability and recurrent falls" [ref=e2017]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding F20.9 — Schizophrenia, unspecified I10 — Essential (primary) hypertension" [ref=e2018]:
+                  - generic [ref=e2019]:
+                    - generic [ref=e2020]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e2021]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e2022]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Marcus Chen 12/15/2024 Gait instability and recurrent falls E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified" [ref=e2023] [cursor=pointer]:
+                - cell "—" [ref=e2024]
+                - cell "Dr. Dr. Marcus Chen" [ref=e2025]
+                - cell "12/15/2024" [ref=e2026]
+                - cell "Gait instability and recurrent falls" [ref=e2027]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified" [ref=e2028]:
+                  - generic [ref=e2029]:
+                    - generic [ref=e2030]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2031]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 12/14/2024 Bilateral hand numbness and tingling at night E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2032] [cursor=pointer]:
+                - cell "—" [ref=e2033]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2034]
+                - cell "12/14/2024" [ref=e2035]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e2036]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2037]:
+                  - generic [ref=e2038]:
+                    - generic [ref=e2039]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e2040]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e2041]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Carlos Mendoza 12/14/2024 Rectal bleeding noted for 3 days, bright red E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2042] [cursor=pointer]:
+                - cell "—" [ref=e2043]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2044]
+                - cell "12/14/2024" [ref=e2045]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e2046]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2047]:
+                  - generic [ref=e2049]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Amara Diallo 12/13/2024 Pre-operative assessment for elective procedure N20.0 — Calculus of kidney K21.0 — Gastro-oesophageal reflux disease with oesophagitis I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e2050] [cursor=pointer]:
+                - cell "—" [ref=e2051]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2052]
+                - cell "12/13/2024" [ref=e2053]
+                - cell "Pre-operative assessment for elective procedure" [ref=e2054]
+                - cell "N20.0 — Calculus of kidney K21.0 — Gastro-oesophageal reflux disease with oesophagitis I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e2055]:
+                  - generic [ref=e2056]:
+                    - generic [ref=e2057]: N20.0 — Calculus of kidney
+                    - generic [ref=e2058]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e2059]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Rachel Kowalski 12/13/2024 Morning stiffness in both hands lasting over 1 hour M79.3 — Panniculitis, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e2060] [cursor=pointer]:
+                - cell "—" [ref=e2061]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e2062]
+                - cell "12/13/2024" [ref=e2063]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e2064]
+                - cell "M79.3 — Panniculitis, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e2065]:
+                  - generic [ref=e2066]:
+                    - generic [ref=e2067]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e2068]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. James Okafor 12/8/2024 Increasing anxiety interfering with daily activities A41.9 — Sepsis, unspecified organism I50.32 — Chronic diastolic (congestive) heart failure, decompensated I63.9 — Cerebral infarction, unspecified" [ref=e2069] [cursor=pointer]:
+                - cell "—" [ref=e2070]
+                - cell "Dr. Dr. James Okafor" [ref=e2071]
+                - cell "12/8/2024" [ref=e2072]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e2073]
+                - cell "A41.9 — Sepsis, unspecified organism I50.32 — Chronic diastolic (congestive) heart failure, decompensated I63.9 — Cerebral infarction, unspecified" [ref=e2074]:
+                  - generic [ref=e2075]:
+                    - generic [ref=e2076]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e2077]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2078]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Victor Reyes 12/6/2024 Worsening dyspnea, unable to complete sentences K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding N20.0 — Calculus of kidney" [ref=e2079] [cursor=pointer]:
+                - cell "—" [ref=e2080]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2081]
+                - cell "12/6/2024" [ref=e2082]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e2083]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding N20.0 — Calculus of kidney" [ref=e2084]:
+                  - generic [ref=e2085]:
+                    - generic [ref=e2086]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e2087]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Ethan Blackwood 12/5/2024 Intermittent claudication in both calves I63.9 — Cerebral infarction, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2088] [cursor=pointer]:
+                - cell "—" [ref=e2089]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e2090]
+                - cell "12/5/2024" [ref=e2091]
+                - cell "Intermittent claudication in both calves" [ref=e2092]
+                - cell "I63.9 — Cerebral infarction, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2093]:
+                  - generic [ref=e2094]:
+                    - generic [ref=e2095]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2096]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Kenji Tanaka 12/3/2024 Acute onset severe abdominal pain, periumbilical N39.0 — Urinary tract infection, site not specified" [ref=e2097] [cursor=pointer]:
+                - cell "—" [ref=e2098]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e2099]
+                - cell "12/3/2024" [ref=e2100]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e2101]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e2102]:
+                  - generic [ref=e2104]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Owen Fitzgerald 12/1/2024 Nocturnal wheezing and cough disturbing sleep N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2105] [cursor=pointer]:
+                - cell "—" [ref=e2106]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e2107]
+                - cell "12/1/2024" [ref=e2108]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e2109]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2110]:
+                  - generic [ref=e2112]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sofia Patel 11/29/2024 Acute panic attack with palpitations and sense of doom L03.115 — Cellulitis of right lower limb" [ref=e2113] [cursor=pointer]:
+                - cell "—" [ref=e2114]
+                - cell "Dr. Dr. Sofia Patel" [ref=e2115]
+                - cell "11/29/2024" [ref=e2116]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e2117]
+                - cell "L03.115 — Cellulitis of right lower limb" [ref=e2118]:
+                  - generic [ref=e2120]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Tariq Hassan 11/28/2024 Reduced urine output and lower limb oedema for 5 days J45.41 — Moderate persistent asthma with (acute) exacerbation E66.01 — Morbid (severe) obesity due to excess calories L40.0 — Psoriasis vulgaris" [ref=e2121] [cursor=pointer]:
+                - cell "—" [ref=e2122]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2123]
+                - cell "11/28/2024" [ref=e2124]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e2125]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation E66.01 — Morbid (severe) obesity due to excess calories L40.0 — Psoriasis vulgaris" [ref=e2126]:
+                  - generic [ref=e2127]:
+                    - generic [ref=e2128]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e2129]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2130]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Fatima Al-Rashid 11/27/2024 Intermittent claudication in both calves C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side N20.0 — Calculus of kidney E03.9 — Hypothyroidism, unspecified" [ref=e2131] [cursor=pointer]:
+                - cell "—" [ref=e2132]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2133]
+                - cell "11/27/2024" [ref=e2134]
+                - cell "Intermittent claudication in both calves" [ref=e2135]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side N20.0 — Calculus of kidney E03.9 — Hypothyroidism, unspecified" [ref=e2136]:
+                  - generic [ref=e2137]:
+                    - generic [ref=e2138]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e2139]: N20.0 — Calculus of kidney
+                    - generic [ref=e2140]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 11/25/2024 Auditory hallucinations and disorganised behaviour reported by carer E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e2141] [cursor=pointer]:
+                - cell "—" [ref=e2142]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e2143]
+                - cell "11/25/2024" [ref=e2144]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e2145]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e2146]:
+                  - generic [ref=e2147]:
+                    - generic [ref=e2148]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2149]: I10 — Essential (primary) hypertension
+                    - generic [ref=e2150]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Carlos Mendoza 11/24/2024 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e2151] [cursor=pointer]:
+                - cell "—" [ref=e2152]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2153]
+                - cell "11/24/2024" [ref=e2154]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e2155]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e2156]:
+                  - generic [ref=e2158]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 11/23/2024 Pre-operative assessment for elective procedure K74.60 — Unspecified cirrhosis of liver" [ref=e2159] [cursor=pointer]:
+                - cell "—" [ref=e2160]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e2161]
+                - cell "11/23/2024" [ref=e2162]
+                - cell "Pre-operative assessment for elective procedure" [ref=e2163]
+                - cell "K74.60 — Unspecified cirrhosis of liver" [ref=e2164]:
+                  - generic [ref=e2166]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Mei Zhang 11/22/2024 Acute onset severe abdominal pain, periumbilical E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2167] [cursor=pointer]:
+                - cell "—" [ref=e2168]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2169]
+                - cell "11/22/2024" [ref=e2170]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e2171]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2172]:
+                  - generic [ref=e2174]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Aiden Callahan 11/21/2024 Annual chronic disease review — diabetes and hypertension M06.9 — Rheumatoid arthritis, unspecified K74.60 — Unspecified cirrhosis of liver A41.9 — Sepsis, unspecified organism" [ref=e2175] [cursor=pointer]:
+                - cell "—" [ref=e2176]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e2177]
+                - cell "11/21/2024" [ref=e2178]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e2179]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified K74.60 — Unspecified cirrhosis of liver A41.9 — Sepsis, unspecified organism" [ref=e2180]:
+                  - generic [ref=e2181]:
+                    - generic [ref=e2182]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e2183]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e2184]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Amara Diallo 11/21/2024 Recurrent urinary tract infections — fourth episode this year J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2185] [cursor=pointer]:
+                - cell "—" [ref=e2186]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2187]
+                - cell "11/21/2024" [ref=e2188]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e2189]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2190]:
+                  - generic [ref=e2192]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Yasmin Aziz 11/20/2024 Reduced urine output and lower limb oedema for 5 days K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2193] [cursor=pointer]:
+                - cell "—" [ref=e2194]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e2195]
+                - cell "11/20/2024" [ref=e2196]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e2197]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2198]:
+                  - generic [ref=e2200]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Victor Reyes 11/19/2024 Flank pain with haematuria — possible renal colic E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2201] [cursor=pointer]:
+                - cell "—" [ref=e2202]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2203]
+                - cell "11/19/2024" [ref=e2204]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e2205]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2206]:
+                  - generic [ref=e2207]:
+                    - generic [ref=e2208]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2209]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e2210]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Kenji Tanaka 11/18/2024 Bilateral leg edema worsening over past week E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension" [ref=e2211] [cursor=pointer]:
+                - cell "—" [ref=e2212]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e2213]
+                - cell "11/18/2024" [ref=e2214]
+                - cell "Bilateral leg edema worsening over past week" [ref=e2215]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension" [ref=e2216]:
+                  - generic [ref=e2217]:
+                    - generic [ref=e2218]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2219]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Liam Sullivan 11/13/2024 Recurrent episodes of loss of consciousness J18.9 — Pneumonia, unspecified organism" [ref=e2220] [cursor=pointer]:
+                - cell "—" [ref=e2221]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e2222]
+                - cell "11/13/2024" [ref=e2223]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e2224]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e2225]:
+                  - generic [ref=e2227]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Ethan Blackwood 11/12/2024 Hypertensive urgency — BP 185/110 at home E03.9 — Hypothyroidism, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e2228] [cursor=pointer]:
+                - cell "—" [ref=e2229]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e2230]
+                - cell "11/12/2024" [ref=e2231]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e2232]
+                - cell "E03.9 — Hypothyroidism, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e2233]:
+                  - generic [ref=e2234]:
+                    - generic [ref=e2235]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e2236]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Mei Zhang 11/12/2024 Epigastric burning pain, worse after meals E66.01 — Morbid (severe) obesity due to excess calories I50.32 — Chronic diastolic (congestive) heart failure, decompensated M79.3 — Panniculitis, unspecified" [ref=e2237] [cursor=pointer]:
+                - cell "—" [ref=e2238]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2239]
+                - cell "11/12/2024" [ref=e2240]
+                - cell "Epigastric burning pain, worse after meals" [ref=e2241]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I50.32 — Chronic diastolic (congestive) heart failure, decompensated M79.3 — Panniculitis, unspecified" [ref=e2242]:
+                  - generic [ref=e2243]:
+                    - generic [ref=e2244]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2245]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2246]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Tariq Hassan 11/11/2024 Chest pain radiating to left arm, onset 2 hours ago I50.32 — Chronic diastolic (congestive) heart failure, decompensated E78.00 — Pure hypercholesterolaemia, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2247] [cursor=pointer]:
+                - cell "—" [ref=e2248]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2249]
+                - cell "11/11/2024" [ref=e2250]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e2251]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E78.00 — Pure hypercholesterolaemia, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2252]:
+                  - generic [ref=e2253]:
+                    - generic [ref=e2254]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2255]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2256]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Tariq Hassan 11/6/2024 Polyuria and polydipsia for past 2 weeks E11.65 — Type 2 diabetes mellitus with hyperglycaemia N20.0 — Calculus of kidney" [ref=e2257] [cursor=pointer]:
+                - cell "—" [ref=e2258]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2259]
+                - cell "11/6/2024" [ref=e2260]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e2261]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia N20.0 — Calculus of kidney" [ref=e2262]:
+                  - generic [ref=e2263]:
+                    - generic [ref=e2264]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e2265]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Aiden Callahan 10/29/2024 Suicidal ideation — passive, no plan or intent N20.0 — Calculus of kidney J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2266] [cursor=pointer]:
+                - cell "—" [ref=e2267]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e2268]
+                - cell "10/29/2024" [ref=e2269]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2270]
+                - cell "N20.0 — Calculus of kidney J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2271]:
+                  - generic [ref=e2272]:
+                    - generic [ref=e2273]: N20.0 — Calculus of kidney
+                    - generic [ref=e2274]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Darius Osei 10/28/2024 Widespread urticarial rash after new medication B02.9 — Zoster without complications E78.00 — Pure hypercholesterolaemia, unspecified M79.3 — Panniculitis, unspecified" [ref=e2275] [cursor=pointer]:
+                - cell "—" [ref=e2276]
+                - cell "Dr. Dr. Darius Osei" [ref=e2277]
+                - cell "10/28/2024" [ref=e2278]
+                - cell "Widespread urticarial rash after new medication" [ref=e2279]
+                - cell "B02.9 — Zoster without complications E78.00 — Pure hypercholesterolaemia, unspecified M79.3 — Panniculitis, unspecified" [ref=e2280]:
+                  - generic [ref=e2281]:
+                    - generic [ref=e2282]: B02.9 — Zoster without complications
+                    - generic [ref=e2283]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2284]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 9/27/2024 Persistent low mood, anhedonia, and poor sleep for 6 weeks I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2285] [cursor=pointer]:
+                - cell "—" [ref=e2286]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e2287]
+                - cell "9/27/2024" [ref=e2288]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e2289]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2290]:
+                  - generic [ref=e2291]:
+                    - generic [ref=e2292]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e2293]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Isabelle Moreau 9/27/2024 Intermittent claudication in both calves J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I73.9 — Peripheral vascular disease, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2294] [cursor=pointer]:
+                - cell "—" [ref=e2295]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e2296]
+                - cell "9/27/2024" [ref=e2297]
+                - cell "Intermittent claudication in both calves" [ref=e2298]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I73.9 — Peripheral vascular disease, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2299]:
+                  - generic [ref=e2300]:
+                    - generic [ref=e2301]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e2302]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e2303]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Diego Ferreira 9/26/2024 Nocturnal wheezing and cough disturbing sleep E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e2304] [cursor=pointer]:
+                - cell "—" [ref=e2305]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e2306]
+                - cell "9/26/2024" [ref=e2307]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e2308]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e2309]:
+                  - generic [ref=e2311]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 9/26/2024 Suicidal ideation — passive, no plan or intent J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2312] [cursor=pointer]:
+                - cell "—" [ref=e2313]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e2314]
+                - cell "9/26/2024" [ref=e2315]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2316]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2317]:
+                  - generic [ref=e2318]:
+                    - generic [ref=e2319]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e2320]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. James Okafor 9/26/2024 Progressive memory loss noticed by family over 6 months I73.9 — Peripheral vascular disease, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e2321] [cursor=pointer]:
+                - cell "—" [ref=e2322]
+                - cell "Dr. Dr. James Okafor" [ref=e2323]
+                - cell "9/26/2024" [ref=e2324]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e2325]
+                - cell "I73.9 — Peripheral vascular disease, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e2326]:
+                  - generic [ref=e2327]:
+                    - generic [ref=e2328]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e2329]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Amara Diallo 9/25/2024 Pleuritic chest pain, worse on deep inspiration E66.01 — Morbid (severe) obesity due to excess calories M54.4 — Lumbago with sciatica, right side" [ref=e2330] [cursor=pointer]:
+                - cell "—" [ref=e2331]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2332]
+                - cell "9/25/2024" [ref=e2333]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e2334]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories M54.4 — Lumbago with sciatica, right side" [ref=e2335]:
+                  - generic [ref=e2336]:
+                    - generic [ref=e2337]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2338]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Yasmin Aziz 9/24/2024 Hypertensive urgency — BP 185/110 at home I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2339] [cursor=pointer]:
+                - cell "—" [ref=e2340]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e2341]
+                - cell "9/24/2024" [ref=e2342]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e2343]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2344]:
+                  - generic [ref=e2346]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 9/23/2024 Acute panic attack with palpitations and sense of doom I63.9 — Cerebral infarction, unspecified J06.9 — Acute upper respiratory infection, unspecified L40.0 — Psoriasis vulgaris" [ref=e2347] [cursor=pointer]:
+                - cell "—" [ref=e2348]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e2349]
+                - cell "9/23/2024" [ref=e2350]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e2351]
+                - cell "I63.9 — Cerebral infarction, unspecified J06.9 — Acute upper respiratory infection, unspecified L40.0 — Psoriasis vulgaris" [ref=e2352]:
+                  - generic [ref=e2353]:
+                    - generic [ref=e2354]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2355]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e2356]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Kenji Tanaka 9/23/2024 Pre-operative assessment for elective procedure F32.1 — Major depressive disorder, single episode, moderate" [ref=e2357] [cursor=pointer]:
+                - cell "—" [ref=e2358]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e2359]
+                - cell "9/23/2024" [ref=e2360]
+                - cell "Pre-operative assessment for elective procedure" [ref=e2361]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e2362]:
+                  - generic [ref=e2364]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Mei Zhang 9/23/2024 Nocturnal wheezing and cough disturbing sleep J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2365] [cursor=pointer]:
+                - cell "—" [ref=e2366]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2367]
+                - cell "9/23/2024" [ref=e2368]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e2369]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2370]:
+                  - generic [ref=e2372]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Nadia Volkov 9/22/2024 Hypertensive urgency — BP 185/110 at home I50.32 — Chronic diastolic (congestive) heart failure, decompensated F41.1 — Generalised anxiety disorder K92.1 — Melaena" [ref=e2373] [cursor=pointer]:
+                - cell "—" [ref=e2374]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e2375]
+                - cell "9/22/2024" [ref=e2376]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e2377]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated F41.1 — Generalised anxiety disorder K92.1 — Melaena" [ref=e2378]:
+                  - generic [ref=e2379]:
+                    - generic [ref=e2380]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2381]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e2382]: K92.1 — Melaena
+              - row "— Dr. Dr. Ethan Blackwood 9/22/2024 Reduced urine output and lower limb oedema for 5 days F32.1 — Major depressive disorder, single episode, moderate" [ref=e2383] [cursor=pointer]:
+                - cell "—" [ref=e2384]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e2385]
+                - cell "9/22/2024" [ref=e2386]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e2387]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e2388]:
+                  - generic [ref=e2390]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Owen Fitzgerald 9/22/2024 Worsening dyspnea, unable to complete sentences I50.32 — Chronic diastolic (congestive) heart failure, decompensated J06.9 — Acute upper respiratory infection, unspecified" [ref=e2391] [cursor=pointer]:
+                - cell "—" [ref=e2392]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e2393]
+                - cell "9/22/2024" [ref=e2394]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e2395]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated J06.9 — Acute upper respiratory infection, unspecified" [ref=e2396]:
+                  - generic [ref=e2397]:
+                    - generic [ref=e2398]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2399]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 9/21/2024 Painful vesicular eruption following a dermatomal distribution F32.1 — Major depressive disorder, single episode, moderate" [ref=e2400] [cursor=pointer]:
+                - cell "—" [ref=e2401]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e2402]
+                - cell "9/21/2024" [ref=e2403]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e2404]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e2405]:
+                  - generic [ref=e2407]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Fatima Al-Rashid 9/21/2024 Recurrent episodes of loss of consciousness I73.9 — Peripheral vascular disease, unspecified L03.115 — Cellulitis of right lower limb B02.9 — Zoster without complications" [ref=e2408] [cursor=pointer]:
+                - cell "—" [ref=e2409]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2410]
+                - cell "9/21/2024" [ref=e2411]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e2412]
+                - cell "I73.9 — Peripheral vascular disease, unspecified L03.115 — Cellulitis of right lower limb B02.9 — Zoster without complications" [ref=e2413]:
+                  - generic [ref=e2414]:
+                    - generic [ref=e2415]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e2416]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e2417]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Liam Sullivan 9/21/2024 Polyuria and polydipsia for past 2 weeks I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2418] [cursor=pointer]:
+                - cell "—" [ref=e2419]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e2420]
+                - cell "9/21/2024" [ref=e2421]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e2422]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2423]:
+                  - generic [ref=e2425]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Ethan Blackwood 9/20/2024 Acute onset severe abdominal pain, periumbilical M16.11 — Unilateral primary osteoarthritis, right hip M54.4 — Lumbago with sciatica, right side" [ref=e2426] [cursor=pointer]:
+                - cell "—" [ref=e2427]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e2428]
+                - cell "9/20/2024" [ref=e2429]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e2430]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip M54.4 — Lumbago with sciatica, right side" [ref=e2431]:
+                  - generic [ref=e2432]:
+                    - generic [ref=e2433]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e2434]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Liam Sullivan 9/19/2024 Intermittent claudication in both calves M16.11 — Unilateral primary osteoarthritis, right hip A41.9 — Sepsis, unspecified organism" [ref=e2435] [cursor=pointer]:
+                - cell "—" [ref=e2436]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e2437]
+                - cell "9/19/2024" [ref=e2438]
+                - cell "Intermittent claudication in both calves" [ref=e2439]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip A41.9 — Sepsis, unspecified organism" [ref=e2440]:
+                  - generic [ref=e2441]:
+                    - generic [ref=e2442]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e2443]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Nadia Volkov 9/18/2024 Productive cough with yellow sputum for 5 days F20.9 — Schizophrenia, unspecified I63.9 — Cerebral infarction, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e2444] [cursor=pointer]:
+                - cell "—" [ref=e2445]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e2446]
+                - cell "9/18/2024" [ref=e2447]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e2448]
+                - cell "F20.9 — Schizophrenia, unspecified I63.9 — Cerebral infarction, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e2449]:
+                  - generic [ref=e2450]:
+                    - generic [ref=e2451]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e2452]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2453]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Chloe Nakamura 9/17/2024 Widespread urticarial rash after new medication E78.00 — Pure hypercholesterolaemia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2454] [cursor=pointer]:
+                - cell "—" [ref=e2455]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e2456]
+                - cell "9/17/2024" [ref=e2457]
+                - cell "Widespread urticarial rash after new medication" [ref=e2458]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2459]:
+                  - generic [ref=e2460]:
+                    - generic [ref=e2461]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2462]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Yasmin Aziz 9/17/2024 Vaccination and travel health consultation E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified K92.1 — Melaena" [ref=e2463] [cursor=pointer]:
+                - cell "—" [ref=e2464]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e2465]
+                - cell "9/17/2024" [ref=e2466]
+                - cell "Vaccination and travel health consultation" [ref=e2467]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified K92.1 — Melaena" [ref=e2468]:
+                  - generic [ref=e2469]:
+                    - generic [ref=e2470]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2471]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2472]: K92.1 — Melaena
+              - row "— Dr. Dr. Sienna Whitmore 9/16/2024 Painful vesicular eruption following a dermatomal distribution L40.0 — Psoriasis vulgaris" [ref=e2473] [cursor=pointer]:
+                - cell "—" [ref=e2474]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2475]
+                - cell "9/16/2024" [ref=e2476]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e2477]
+                - cell "L40.0 — Psoriasis vulgaris" [ref=e2478]:
+                  - generic [ref=e2480]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Sienna Whitmore 9/16/2024 Nocturia ×4 and weak urinary stream K74.60 — Unspecified cirrhosis of liver F41.1 — Generalised anxiety disorder" [ref=e2481] [cursor=pointer]:
+                - cell "—" [ref=e2482]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2483]
+                - cell "9/16/2024" [ref=e2484]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e2485]
+                - cell "K74.60 — Unspecified cirrhosis of liver F41.1 — Generalised anxiety disorder" [ref=e2486]:
+                  - generic [ref=e2487]:
+                    - generic [ref=e2488]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e2489]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Yasmin Aziz 9/14/2024 Pre-operative assessment for elective procedure K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2490] [cursor=pointer]:
+                - cell "—" [ref=e2491]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e2492]
+                - cell "9/14/2024" [ref=e2493]
+                - cell "Pre-operative assessment for elective procedure" [ref=e2494]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2495]:
+                  - generic [ref=e2497]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. James Okafor 9/14/2024 Gait instability and recurrent falls M79.3 — Panniculitis, unspecified F32.1 — Major depressive disorder, single episode, moderate A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2498] [cursor=pointer]:
+                - cell "—" [ref=e2499]
+                - cell "Dr. Dr. James Okafor" [ref=e2500]
+                - cell "9/14/2024" [ref=e2501]
+                - cell "Gait instability and recurrent falls" [ref=e2502]
+                - cell "M79.3 — Panniculitis, unspecified F32.1 — Major depressive disorder, single episode, moderate A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2503]:
+                  - generic [ref=e2504]:
+                    - generic [ref=e2505]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e2506]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e2507]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Victor Reyes 9/14/2024 Fever 38.9 °C, rigors, and night sweats for 4 days A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2508] [cursor=pointer]:
+                - cell "—" [ref=e2509]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2510]
+                - cell "9/14/2024" [ref=e2511]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e2512]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e2513]:
+                  - generic [ref=e2515]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Aiden Callahan 9/13/2024 Unintentional weight loss of 8 kg over 3 months N18.3 — Chronic kidney disease, stage 3 (moderate) I10 — Essential (primary) hypertension E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2516] [cursor=pointer]:
+                - cell "—" [ref=e2517]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e2518]
+                - cell "9/13/2024" [ref=e2519]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e2520]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) I10 — Essential (primary) hypertension E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e2521]:
+                  - generic [ref=e2522]:
+                    - generic [ref=e2523]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e2524]: I10 — Essential (primary) hypertension
+                    - generic [ref=e2525]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Mei Zhang 9/13/2024 Rectal bleeding noted for 3 days, bright red J45.41 — Moderate persistent asthma with (acute) exacerbation I48.0 — Paroxysmal atrial fibrillation E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2526] [cursor=pointer]:
+                - cell "—" [ref=e2527]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2528]
+                - cell "9/13/2024" [ref=e2529]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e2530]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I48.0 — Paroxysmal atrial fibrillation E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e2531]:
+                  - generic [ref=e2532]:
+                    - generic [ref=e2533]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e2534]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e2535]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Amara Diallo 9/13/2024 Post-operative wound check — day 10 F41.1 — Generalised anxiety disorder" [ref=e2536] [cursor=pointer]:
+                - cell "—" [ref=e2537]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2538]
+                - cell "9/13/2024" [ref=e2539]
+                - cell "Post-operative wound check — day 10" [ref=e2540]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e2541]:
+                  - generic [ref=e2543]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Isabelle Moreau 9/12/2024 Progressive memory loss noticed by family over 6 months M79.3 — Panniculitis, unspecified" [ref=e2544] [cursor=pointer]:
+                - cell "—" [ref=e2545]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e2546]
+                - cell "9/12/2024" [ref=e2547]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e2548]
+                - cell "M79.3 — Panniculitis, unspecified" [ref=e2549]:
+                  - generic [ref=e2551]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 9/12/2024 Increasing anxiety interfering with daily activities J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E03.9 — Hypothyroidism, unspecified" [ref=e2552] [cursor=pointer]:
+                - cell "—" [ref=e2553]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e2554]
+                - cell "9/12/2024" [ref=e2555]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e2556]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E03.9 — Hypothyroidism, unspecified" [ref=e2557]:
+                  - generic [ref=e2558]:
+                    - generic [ref=e2559]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e2560]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 9/11/2024 Pleuritic chest pain, worse on deep inspiration F32.1 — Major depressive disorder, single episode, moderate I73.9 — Peripheral vascular disease, unspecified" [ref=e2561] [cursor=pointer]:
+                - cell "—" [ref=e2562]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2563]
+                - cell "9/11/2024" [ref=e2564]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e2565]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate I73.9 — Peripheral vascular disease, unspecified" [ref=e2566]:
+                  - generic [ref=e2567]:
+                    - generic [ref=e2568]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e2569]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 9/8/2024 Morning stiffness in both hands lasting over 1 hour L40.0 — Psoriasis vulgaris I48.0 — Paroxysmal atrial fibrillation I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e2570] [cursor=pointer]:
+                - cell "—" [ref=e2571]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2572]
+                - cell "9/8/2024" [ref=e2573]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e2574]
+                - cell "L40.0 — Psoriasis vulgaris I48.0 — Paroxysmal atrial fibrillation I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e2575]:
+                  - generic [ref=e2576]:
+                    - generic [ref=e2577]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e2578]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e2579]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Sienna Whitmore 9/8/2024 Widespread urticarial rash after new medication I50.32 — Chronic diastolic (congestive) heart failure, decompensated K74.60 — Unspecified cirrhosis of liver" [ref=e2580] [cursor=pointer]:
+                - cell "—" [ref=e2581]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2582]
+                - cell "9/8/2024" [ref=e2583]
+                - cell "Widespread urticarial rash after new medication" [ref=e2584]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated K74.60 — Unspecified cirrhosis of liver" [ref=e2585]:
+                  - generic [ref=e2586]:
+                    - generic [ref=e2587]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2588]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Darius Osei 9/7/2024 Productive cough with yellow sputum for 5 days J18.9 — Pneumonia, unspecified organism E03.9 — Hypothyroidism, unspecified" [ref=e2589] [cursor=pointer]:
+                - cell "—" [ref=e2590]
+                - cell "Dr. Dr. Darius Osei" [ref=e2591]
+                - cell "9/7/2024" [ref=e2592]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e2593]
+                - cell "J18.9 — Pneumonia, unspecified organism E03.9 — Hypothyroidism, unspecified" [ref=e2594]:
+                  - generic [ref=e2595]:
+                    - generic [ref=e2596]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e2597]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 9/7/2024 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2598] [cursor=pointer]:
+                - cell "—" [ref=e2599]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e2600]
+                - cell "9/7/2024" [ref=e2601]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e2602]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2603]:
+                  - generic [ref=e2605]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Fatima Al-Rashid 9/7/2024 Morning stiffness in both hands lasting over 1 hour I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2606] [cursor=pointer]:
+                - cell "—" [ref=e2607]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2608]
+                - cell "9/7/2024" [ref=e2609]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e2610]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2611]:
+                  - generic [ref=e2612]:
+                    - generic [ref=e2613]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e2614]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e2615]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Sofia Patel 9/6/2024 Erythematous scaly plaques on elbows and scalp F41.1 — Generalised anxiety disorder K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2616] [cursor=pointer]:
+                - cell "—" [ref=e2617]
+                - cell "Dr. Dr. Sofia Patel" [ref=e2618]
+                - cell "9/6/2024" [ref=e2619]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e2620]
+                - cell "F41.1 — Generalised anxiety disorder K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2621]:
+                  - generic [ref=e2622]:
+                    - generic [ref=e2623]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e2624]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Liam Sullivan 9/6/2024 Annual chronic disease review — diabetes and hypertension A41.9 — Sepsis, unspecified organism I10 — Essential (primary) hypertension" [ref=e2625] [cursor=pointer]:
+                - cell "—" [ref=e2626]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e2627]
+                - cell "9/6/2024" [ref=e2628]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e2629]
+                - cell "A41.9 — Sepsis, unspecified organism I10 — Essential (primary) hypertension" [ref=e2630]:
+                  - generic [ref=e2631]:
+                    - generic [ref=e2632]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e2633]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Diego Ferreira 9/6/2024 Acute low back pain after lifting heavy objects N18.3 — Chronic kidney disease, stage 3 (moderate) K74.60 — Unspecified cirrhosis of liver B02.9 — Zoster without complications" [ref=e2634] [cursor=pointer]:
+                - cell "—" [ref=e2635]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e2636]
+                - cell "9/6/2024" [ref=e2637]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e2638]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) K74.60 — Unspecified cirrhosis of liver B02.9 — Zoster without complications" [ref=e2639]:
+                  - generic [ref=e2640]:
+                    - generic [ref=e2641]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e2642]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e2643]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Nadia Volkov 9/5/2024 Flank pain with haematuria — possible renal colic I10 — Essential (primary) hypertension B02.9 — Zoster without complications" [ref=e2644] [cursor=pointer]:
+                - cell "—" [ref=e2645]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e2646]
+                - cell "9/5/2024" [ref=e2647]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e2648]
+                - cell "I10 — Essential (primary) hypertension B02.9 — Zoster without complications" [ref=e2649]:
+                  - generic [ref=e2650]:
+                    - generic [ref=e2651]: I10 — Essential (primary) hypertension
+                    - generic [ref=e2652]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Sienna Whitmore 9/5/2024 Bilateral leg edema worsening over past week I10 — Essential (primary) hypertension" [ref=e2653] [cursor=pointer]:
+                - cell "—" [ref=e2654]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e2655]
+                - cell "9/5/2024" [ref=e2656]
+                - cell "Bilateral leg edema worsening over past week" [ref=e2657]
+                - cell "I10 — Essential (primary) hypertension" [ref=e2658]:
+                  - generic [ref=e2660]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Victor Reyes 9/5/2024 Chest pain radiating to left arm, onset 2 hours ago J18.9 — Pneumonia, unspecified organism F32.1 — Major depressive disorder, single episode, moderate M79.3 — Panniculitis, unspecified" [ref=e2661] [cursor=pointer]:
+                - cell "—" [ref=e2662]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2663]
+                - cell "9/5/2024" [ref=e2664]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e2665]
+                - cell "J18.9 — Pneumonia, unspecified organism F32.1 — Major depressive disorder, single episode, moderate M79.3 — Panniculitis, unspecified" [ref=e2666]:
+                  - generic [ref=e2667]:
+                    - generic [ref=e2668]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e2669]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e2670]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Marcus Chen 9/4/2024 Suicidal ideation — passive, no plan or intent K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2671] [cursor=pointer]:
+                - cell "—" [ref=e2672]
+                - cell "Dr. Dr. Marcus Chen" [ref=e2673]
+                - cell "9/4/2024" [ref=e2674]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2675]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2676]:
+                  - generic [ref=e2678]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Mei Zhang 9/4/2024 Flank pain with haematuria — possible renal colic I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2679] [cursor=pointer]:
+                - cell "—" [ref=e2680]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2681]
+                - cell "9/4/2024" [ref=e2682]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e2683]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2684]:
+                  - generic [ref=e2686]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Hannah Bergmann 9/4/2024 Shoulder pain limiting range of motion for 2 weeks I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e2687] [cursor=pointer]:
+                - cell "—" [ref=e2688]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e2689]
+                - cell "9/4/2024" [ref=e2690]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e2691]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E66.01 — Morbid (severe) obesity due to excess calories M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e2692]:
+                  - generic [ref=e2693]:
+                    - generic [ref=e2694]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e2695]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e2696]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. James Okafor 9/3/2024 Nausea, vomiting, and inability to tolerate fluids for 48 hours E11.65 — Type 2 diabetes mellitus with hyperglycaemia C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e2697] [cursor=pointer]:
+                - cell "—" [ref=e2698]
+                - cell "Dr. Dr. James Okafor" [ref=e2699]
+                - cell "9/3/2024" [ref=e2700]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e2701]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e2702]:
+                  - generic [ref=e2703]:
+                    - generic [ref=e2704]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e2705]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Carlos Mendoza 9/2/2024 Intermittent claudication in both calves M79.3 — Panniculitis, unspecified" [ref=e2706] [cursor=pointer]:
+                - cell "—" [ref=e2707]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2708]
+                - cell "9/2/2024" [ref=e2709]
+                - cell "Intermittent claudication in both calves" [ref=e2710]
+                - cell "M79.3 — Panniculitis, unspecified" [ref=e2711]:
+                  - generic [ref=e2713]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Nadia Volkov 9/1/2024 Tremor, heat intolerance, and unintentional weight loss M16.11 — Unilateral primary osteoarthritis, right hip E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e2714] [cursor=pointer]:
+                - cell "—" [ref=e2715]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e2716]
+                - cell "9/1/2024" [ref=e2717]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e2718]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e2719]:
+                  - generic [ref=e2720]:
+                    - generic [ref=e2721]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e2722]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e2723]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Sofia Patel 8/30/2024 Tremor, heat intolerance, and unintentional weight loss C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e2724] [cursor=pointer]:
+                - cell "—" [ref=e2725]
+                - cell "Dr. Dr. Sofia Patel" [ref=e2726]
+                - cell "8/30/2024" [ref=e2727]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e2728]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e2729]:
+                  - generic [ref=e2731]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Owen Fitzgerald 8/30/2024 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home L40.0 — Psoriasis vulgaris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2732] [cursor=pointer]:
+                - cell "—" [ref=e2733]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e2734]
+                - cell "8/30/2024" [ref=e2735]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e2736]
+                - cell "L40.0 — Psoriasis vulgaris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e2737]:
+                  - generic [ref=e2738]:
+                    - generic [ref=e2739]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e2740]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Owen Fitzgerald 8/29/2024 Chest pain radiating to left arm, onset 2 hours ago L40.0 — Psoriasis vulgaris I73.9 — Peripheral vascular disease, unspecified" [ref=e2741] [cursor=pointer]:
+                - cell "—" [ref=e2742]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e2743]
+                - cell "8/29/2024" [ref=e2744]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e2745]
+                - cell "L40.0 — Psoriasis vulgaris I73.9 — Peripheral vascular disease, unspecified" [ref=e2746]:
+                  - generic [ref=e2747]:
+                    - generic [ref=e2748]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e2749]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Darius Osei 7/25/2024 Suicidal ideation — passive, no plan or intent L03.115 — Cellulitis of right lower limb I48.0 — Paroxysmal atrial fibrillation" [ref=e2750] [cursor=pointer]:
+                - cell "—" [ref=e2751]
+                - cell "Dr. Dr. Darius Osei" [ref=e2752]
+                - cell "7/25/2024" [ref=e2753]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2754]
+                - cell "L03.115 — Cellulitis of right lower limb I48.0 — Paroxysmal atrial fibrillation" [ref=e2755]:
+                  - generic [ref=e2756]:
+                    - generic [ref=e2757]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e2758]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Mei Zhang 7/24/2024 Unintentional weight loss of 8 kg over 3 months I63.9 — Cerebral infarction, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e2759] [cursor=pointer]:
+                - cell "—" [ref=e2760]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2761]
+                - cell "7/24/2024" [ref=e2762]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e2763]
+                - cell "I63.9 — Cerebral infarction, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e2764]:
+                  - generic [ref=e2765]:
+                    - generic [ref=e2766]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2767]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Ethan Blackwood 7/19/2024 Post-operative wound check — day 10 N20.0 — Calculus of kidney K92.1 — Melaena" [ref=e2768] [cursor=pointer]:
+                - cell "—" [ref=e2769]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e2770]
+                - cell "7/19/2024" [ref=e2771]
+                - cell "Post-operative wound check — day 10" [ref=e2772]
+                - cell "N20.0 — Calculus of kidney K92.1 — Melaena" [ref=e2773]:
+                  - generic [ref=e2774]:
+                    - generic [ref=e2775]: N20.0 — Calculus of kidney
+                    - generic [ref=e2776]: K92.1 — Melaena
+              - row "— Dr. Dr. Tariq Hassan 7/16/2024 Chest pain radiating to left arm, onset 2 hours ago K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2777] [cursor=pointer]:
+                - cell "—" [ref=e2778]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2779]
+                - cell "7/16/2024" [ref=e2780]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e2781]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2782]:
+                  - generic [ref=e2784]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Mei Zhang 7/13/2024 Suicidal ideation — passive, no plan or intent I48.0 — Paroxysmal atrial fibrillation J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2785] [cursor=pointer]:
+                - cell "—" [ref=e2786]
+                - cell "Dr. Dr. Mei Zhang" [ref=e2787]
+                - cell "7/13/2024" [ref=e2788]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2789]
+                - cell "I48.0 — Paroxysmal atrial fibrillation J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e2790]:
+                  - generic [ref=e2791]:
+                    - generic [ref=e2792]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e2793]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Liam Sullivan 7/12/2024 Rectal bleeding noted for 3 days, bright red I63.9 — Cerebral infarction, unspecified N39.0 — Urinary tract infection, site not specified J06.9 — Acute upper respiratory infection, unspecified" [ref=e2794] [cursor=pointer]:
+                - cell "—" [ref=e2795]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e2796]
+                - cell "7/12/2024" [ref=e2797]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e2798]
+                - cell "I63.9 — Cerebral infarction, unspecified N39.0 — Urinary tract infection, site not specified J06.9 — Acute upper respiratory infection, unspecified" [ref=e2799]:
+                  - generic [ref=e2800]:
+                    - generic [ref=e2801]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e2802]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e2803]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 7/11/2024 Shoulder pain limiting range of motion for 2 weeks M54.4 — Lumbago with sciatica, right side J18.9 — Pneumonia, unspecified organism" [ref=e2804] [cursor=pointer]:
+                - cell "—" [ref=e2805]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e2806]
+                - cell "7/11/2024" [ref=e2807]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e2808]
+                - cell "M54.4 — Lumbago with sciatica, right side J18.9 — Pneumonia, unspecified organism" [ref=e2809]:
+                  - generic [ref=e2810]:
+                    - generic [ref=e2811]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e2812]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Victor Reyes 7/11/2024 Bilateral leg edema worsening over past week F32.1 — Major depressive disorder, single episode, moderate" [ref=e2813] [cursor=pointer]:
+                - cell "—" [ref=e2814]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2815]
+                - cell "7/11/2024" [ref=e2816]
+                - cell "Bilateral leg edema worsening over past week" [ref=e2817]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e2818]:
+                  - generic [ref=e2820]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Aiden Callahan 7/10/2024 Post-operative wound check — day 10 I50.32 — Chronic diastolic (congestive) heart failure, decompensated E66.01 — Morbid (severe) obesity due to excess calories" [ref=e2821] [cursor=pointer]:
+                - cell "—" [ref=e2822]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e2823]
+                - cell "7/10/2024" [ref=e2824]
+                - cell "Post-operative wound check — day 10" [ref=e2825]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E66.01 — Morbid (severe) obesity due to excess calories" [ref=e2826]:
+                  - generic [ref=e2827]:
+                    - generic [ref=e2828]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e2829]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Eleanor Hartmann 7/10/2024 Chest pain radiating to left arm, onset 2 hours ago J45.41 — Moderate persistent asthma with (acute) exacerbation E03.9 — Hypothyroidism, unspecified L40.0 — Psoriasis vulgaris" [ref=e2830] [cursor=pointer]:
+                - cell "—" [ref=e2831]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e2832]
+                - cell "7/10/2024" [ref=e2833]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e2834]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation E03.9 — Hypothyroidism, unspecified L40.0 — Psoriasis vulgaris" [ref=e2835]:
+                  - generic [ref=e2836]:
+                    - generic [ref=e2837]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e2838]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e2839]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Darius Osei 7/8/2024 Hemoptysis — small amount noted this morning K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding M06.9 — Rheumatoid arthritis, unspecified A41.9 — Sepsis, unspecified organism" [ref=e2840] [cursor=pointer]:
+                - cell "—" [ref=e2841]
+                - cell "Dr. Dr. Darius Osei" [ref=e2842]
+                - cell "7/8/2024" [ref=e2843]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e2844]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding M06.9 — Rheumatoid arthritis, unspecified A41.9 — Sepsis, unspecified organism" [ref=e2845]:
+                  - generic [ref=e2846]:
+                    - generic [ref=e2847]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e2848]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e2849]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Rachel Kowalski 7/8/2024 Post-operative wound check — day 10 L03.115 — Cellulitis of right lower limb" [ref=e2850] [cursor=pointer]:
+                - cell "—" [ref=e2851]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e2852]
+                - cell "7/8/2024" [ref=e2853]
+                - cell "Post-operative wound check — day 10" [ref=e2854]
+                - cell "L03.115 — Cellulitis of right lower limb" [ref=e2855]:
+                  - generic [ref=e2857]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Yasmin Aziz 7/7/2024 Rapidly spreading cellulitis of the left lower leg E66.01 — Morbid (severe) obesity due to excess calories" [ref=e2858] [cursor=pointer]:
+                - cell "—" [ref=e2859]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e2860]
+                - cell "7/7/2024" [ref=e2861]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e2862]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e2863]:
+                  - generic [ref=e2865]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Tariq Hassan 7/6/2024 Right knee swelling and warmth since yesterday N20.0 — Calculus of kidney M16.11 — Unilateral primary osteoarthritis, right hip K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2866] [cursor=pointer]:
+                - cell "—" [ref=e2867]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2868]
+                - cell "7/6/2024" [ref=e2869]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e2870]
+                - cell "N20.0 — Calculus of kidney M16.11 — Unilateral primary osteoarthritis, right hip K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2871]:
+                  - generic [ref=e2872]:
+                    - generic [ref=e2873]: N20.0 — Calculus of kidney
+                    - generic [ref=e2874]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e2875]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Tariq Hassan 7/6/2024 Hypertensive urgency — BP 185/110 at home E03.9 — Hypothyroidism, unspecified L03.115 — Cellulitis of right lower limb I63.9 — Cerebral infarction, unspecified" [ref=e2876] [cursor=pointer]:
+                - cell "—" [ref=e2877]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e2878]
+                - cell "7/6/2024" [ref=e2879]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e2880]
+                - cell "E03.9 — Hypothyroidism, unspecified L03.115 — Cellulitis of right lower limb I63.9 — Cerebral infarction, unspecified" [ref=e2881]:
+                  - generic [ref=e2882]:
+                    - generic [ref=e2883]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e2884]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e2885]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 7/6/2024 Widespread urticarial rash after new medication E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis F20.9 — Schizophrenia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2886] [cursor=pointer]:
+                - cell "—" [ref=e2887]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2888]
+                - cell "7/6/2024" [ref=e2889]
+                - cell "Widespread urticarial rash after new medication" [ref=e2890]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis F20.9 — Schizophrenia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e2891]:
+                  - generic [ref=e2892]:
+                    - generic [ref=e2893]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e2894]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e2895]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Amara Diallo 7/6/2024 Flank pain with haematuria — possible renal colic I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I73.9 — Peripheral vascular disease, unspecified" [ref=e2896] [cursor=pointer]:
+                - cell "—" [ref=e2897]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2898]
+                - cell "7/6/2024" [ref=e2899]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e2900]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I73.9 — Peripheral vascular disease, unspecified" [ref=e2901]:
+                  - generic [ref=e2902]:
+                    - generic [ref=e2903]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e2904]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 7/1/2024 Morning stiffness in both hands lasting over 1 hour E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M54.4 — Lumbago with sciatica, right side" [ref=e2905] [cursor=pointer]:
+                - cell "—" [ref=e2906]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e2907]
+                - cell "7/1/2024" [ref=e2908]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e2909]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M54.4 — Lumbago with sciatica, right side" [ref=e2910]:
+                  - generic [ref=e2911]:
+                    - generic [ref=e2912]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e2913]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Fatima Al-Rashid 6/30/2024 Sudden onset severe headache — \"worst of my life\" I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K92.1 — Melaena I63.9 — Cerebral infarction, unspecified" [ref=e2914] [cursor=pointer]:
+                - cell "—" [ref=e2915]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2916]
+                - cell "6/30/2024" [ref=e2917]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e2918]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K92.1 — Melaena I63.9 — Cerebral infarction, unspecified" [ref=e2919]:
+                  - generic [ref=e2920]:
+                    - generic [ref=e2921]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e2922]: K92.1 — Melaena
+                    - generic [ref=e2923]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Nadia Volkov 6/29/2024 Tremor, heat intolerance, and unintentional weight loss I48.0 — Paroxysmal atrial fibrillation" [ref=e2924] [cursor=pointer]:
+                - cell "—" [ref=e2925]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e2926]
+                - cell "6/29/2024" [ref=e2927]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e2928]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e2929]:
+                  - generic [ref=e2931]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Fatima Al-Rashid 6/29/2024 Jaundice and right upper quadrant discomfort E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2932] [cursor=pointer]:
+                - cell "—" [ref=e2933]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e2934]
+                - cell "6/29/2024" [ref=e2935]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e2936]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e2937]:
+                  - generic [ref=e2939]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Aiden Callahan 6/26/2024 Fever 38.9 °C, rigors, and night sweats for 4 days L03.115 — Cellulitis of right lower limb M79.3 — Panniculitis, unspecified" [ref=e2940] [cursor=pointer]:
+                - cell "—" [ref=e2941]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e2942]
+                - cell "6/26/2024" [ref=e2943]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e2944]
+                - cell "L03.115 — Cellulitis of right lower limb M79.3 — Panniculitis, unspecified" [ref=e2945]:
+                  - generic [ref=e2946]:
+                    - generic [ref=e2947]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e2948]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Victor Reyes 6/26/2024 Rapidly spreading cellulitis of the left lower leg C50.912 — Malignant neoplasm of unspecified site of left female breast I10 — Essential (primary) hypertension" [ref=e2949] [cursor=pointer]:
+                - cell "—" [ref=e2950]
+                - cell "Dr. Dr. Victor Reyes" [ref=e2951]
+                - cell "6/26/2024" [ref=e2952]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e2953]
+                - cell "C50.912 — Malignant neoplasm of unspecified site of left female breast I10 — Essential (primary) hypertension" [ref=e2954]:
+                  - generic [ref=e2955]:
+                    - generic [ref=e2956]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e2957]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Darius Osei 6/25/2024 Suicidal ideation — passive, no plan or intent K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2958] [cursor=pointer]:
+                - cell "—" [ref=e2959]
+                - cell "Dr. Dr. Darius Osei" [ref=e2960]
+                - cell "6/25/2024" [ref=e2961]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e2962]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e2963]:
+                  - generic [ref=e2964]:
+                    - generic [ref=e2965]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e2966]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Chloe Nakamura 6/22/2024 Annual chronic disease review — diabetes and hypertension I10 — Essential (primary) hypertension K74.60 — Unspecified cirrhosis of liver I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2967] [cursor=pointer]:
+                - cell "—" [ref=e2968]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e2969]
+                - cell "6/22/2024" [ref=e2970]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e2971]
+                - cell "I10 — Essential (primary) hypertension K74.60 — Unspecified cirrhosis of liver I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e2972]:
+                  - generic [ref=e2973]:
+                    - generic [ref=e2974]: I10 — Essential (primary) hypertension
+                    - generic [ref=e2975]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e2976]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 6/20/2024 Nocturnal wheezing and cough disturbing sleep J06.9 — Acute upper respiratory infection, unspecified" [ref=e2977] [cursor=pointer]:
+                - cell "—" [ref=e2978]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e2979]
+                - cell "6/20/2024" [ref=e2980]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e2981]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified" [ref=e2982]:
+                  - generic [ref=e2984]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 6/17/2024 Widespread urticarial rash after new medication K21.0 — Gastro-oesophageal reflux disease with oesophagitis J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2985] [cursor=pointer]:
+                - cell "—" [ref=e2986]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e2987]
+                - cell "6/17/2024" [ref=e2988]
+                - cell "Widespread urticarial rash after new medication" [ref=e2989]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e2990]:
+                  - generic [ref=e2991]:
+                    - generic [ref=e2992]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e2993]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e2994]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Amara Diallo 6/16/2024 Nocturia ×4 and weak urinary stream J06.9 — Acute upper respiratory infection, unspecified" [ref=e2995] [cursor=pointer]:
+                - cell "—" [ref=e2996]
+                - cell "Dr. Dr. Amara Diallo" [ref=e2997]
+                - cell "6/16/2024" [ref=e2998]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e2999]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified" [ref=e3000]:
+                  - generic [ref=e3002]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Liam Sullivan 6/15/2024 Annual chronic disease review — diabetes and hypertension K92.1 — Melaena" [ref=e3003] [cursor=pointer]:
+                - cell "—" [ref=e3004]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e3005]
+                - cell "6/15/2024" [ref=e3006]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e3007]
+                - cell "K92.1 — Melaena" [ref=e3008]:
+                  - generic [ref=e3010]: K92.1 — Melaena
+              - row "— Dr. Dr. Owen Fitzgerald 6/9/2024 Intermittent claudication in both calves J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K92.1 — Melaena" [ref=e3011] [cursor=pointer]:
+                - cell "—" [ref=e3012]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e3013]
+                - cell "6/9/2024" [ref=e3014]
+                - cell "Intermittent claudication in both calves" [ref=e3015]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K92.1 — Melaena" [ref=e3016]:
+                  - generic [ref=e3017]:
+                    - generic [ref=e3018]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3019]: K92.1 — Melaena
+              - row "— Dr. Dr. Diego Ferreira 6/7/2024 Acute panic attack with palpitations and sense of doom A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I63.9 — Cerebral infarction, unspecified F20.9 — Schizophrenia, unspecified" [ref=e3020] [cursor=pointer]:
+                - cell "—" [ref=e3021]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e3022]
+                - cell "6/7/2024" [ref=e3023]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e3024]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I63.9 — Cerebral infarction, unspecified F20.9 — Schizophrenia, unspecified" [ref=e3025]:
+                  - generic [ref=e3026]:
+                    - generic [ref=e3027]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e3028]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e3029]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Hannah Bergmann 6/4/2024 Widespread urticarial rash after new medication F20.9 — Schizophrenia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3030] [cursor=pointer]:
+                - cell "—" [ref=e3031]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e3032]
+                - cell "6/4/2024" [ref=e3033]
+                - cell "Widespread urticarial rash after new medication" [ref=e3034]
+                - cell "F20.9 — Schizophrenia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3035]:
+                  - generic [ref=e3036]:
+                    - generic [ref=e3037]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e3038]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3039]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Hannah Bergmann 6/3/2024 Sudden onset severe headache — \"worst of my life\" I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3040] [cursor=pointer]:
+                - cell "—" [ref=e3041]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e3042]
+                - cell "6/3/2024" [ref=e3043]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e3044]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3045]:
+                  - generic [ref=e3047]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Sofia Patel 6/3/2024 Right-sided facial droop and arm weakness, onset 1 hour ago E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified" [ref=e3048] [cursor=pointer]:
+                - cell "—" [ref=e3049]
+                - cell "Dr. Dr. Sofia Patel" [ref=e3050]
+                - cell "6/3/2024" [ref=e3051]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e3052]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified" [ref=e3053]:
+                  - generic [ref=e3054]:
+                    - generic [ref=e3055]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3056]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 6/2/2024 Worsening dyspnea, unable to complete sentences E66.01 — Morbid (severe) obesity due to excess calories L03.115 — Cellulitis of right lower limb E03.9 — Hypothyroidism, unspecified" [ref=e3057] [cursor=pointer]:
+                - cell "—" [ref=e3058]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e3059]
+                - cell "6/2/2024" [ref=e3060]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e3061]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories L03.115 — Cellulitis of right lower limb E03.9 — Hypothyroidism, unspecified" [ref=e3062]:
+                  - generic [ref=e3063]:
+                    - generic [ref=e3064]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3065]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e3066]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Marcus Chen 5/31/2024 Painful vesicular eruption following a dermatomal distribution E78.00 — Pure hypercholesterolaemia, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3067] [cursor=pointer]:
+                - cell "—" [ref=e3068]
+                - cell "Dr. Dr. Marcus Chen" [ref=e3069]
+                - cell "5/31/2024" [ref=e3070]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e3071]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3072]:
+                  - generic [ref=e3073]:
+                    - generic [ref=e3074]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e3075]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Chloe Nakamura 5/30/2024 Medication review and repeat prescriptions E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3076] [cursor=pointer]:
+                - cell "—" [ref=e3077]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e3078]
+                - cell "5/30/2024" [ref=e3079]
+                - cell "Medication review and repeat prescriptions" [ref=e3080]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3081]:
+                  - generic [ref=e3083]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Hannah Bergmann 5/30/2024 Acute onset severe abdominal pain, periumbilical I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3084] [cursor=pointer]:
+                - cell "—" [ref=e3085]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e3086]
+                - cell "5/30/2024" [ref=e3087]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e3088]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3089]:
+                  - generic [ref=e3091]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Fatima Al-Rashid 5/28/2024 Rapidly spreading cellulitis of the left lower leg C18.9 — Malignant neoplasm of colon, unspecified F41.1 — Generalised anxiety disorder" [ref=e3092] [cursor=pointer]:
+                - cell "—" [ref=e3093]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e3094]
+                - cell "5/28/2024" [ref=e3095]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e3096]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified F41.1 — Generalised anxiety disorder" [ref=e3097]:
+                  - generic [ref=e3098]:
+                    - generic [ref=e3099]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e3100]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Rachel Kowalski 5/27/2024 Medication review and repeat prescriptions E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3101] [cursor=pointer]:
+                - cell "—" [ref=e3102]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e3103]
+                - cell "5/27/2024" [ref=e3104]
+                - cell "Medication review and repeat prescriptions" [ref=e3105]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3106]:
+                  - generic [ref=e3108]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Diego Ferreira 5/26/2024 Hemoptysis — small amount noted this morning K92.1 — Melaena" [ref=e3109] [cursor=pointer]:
+                - cell "—" [ref=e3110]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e3111]
+                - cell "5/26/2024" [ref=e3112]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e3113]
+                - cell "K92.1 — Melaena" [ref=e3114]:
+                  - generic [ref=e3116]: K92.1 — Melaena
+              - row "— Dr. Dr. Priya Krishnamurthy 5/26/2024 Acute low back pain after lifting heavy objects J06.9 — Acute upper respiratory infection, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I63.9 — Cerebral infarction, unspecified" [ref=e3117] [cursor=pointer]:
+                - cell "—" [ref=e3118]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3119]
+                - cell "5/26/2024" [ref=e3120]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e3121]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I63.9 — Cerebral infarction, unspecified" [ref=e3122]:
+                  - generic [ref=e3123]:
+                    - generic [ref=e3124]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e3125]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e3126]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Victor Reyes 5/26/2024 Fever 38.9 °C, rigors, and night sweats for 4 days K92.1 — Melaena I50.32 — Chronic diastolic (congestive) heart failure, decompensated J06.9 — Acute upper respiratory infection, unspecified" [ref=e3127] [cursor=pointer]:
+                - cell "—" [ref=e3128]
+                - cell "Dr. Dr. Victor Reyes" [ref=e3129]
+                - cell "5/26/2024" [ref=e3130]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e3131]
+                - cell "K92.1 — Melaena I50.32 — Chronic diastolic (congestive) heart failure, decompensated J06.9 — Acute upper respiratory infection, unspecified" [ref=e3132]:
+                  - generic [ref=e3133]:
+                    - generic [ref=e3134]: K92.1 — Melaena
+                    - generic [ref=e3135]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e3136]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Sofia Patel 5/25/2024 Reduced urine output and lower limb oedema for 5 days K74.60 — Unspecified cirrhosis of liver J18.9 — Pneumonia, unspecified organism M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3137] [cursor=pointer]:
+                - cell "—" [ref=e3138]
+                - cell "Dr. Dr. Sofia Patel" [ref=e3139]
+                - cell "5/25/2024" [ref=e3140]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e3141]
+                - cell "K74.60 — Unspecified cirrhosis of liver J18.9 — Pneumonia, unspecified organism M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3142]:
+                  - generic [ref=e3143]:
+                    - generic [ref=e3144]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e3145]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3146]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Ethan Blackwood 5/21/2024 Right-sided facial droop and arm weakness, onset 1 hour ago B02.9 — Zoster without complications C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e3147] [cursor=pointer]:
+                - cell "—" [ref=e3148]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e3149]
+                - cell "5/21/2024" [ref=e3150]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e3151]
+                - cell "B02.9 — Zoster without complications C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e3152]:
+                  - generic [ref=e3153]:
+                    - generic [ref=e3154]: B02.9 — Zoster without complications
+                    - generic [ref=e3155]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Eleanor Hartmann 5/16/2024 Intermittent claudication in both calves I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e3156] [cursor=pointer]:
+                - cell "—" [ref=e3157]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e3158]
+                - cell "5/16/2024" [ref=e3159]
+                - cell "Intermittent claudication in both calves" [ref=e3160]
+                - cell "I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism" [ref=e3161]:
+                  - generic [ref=e3162]:
+                    - generic [ref=e3163]: I10 — Essential (primary) hypertension
+                    - generic [ref=e3164]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Sienna Whitmore 5/15/2024 Bilateral leg edema worsening over past week J18.9 — Pneumonia, unspecified organism" [ref=e3165] [cursor=pointer]:
+                - cell "—" [ref=e3166]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e3167]
+                - cell "5/15/2024" [ref=e3168]
+                - cell "Bilateral leg edema worsening over past week" [ref=e3169]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e3170]:
+                  - generic [ref=e3172]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Aiden Callahan 5/12/2024 Flank pain with haematuria — possible renal colic E78.00 — Pure hypercholesterolaemia, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e3173] [cursor=pointer]:
+                - cell "—" [ref=e3174]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e3175]
+                - cell "5/12/2024" [ref=e3176]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e3177]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I48.0 — Paroxysmal atrial fibrillation" [ref=e3178]:
+                  - generic [ref=e3179]:
+                    - generic [ref=e3180]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e3181]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Hannah Bergmann 5/11/2024 Progressive memory loss noticed by family over 6 months M06.9 — Rheumatoid arthritis, unspecified I10 — Essential (primary) hypertension" [ref=e3182] [cursor=pointer]:
+                - cell "—" [ref=e3183]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e3184]
+                - cell "5/11/2024" [ref=e3185]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e3186]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified I10 — Essential (primary) hypertension" [ref=e3187]:
+                  - generic [ref=e3188]:
+                    - generic [ref=e3189]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e3190]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Isabelle Moreau 5/8/2024 Right-sided facial droop and arm weakness, onset 1 hour ago E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding C18.9 — Malignant neoplasm of colon, unspecified" [ref=e3191] [cursor=pointer]:
+                - cell "—" [ref=e3192]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e3193]
+                - cell "5/8/2024" [ref=e3194]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e3195]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding C18.9 — Malignant neoplasm of colon, unspecified" [ref=e3196]:
+                  - generic [ref=e3197]:
+                    - generic [ref=e3198]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e3199]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e3200]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 5/7/2024 Painful vesicular eruption following a dermatomal distribution I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3201] [cursor=pointer]:
+                - cell "—" [ref=e3202]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3203]
+                - cell "5/7/2024" [ref=e3204]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e3205]
+                - cell "I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3206]:
+                  - generic [ref=e3207]:
+                    - generic [ref=e3208]: I10 — Essential (primary) hypertension
+                    - generic [ref=e3209]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e3210]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Carlos Mendoza 5/3/2024 Reduced urine output and lower limb oedema for 5 days E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified F20.9 — Schizophrenia, unspecified" [ref=e3211] [cursor=pointer]:
+                - cell "—" [ref=e3212]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3213]
+                - cell "5/3/2024" [ref=e3214]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e3215]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified F20.9 — Schizophrenia, unspecified" [ref=e3216]:
+                  - generic [ref=e3217]:
+                    - generic [ref=e3218]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e3219]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 5/2/2024 Palpitations and shortness of breath on exertion N20.0 — Calculus of kidney" [ref=e3220] [cursor=pointer]:
+                - cell "—" [ref=e3221]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e3222]
+                - cell "5/2/2024" [ref=e3223]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3224]
+                - cell "N20.0 — Calculus of kidney" [ref=e3225]:
+                  - generic [ref=e3227]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Fatima Al-Rashid 4/30/2024 Rapidly spreading cellulitis of the left lower leg I48.0 — Paroxysmal atrial fibrillation I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e3228] [cursor=pointer]:
+                - cell "—" [ref=e3229]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e3230]
+                - cell "4/30/2024" [ref=e3231]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e3232]
+                - cell "I48.0 — Paroxysmal atrial fibrillation I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e3233]:
+                  - generic [ref=e3234]:
+                    - generic [ref=e3235]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e3236]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e3237]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 4/30/2024 Acute low back pain after lifting heavy objects I73.9 — Peripheral vascular disease, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M79.3 — Panniculitis, unspecified" [ref=e3238] [cursor=pointer]:
+                - cell "—" [ref=e3239]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3240]
+                - cell "4/30/2024" [ref=e3241]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e3242]
+                - cell "I73.9 — Peripheral vascular disease, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M79.3 — Panniculitis, unspecified" [ref=e3243]:
+                  - generic [ref=e3244]:
+                    - generic [ref=e3245]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e3246]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e3247]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Victor Reyes 4/28/2024 Hemoptysis — small amount noted this morning I10 — Essential (primary) hypertension" [ref=e3248] [cursor=pointer]:
+                - cell "—" [ref=e3249]
+                - cell "Dr. Dr. Victor Reyes" [ref=e3250]
+                - cell "4/28/2024" [ref=e3251]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e3252]
+                - cell "I10 — Essential (primary) hypertension" [ref=e3253]:
+                  - generic [ref=e3255]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Tariq Hassan 4/24/2024 Morning stiffness in both hands lasting over 1 hour I48.0 — Paroxysmal atrial fibrillation C18.9 — Malignant neoplasm of colon, unspecified" [ref=e3256] [cursor=pointer]:
+                - cell "—" [ref=e3257]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e3258]
+                - cell "4/24/2024" [ref=e3259]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e3260]
+                - cell "I48.0 — Paroxysmal atrial fibrillation C18.9 — Malignant neoplasm of colon, unspecified" [ref=e3261]:
+                  - generic [ref=e3262]:
+                    - generic [ref=e3263]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e3264]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Liam Sullivan 4/24/2024 Palpitations and shortness of breath on exertion L03.115 — Cellulitis of right lower limb" [ref=e3265] [cursor=pointer]:
+                - cell "—" [ref=e3266]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e3267]
+                - cell "4/24/2024" [ref=e3268]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3269]
+                - cell "L03.115 — Cellulitis of right lower limb" [ref=e3270]:
+                  - generic [ref=e3272]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Victor Reyes 4/24/2024 Fever 38.9 °C, rigors, and night sweats for 4 days E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I63.9 — Cerebral infarction, unspecified" [ref=e3273] [cursor=pointer]:
+                - cell "—" [ref=e3274]
+                - cell "Dr. Dr. Victor Reyes" [ref=e3275]
+                - cell "4/24/2024" [ref=e3276]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e3277]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I63.9 — Cerebral infarction, unspecified" [ref=e3278]:
+                  - generic [ref=e3279]:
+                    - generic [ref=e3280]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e3281]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 4/23/2024 Morning stiffness in both hands lasting over 1 hour L03.115 — Cellulitis of right lower limb N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3282] [cursor=pointer]:
+                - cell "—" [ref=e3283]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e3284]
+                - cell "4/23/2024" [ref=e3285]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e3286]
+                - cell "L03.115 — Cellulitis of right lower limb N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3287]:
+                  - generic [ref=e3288]:
+                    - generic [ref=e3289]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e3290]: N20.0 — Calculus of kidney
+                    - generic [ref=e3291]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Chloe Nakamura 4/23/2024 Jaundice and right upper quadrant discomfort L40.0 — Psoriasis vulgaris J06.9 — Acute upper respiratory infection, unspecified" [ref=e3292] [cursor=pointer]:
+                - cell "—" [ref=e3293]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e3294]
+                - cell "4/23/2024" [ref=e3295]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e3296]
+                - cell "L40.0 — Psoriasis vulgaris J06.9 — Acute upper respiratory infection, unspecified" [ref=e3297]:
+                  - generic [ref=e3298]:
+                    - generic [ref=e3299]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e3300]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Liam Sullivan 4/19/2024 Acute low back pain after lifting heavy objects K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I10 — Essential (primary) hypertension" [ref=e3301] [cursor=pointer]:
+                - cell "—" [ref=e3302]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e3303]
+                - cell "4/19/2024" [ref=e3304]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e3305]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I10 — Essential (primary) hypertension" [ref=e3306]:
+                  - generic [ref=e3307]:
+                    - generic [ref=e3308]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e3309]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Hannah Bergmann 4/16/2024 Post-operative wound check — day 10 J45.41 — Moderate persistent asthma with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3310] [cursor=pointer]:
+                - cell "—" [ref=e3311]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e3312]
+                - cell "4/16/2024" [ref=e3313]
+                - cell "Post-operative wound check — day 10" [ref=e3314]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3315]:
+                  - generic [ref=e3316]:
+                    - generic [ref=e3317]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e3318]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Eleanor Hartmann 4/14/2024 Pre-operative assessment for elective procedure I63.9 — Cerebral infarction, unspecified" [ref=e3319] [cursor=pointer]:
+                - cell "—" [ref=e3320]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e3321]
+                - cell "4/14/2024" [ref=e3322]
+                - cell "Pre-operative assessment for elective procedure" [ref=e3323]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e3324]:
+                  - generic [ref=e3326]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Tariq Hassan 3/28/2024 Right knee swelling and warmth since yesterday J06.9 — Acute upper respiratory infection, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side M06.9 — Rheumatoid arthritis, unspecified" [ref=e3327] [cursor=pointer]:
+                - cell "—" [ref=e3328]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e3329]
+                - cell "3/28/2024" [ref=e3330]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e3331]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side M06.9 — Rheumatoid arthritis, unspecified" [ref=e3332]:
+                  - generic [ref=e3333]:
+                    - generic [ref=e3334]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e3335]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e3336]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 3/27/2024 Medication review and repeat prescriptions I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I48.0 — Paroxysmal atrial fibrillation B02.9 — Zoster without complications" [ref=e3337] [cursor=pointer]:
+                - cell "—" [ref=e3338]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e3339]
+                - cell "3/27/2024" [ref=e3340]
+                - cell "Medication review and repeat prescriptions" [ref=e3341]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I48.0 — Paroxysmal atrial fibrillation B02.9 — Zoster without complications" [ref=e3342]:
+                  - generic [ref=e3343]:
+                    - generic [ref=e3344]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e3345]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e3346]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Mei Zhang 3/25/2024 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home N18.3 — Chronic kidney disease, stage 3 (moderate) J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e3347] [cursor=pointer]:
+                - cell "—" [ref=e3348]
+                - cell "Dr. Dr. Mei Zhang" [ref=e3349]
+                - cell "3/25/2024" [ref=e3350]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e3351]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) J06.9 — Acute upper respiratory infection, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e3352]:
+                  - generic [ref=e3353]:
+                    - generic [ref=e3354]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e3355]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e3356]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Sofia Patel 3/25/2024 Palpitations and shortness of breath on exertion F41.1 — Generalised anxiety disorder I10 — Essential (primary) hypertension" [ref=e3357] [cursor=pointer]:
+                - cell "—" [ref=e3358]
+                - cell "Dr. Dr. Sofia Patel" [ref=e3359]
+                - cell "3/25/2024" [ref=e3360]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3361]
+                - cell "F41.1 — Generalised anxiety disorder I10 — Essential (primary) hypertension" [ref=e3362]:
+                  - generic [ref=e3363]:
+                    - generic [ref=e3364]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e3365]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Aiden Callahan 3/22/2024 Shoulder pain limiting range of motion for 2 weeks B02.9 — Zoster without complications M79.3 — Panniculitis, unspecified" [ref=e3366] [cursor=pointer]:
+                - cell "—" [ref=e3367]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e3368]
+                - cell "3/22/2024" [ref=e3369]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e3370]
+                - cell "B02.9 — Zoster without complications M79.3 — Panniculitis, unspecified" [ref=e3371]:
+                  - generic [ref=e3372]:
+                    - generic [ref=e3373]: B02.9 — Zoster without complications
+                    - generic [ref=e3374]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 3/21/2024 Pre-operative assessment for elective procedure F20.9 — Schizophrenia, unspecified J18.9 — Pneumonia, unspecified organism N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3375] [cursor=pointer]:
+                - cell "—" [ref=e3376]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e3377]
+                - cell "3/21/2024" [ref=e3378]
+                - cell "Pre-operative assessment for elective procedure" [ref=e3379]
+                - cell "F20.9 — Schizophrenia, unspecified J18.9 — Pneumonia, unspecified organism N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3380]:
+                  - generic [ref=e3381]:
+                    - generic [ref=e3382]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e3383]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3384]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Yasmin Aziz 3/20/2024 Jaundice and right upper quadrant discomfort E66.01 — Morbid (severe) obesity due to excess calories J06.9 — Acute upper respiratory infection, unspecified" [ref=e3385] [cursor=pointer]:
+                - cell "—" [ref=e3386]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3387]
+                - cell "3/20/2024" [ref=e3388]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e3389]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories J06.9 — Acute upper respiratory infection, unspecified" [ref=e3390]:
+                  - generic [ref=e3391]:
+                    - generic [ref=e3392]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3393]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 3/19/2024 Progressive memory loss noticed by family over 6 months M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3394] [cursor=pointer]:
+                - cell "—" [ref=e3395]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e3396]
+                - cell "3/19/2024" [ref=e3397]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e3398]
+                - cell "M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3399]:
+                  - generic [ref=e3400]:
+                    - generic [ref=e3401]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e3402]: I10 — Essential (primary) hypertension
+                    - generic [ref=e3403]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Amara Diallo 3/18/2024 Intermittent claudication in both calves M79.3 — Panniculitis, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3404] [cursor=pointer]:
+                - cell "—" [ref=e3405]
+                - cell "Dr. Dr. Amara Diallo" [ref=e3406]
+                - cell "3/18/2024" [ref=e3407]
+                - cell "Intermittent claudication in both calves" [ref=e3408]
+                - cell "M79.3 — Panniculitis, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3409]:
+                  - generic [ref=e3410]:
+                    - generic [ref=e3411]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e3412]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Priya Krishnamurthy 3/17/2024 Polyuria and polydipsia for past 2 weeks L03.115 — Cellulitis of right lower limb K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e3413] [cursor=pointer]:
+                - cell "—" [ref=e3414]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3415]
+                - cell "3/17/2024" [ref=e3416]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e3417]
+                - cell "L03.115 — Cellulitis of right lower limb K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e3418]:
+                  - generic [ref=e3419]:
+                    - generic [ref=e3420]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e3421]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Sienna Whitmore 3/16/2024 Excessive fatigue, cold intolerance, and constipation K92.1 — Melaena E66.01 — Morbid (severe) obesity due to excess calories I73.9 — Peripheral vascular disease, unspecified" [ref=e3422] [cursor=pointer]:
+                - cell "—" [ref=e3423]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e3424]
+                - cell "3/16/2024" [ref=e3425]
+                - cell "Excessive fatigue, cold intolerance, and constipation" [ref=e3426]
+                - cell "K92.1 — Melaena E66.01 — Morbid (severe) obesity due to excess calories I73.9 — Peripheral vascular disease, unspecified" [ref=e3427]:
+                  - generic [ref=e3428]:
+                    - generic [ref=e3429]: K92.1 — Melaena
+                    - generic [ref=e3430]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3431]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 3/16/2024 Shoulder pain limiting range of motion for 2 weeks C18.9 — Malignant neoplasm of colon, unspecified L40.0 — Psoriasis vulgaris" [ref=e3432] [cursor=pointer]:
+                - cell "—" [ref=e3433]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3434]
+                - cell "3/16/2024" [ref=e3435]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e3436]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified L40.0 — Psoriasis vulgaris" [ref=e3437]:
+                  - generic [ref=e3438]:
+                    - generic [ref=e3439]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e3440]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Priya Krishnamurthy 3/16/2024 Productive cough with yellow sputum for 5 days J06.9 — Acute upper respiratory infection, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e3441] [cursor=pointer]:
+                - cell "—" [ref=e3442]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3443]
+                - cell "3/16/2024" [ref=e3444]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e3445]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e3446]:
+                  - generic [ref=e3447]:
+                    - generic [ref=e3448]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e3449]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Darius Osei 3/15/2024 Erythematous scaly plaques on elbows and scalp E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified N39.0 — Urinary tract infection, site not specified F20.9 — Schizophrenia, unspecified" [ref=e3450] [cursor=pointer]:
+                - cell "—" [ref=e3451]
+                - cell "Dr. Dr. Darius Osei" [ref=e3452]
+                - cell "3/15/2024" [ref=e3453]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e3454]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified N39.0 — Urinary tract infection, site not specified F20.9 — Schizophrenia, unspecified" [ref=e3455]:
+                  - generic [ref=e3456]:
+                    - generic [ref=e3457]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e3458]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e3459]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 3/15/2024 Rapidly spreading cellulitis of the left lower leg F20.9 — Schizophrenia, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e3460] [cursor=pointer]:
+                - cell "—" [ref=e3461]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e3462]
+                - cell "3/15/2024" [ref=e3463]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e3464]
+                - cell "F20.9 — Schizophrenia, unspecified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e3465]:
+                  - generic [ref=e3466]:
+                    - generic [ref=e3467]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e3468]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 3/15/2024 Rapidly spreading cellulitis of the left lower leg C50.912 — Malignant neoplasm of unspecified site of left female breast E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I63.9 — Cerebral infarction, unspecified" [ref=e3469] [cursor=pointer]:
+                - cell "—" [ref=e3470]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e3471]
+                - cell "3/15/2024" [ref=e3472]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e3473]
+                - cell "C50.912 — Malignant neoplasm of unspecified site of left female breast E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I63.9 — Cerebral infarction, unspecified" [ref=e3474]:
+                  - generic [ref=e3475]:
+                    - generic [ref=e3476]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e3477]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e3478]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Marcus Chen 3/15/2024 Fever 38.9 °C, rigors, and night sweats for 4 days I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3479] [cursor=pointer]:
+                - cell "—" [ref=e3480]
+                - cell "Dr. Dr. Marcus Chen" [ref=e3481]
+                - cell "3/15/2024" [ref=e3482]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e3483]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3484]:
+                  - generic [ref=e3486]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Tariq Hassan 3/13/2024 Worsening dyspnea, unable to complete sentences J45.41 — Moderate persistent asthma with (acute) exacerbation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3487] [cursor=pointer]:
+                - cell "—" [ref=e3488]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e3489]
+                - cell "3/13/2024" [ref=e3490]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e3491]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3492]:
+                  - generic [ref=e3493]:
+                    - generic [ref=e3494]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e3495]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3496]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Ethan Blackwood 3/11/2024 Epigastric burning pain, worse after meals E78.00 — Pure hypercholesterolaemia, unspecified F32.1 — Major depressive disorder, single episode, moderate K74.60 — Unspecified cirrhosis of liver" [ref=e3497] [cursor=pointer]:
+                - cell "—" [ref=e3498]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e3499]
+                - cell "3/11/2024" [ref=e3500]
+                - cell "Epigastric burning pain, worse after meals" [ref=e3501]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified F32.1 — Major depressive disorder, single episode, moderate K74.60 — Unspecified cirrhosis of liver" [ref=e3502]:
+                  - generic [ref=e3503]:
+                    - generic [ref=e3504]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e3505]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e3506]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Yasmin Aziz 3/11/2024 Productive cough with yellow sputum for 5 days N39.0 — Urinary tract infection, site not specified" [ref=e3507] [cursor=pointer]:
+                - cell "—" [ref=e3508]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3509]
+                - cell "3/11/2024" [ref=e3510]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e3511]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e3512]:
+                  - generic [ref=e3514]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Yasmin Aziz 3/9/2024 Productive cough with yellow sputum for 5 days M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e3515] [cursor=pointer]:
+                - cell "—" [ref=e3516]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3517]
+                - cell "3/9/2024" [ref=e3518]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e3519]
+                - cell "M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e3520]:
+                  - generic [ref=e3521]:
+                    - generic [ref=e3522]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e3523]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Eleanor Hartmann 3/9/2024 Chest pain radiating to left arm, onset 2 hours ago I48.0 — Paroxysmal atrial fibrillation E03.9 — Hypothyroidism, unspecified M79.3 — Panniculitis, unspecified" [ref=e3524] [cursor=pointer]:
+                - cell "—" [ref=e3525]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e3526]
+                - cell "3/9/2024" [ref=e3527]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e3528]
+                - cell "I48.0 — Paroxysmal atrial fibrillation E03.9 — Hypothyroidism, unspecified M79.3 — Panniculitis, unspecified" [ref=e3529]:
+                  - generic [ref=e3530]:
+                    - generic [ref=e3531]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e3532]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e3533]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 3/8/2024 Morning stiffness in both hands lasting over 1 hour I48.0 — Paroxysmal atrial fibrillation" [ref=e3534] [cursor=pointer]:
+                - cell "—" [ref=e3535]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e3536]
+                - cell "3/8/2024" [ref=e3537]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e3538]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e3539]:
+                  - generic [ref=e3541]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Nadia Volkov 3/8/2024 Painful vesicular eruption following a dermatomal distribution I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N20.0 — Calculus of kidney J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e3542] [cursor=pointer]:
+                - cell "—" [ref=e3543]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e3544]
+                - cell "3/8/2024" [ref=e3545]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e3546]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N20.0 — Calculus of kidney J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e3547]:
+                  - generic [ref=e3548]:
+                    - generic [ref=e3549]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e3550]: N20.0 — Calculus of kidney
+                    - generic [ref=e3551]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Yasmin Aziz 3/7/2024 Shoulder pain limiting range of motion for 2 weeks N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3552] [cursor=pointer]:
+                - cell "—" [ref=e3553]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3554]
+                - cell "3/7/2024" [ref=e3555]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e3556]
+                - cell "N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3557]:
+                  - generic [ref=e3558]:
+                    - generic [ref=e3559]: N20.0 — Calculus of kidney
+                    - generic [ref=e3560]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e3561]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Marcus Chen 3/6/2024 Intermittent claudication in both calves J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I63.9 — Cerebral infarction, unspecified I10 — Essential (primary) hypertension" [ref=e3562] [cursor=pointer]:
+                - cell "—" [ref=e3563]
+                - cell "Dr. Dr. Marcus Chen" [ref=e3564]
+                - cell "3/6/2024" [ref=e3565]
+                - cell "Intermittent claudication in both calves" [ref=e3566]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I63.9 — Cerebral infarction, unspecified I10 — Essential (primary) hypertension" [ref=e3567]:
+                  - generic [ref=e3568]:
+                    - generic [ref=e3569]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3570]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e3571]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Yasmin Aziz 3/6/2024 Acute low back pain after lifting heavy objects A41.9 — Sepsis, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories F41.1 — Generalised anxiety disorder" [ref=e3572] [cursor=pointer]:
+                - cell "—" [ref=e3573]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3574]
+                - cell "3/6/2024" [ref=e3575]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e3576]
+                - cell "A41.9 — Sepsis, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories F41.1 — Generalised anxiety disorder" [ref=e3577]:
+                  - generic [ref=e3578]:
+                    - generic [ref=e3579]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e3580]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3581]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Darius Osei 3/6/2024 Annual chronic disease review — diabetes and hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3582] [cursor=pointer]:
+                - cell "—" [ref=e3583]
+                - cell "Dr. Dr. Darius Osei" [ref=e3584]
+                - cell "3/6/2024" [ref=e3585]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e3586]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3587]:
+                  - generic [ref=e3589]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Priya Krishnamurthy 3/5/2024 Widespread urticarial rash after new medication N39.0 — Urinary tract infection, site not specified" [ref=e3590] [cursor=pointer]:
+                - cell "—" [ref=e3591]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e3592]
+                - cell "3/5/2024" [ref=e3593]
+                - cell "Widespread urticarial rash after new medication" [ref=e3594]
+                - cell "N39.0 — Urinary tract infection, site not specified" [ref=e3595]:
+                  - generic [ref=e3597]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Carlos Mendoza 3/4/2024 Post-operative wound check — day 10 I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3598] [cursor=pointer]:
+                - cell "—" [ref=e3599]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3600]
+                - cell "3/4/2024" [ref=e3601]
+                - cell "Post-operative wound check — day 10" [ref=e3602]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3603]:
+                  - generic [ref=e3605]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Liam Sullivan 3/3/2024 Persistent low mood, anhedonia, and poor sleep for 6 weeks E11.65 — Type 2 diabetes mellitus with hyperglycaemia K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding L03.115 — Cellulitis of right lower limb" [ref=e3606] [cursor=pointer]:
+                - cell "—" [ref=e3607]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e3608]
+                - cell "3/3/2024" [ref=e3609]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e3610]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding L03.115 — Cellulitis of right lower limb" [ref=e3611]:
+                  - generic [ref=e3612]:
+                    - generic [ref=e3613]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e3614]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e3615]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Diego Ferreira 3/2/2024 Nocturnal wheezing and cough disturbing sleep E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3616] [cursor=pointer]:
+                - cell "—" [ref=e3617]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e3618]
+                - cell "3/2/2024" [ref=e3619]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e3620]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3621]:
+                  - generic [ref=e3623]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Rachel Kowalski 3/2/2024 Morning stiffness in both hands lasting over 1 hour M54.4 — Lumbago with sciatica, right side I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3624] [cursor=pointer]:
+                - cell "—" [ref=e3625]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e3626]
+                - cell "3/2/2024" [ref=e3627]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e3628]
+                - cell "M54.4 — Lumbago with sciatica, right side I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3629]:
+                  - generic [ref=e3630]:
+                    - generic [ref=e3631]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e3632]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Mei Zhang 3/1/2024 Auditory hallucinations and disorganised behaviour reported by carer N20.0 — Calculus of kidney K92.1 — Melaena" [ref=e3633] [cursor=pointer]:
+                - cell "—" [ref=e3634]
+                - cell "Dr. Dr. Mei Zhang" [ref=e3635]
+                - cell "3/1/2024" [ref=e3636]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e3637]
+                - cell "N20.0 — Calculus of kidney K92.1 — Melaena" [ref=e3638]:
+                  - generic [ref=e3639]:
+                    - generic [ref=e3640]: N20.0 — Calculus of kidney
+                    - generic [ref=e3641]: K92.1 — Melaena
+              - row "— Dr. Dr. James Okafor 2/29/2024 Reduced urine output and lower limb oedema for 5 days J18.9 — Pneumonia, unspecified organism" [ref=e3642] [cursor=pointer]:
+                - cell "—" [ref=e3643]
+                - cell "Dr. Dr. James Okafor" [ref=e3644]
+                - cell "2/29/2024" [ref=e3645]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e3646]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e3647]:
+                  - generic [ref=e3649]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Carlos Mendoza 2/29/2024 Increasing anxiety interfering with daily activities L03.115 — Cellulitis of right lower limb N39.0 — Urinary tract infection, site not specified" [ref=e3650] [cursor=pointer]:
+                - cell "—" [ref=e3651]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3652]
+                - cell "2/29/2024" [ref=e3653]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e3654]
+                - cell "L03.115 — Cellulitis of right lower limb N39.0 — Urinary tract infection, site not specified" [ref=e3655]:
+                  - generic [ref=e3656]:
+                    - generic [ref=e3657]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e3658]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Liam Sullivan 2/28/2024 Vaccination and travel health consultation J18.9 — Pneumonia, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3659] [cursor=pointer]:
+                - cell "—" [ref=e3660]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e3661]
+                - cell "2/28/2024" [ref=e3662]
+                - cell "Vaccination and travel health consultation" [ref=e3663]
+                - cell "J18.9 — Pneumonia, unspecified organism E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3664]:
+                  - generic [ref=e3665]:
+                    - generic [ref=e3666]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3667]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Kenji Tanaka 2/28/2024 Right-sided facial droop and arm weakness, onset 1 hour ago I10 — Essential (primary) hypertension" [ref=e3668] [cursor=pointer]:
+                - cell "—" [ref=e3669]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e3670]
+                - cell "2/28/2024" [ref=e3671]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e3672]
+                - cell "I10 — Essential (primary) hypertension" [ref=e3673]:
+                  - generic [ref=e3675]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Sienna Whitmore 2/3/2024 Dysuria, frequency, and suprapubic pain for 3 days N39.0 — Urinary tract infection, site not specified C50.912 — Malignant neoplasm of unspecified site of left female breast E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3676] [cursor=pointer]:
+                - cell "—" [ref=e3677]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e3678]
+                - cell "2/3/2024" [ref=e3679]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e3680]
+                - cell "N39.0 — Urinary tract infection, site not specified C50.912 — Malignant neoplasm of unspecified site of left female breast E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3681]:
+                  - generic [ref=e3682]:
+                    - generic [ref=e3683]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e3684]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e3685]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Kenji Tanaka 2/2/2024 Annual chronic disease review — diabetes and hypertension N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3686] [cursor=pointer]:
+                - cell "—" [ref=e3687]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e3688]
+                - cell "2/2/2024" [ref=e3689]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e3690]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e3691]:
+                  - generic [ref=e3693]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sofia Patel 1/29/2024 Reduced urine output and lower limb oedema for 5 days N39.0 — Urinary tract infection, site not specified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e3694] [cursor=pointer]:
+                - cell "—" [ref=e3695]
+                - cell "Dr. Dr. Sofia Patel" [ref=e3696]
+                - cell "1/29/2024" [ref=e3697]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e3698]
+                - cell "N39.0 — Urinary tract infection, site not specified E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified I63.9 — Cerebral infarction, unspecified" [ref=e3699]:
+                  - generic [ref=e3700]:
+                    - generic [ref=e3701]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e3702]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e3703]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Marcus Chen 1/29/2024 Flank pain with haematuria — possible renal colic J18.9 — Pneumonia, unspecified organism J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e3704] [cursor=pointer]:
+                - cell "—" [ref=e3705]
+                - cell "Dr. Dr. Marcus Chen" [ref=e3706]
+                - cell "1/29/2024" [ref=e3707]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e3708]
+                - cell "J18.9 — Pneumonia, unspecified organism J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e3709]:
+                  - generic [ref=e3710]:
+                    - generic [ref=e3711]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3712]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Amara Diallo 1/26/2024 Palpitations and shortness of breath on exertion N39.0 — Urinary tract infection, site not specified B02.9 — Zoster without complications E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e3713] [cursor=pointer]:
+                - cell "—" [ref=e3714]
+                - cell "Dr. Dr. Amara Diallo" [ref=e3715]
+                - cell "1/26/2024" [ref=e3716]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3717]
+                - cell "N39.0 — Urinary tract infection, site not specified B02.9 — Zoster without complications E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e3718]:
+                  - generic [ref=e3719]:
+                    - generic [ref=e3720]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e3721]: B02.9 — Zoster without complications
+                    - generic [ref=e3722]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Owen Fitzgerald 1/24/2024 Recurrent urinary tract infections — fourth episode this year I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3723] [cursor=pointer]:
+                - cell "—" [ref=e3724]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e3725]
+                - cell "1/24/2024" [ref=e3726]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e3727]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3728]:
+                  - generic [ref=e3730]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 1/20/2024 Painful vesicular eruption following a dermatomal distribution I10 — Essential (primary) hypertension" [ref=e3731] [cursor=pointer]:
+                - cell "—" [ref=e3732]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e3733]
+                - cell "1/20/2024" [ref=e3734]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e3735]
+                - cell "I10 — Essential (primary) hypertension" [ref=e3736]:
+                  - generic [ref=e3738]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Kenji Tanaka 1/19/2024 Pre-operative assessment for elective procedure A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e3739] [cursor=pointer]:
+                - cell "—" [ref=e3740]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e3741]
+                - cell "1/19/2024" [ref=e3742]
+                - cell "Pre-operative assessment for elective procedure" [ref=e3743]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e3744]:
+                  - generic [ref=e3746]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Chloe Nakamura 1/17/2024 Widespread urticarial rash after new medication A41.9 — Sepsis, unspecified organism" [ref=e3747] [cursor=pointer]:
+                - cell "—" [ref=e3748]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e3749]
+                - cell "1/17/2024" [ref=e3750]
+                - cell "Widespread urticarial rash after new medication" [ref=e3751]
+                - cell "A41.9 — Sepsis, unspecified organism" [ref=e3752]:
+                  - generic [ref=e3754]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Tariq Hassan 1/13/2024 Tremor, heat intolerance, and unintentional weight loss A41.9 — Sepsis, unspecified organism I10 — Essential (primary) hypertension" [ref=e3755] [cursor=pointer]:
+                - cell "—" [ref=e3756]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e3757]
+                - cell "1/13/2024" [ref=e3758]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e3759]
+                - cell "A41.9 — Sepsis, unspecified organism I10 — Essential (primary) hypertension" [ref=e3760]:
+                  - generic [ref=e3761]:
+                    - generic [ref=e3762]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e3763]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Aiden Callahan 1/12/2024 Palpitations and shortness of breath on exertion N39.0 — Urinary tract infection, site not specified K74.60 — Unspecified cirrhosis of liver N20.0 — Calculus of kidney" [ref=e3764] [cursor=pointer]:
+                - cell "—" [ref=e3765]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e3766]
+                - cell "1/12/2024" [ref=e3767]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3768]
+                - cell "N39.0 — Urinary tract infection, site not specified K74.60 — Unspecified cirrhosis of liver N20.0 — Calculus of kidney" [ref=e3769]:
+                  - generic [ref=e3770]:
+                    - generic [ref=e3771]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e3772]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e3773]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Carlos Mendoza 1/11/2024 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home N20.0 — Calculus of kidney J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3774] [cursor=pointer]:
+                - cell "—" [ref=e3775]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3776]
+                - cell "1/11/2024" [ref=e3777]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e3778]
+                - cell "N20.0 — Calculus of kidney J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation N39.0 — Urinary tract infection, site not specified" [ref=e3779]:
+                  - generic [ref=e3780]:
+                    - generic [ref=e3781]: N20.0 — Calculus of kidney
+                    - generic [ref=e3782]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3783]: N39.0 — Urinary tract infection, site not specified
+              - row "— Dr. Dr. Victor Reyes 1/10/2024 Persistent low mood, anhedonia, and poor sleep for 6 weeks E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I73.9 — Peripheral vascular disease, unspecified" [ref=e3784] [cursor=pointer]:
+                - cell "—" [ref=e3785]
+                - cell "Dr. Dr. Victor Reyes" [ref=e3786]
+                - cell "1/10/2024" [ref=e3787]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e3788]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I73.9 — Peripheral vascular disease, unspecified" [ref=e3789]:
+                  - generic [ref=e3790]:
+                    - generic [ref=e3791]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e3792]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 1/9/2024 Shoulder pain limiting range of motion for 2 weeks E78.00 — Pure hypercholesterolaemia, unspecified L03.115 — Cellulitis of right lower limb" [ref=e3793] [cursor=pointer]:
+                - cell "—" [ref=e3794]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e3795]
+                - cell "1/9/2024" [ref=e3796]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e3797]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified L03.115 — Cellulitis of right lower limb" [ref=e3798]:
+                  - generic [ref=e3799]:
+                    - generic [ref=e3800]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e3801]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. James Okafor 1/9/2024 Auditory hallucinations and disorganised behaviour reported by carer K74.60 — Unspecified cirrhosis of liver L03.115 — Cellulitis of right lower limb I73.9 — Peripheral vascular disease, unspecified" [ref=e3802] [cursor=pointer]:
+                - cell "—" [ref=e3803]
+                - cell "Dr. Dr. James Okafor" [ref=e3804]
+                - cell "1/9/2024" [ref=e3805]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e3806]
+                - cell "K74.60 — Unspecified cirrhosis of liver L03.115 — Cellulitis of right lower limb I73.9 — Peripheral vascular disease, unspecified" [ref=e3807]:
+                  - generic [ref=e3808]:
+                    - generic [ref=e3809]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e3810]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e3811]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 1/7/2024 Flank pain with haematuria — possible renal colic M16.11 — Unilateral primary osteoarthritis, right hip E66.01 — Morbid (severe) obesity due to excess calories M06.9 — Rheumatoid arthritis, unspecified" [ref=e3812] [cursor=pointer]:
+                - cell "—" [ref=e3813]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e3814]
+                - cell "1/7/2024" [ref=e3815]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e3816]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip E66.01 — Morbid (severe) obesity due to excess calories M06.9 — Rheumatoid arthritis, unspecified" [ref=e3817]:
+                  - generic [ref=e3818]:
+                    - generic [ref=e3819]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e3820]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3821]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Darius Osei 12/29/2023 Intermittent claudication in both calves I63.9 — Cerebral infarction, unspecified M06.9 — Rheumatoid arthritis, unspecified I73.9 — Peripheral vascular disease, unspecified" [ref=e3822] [cursor=pointer]:
+                - cell "—" [ref=e3823]
+                - cell "Dr. Dr. Darius Osei" [ref=e3824]
+                - cell "12/29/2023" [ref=e3825]
+                - cell "Intermittent claudication in both calves" [ref=e3826]
+                - cell "I63.9 — Cerebral infarction, unspecified M06.9 — Rheumatoid arthritis, unspecified I73.9 — Peripheral vascular disease, unspecified" [ref=e3827]:
+                  - generic [ref=e3828]:
+                    - generic [ref=e3829]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e3830]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e3831]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Kenji Tanaka 12/28/2023 Erythematous scaly plaques on elbows and scalp I50.32 — Chronic diastolic (congestive) heart failure, decompensated I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3832] [cursor=pointer]:
+                - cell "—" [ref=e3833]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e3834]
+                - cell "12/28/2023" [ref=e3835]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e3836]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e3837]:
+                  - generic [ref=e3838]:
+                    - generic [ref=e3839]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e3840]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Marcus Chen 12/26/2023 Palpitations and shortness of breath on exertion L40.0 — Psoriasis vulgaris" [ref=e3841] [cursor=pointer]:
+                - cell "—" [ref=e3842]
+                - cell "Dr. Dr. Marcus Chen" [ref=e3843]
+                - cell "12/26/2023" [ref=e3844]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e3845]
+                - cell "L40.0 — Psoriasis vulgaris" [ref=e3846]:
+                  - generic [ref=e3848]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Victor Reyes 12/26/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e3849] [cursor=pointer]:
+                - cell "—" [ref=e3850]
+                - cell "Dr. Dr. Victor Reyes" [ref=e3851]
+                - cell "12/26/2023" [ref=e3852]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e3853]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e3854]:
+                  - generic [ref=e3855]:
+                    - generic [ref=e3856]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e3857]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Eleanor Hartmann 12/26/2023 Recurrent episodes of loss of consciousness I63.9 — Cerebral infarction, unspecified" [ref=e3858] [cursor=pointer]:
+                - cell "—" [ref=e3859]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e3860]
+                - cell "12/26/2023" [ref=e3861]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e3862]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e3863]:
+                  - generic [ref=e3865]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 12/20/2023 Reduced urine output and lower limb oedema for 5 days I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3866] [cursor=pointer]:
+                - cell "—" [ref=e3867]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e3868]
+                - cell "12/20/2023" [ref=e3869]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e3870]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e3871]:
+                  - generic [ref=e3873]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. James Okafor 12/20/2023 Increasing anxiety interfering with daily activities E78.00 — Pure hypercholesterolaemia, unspecified J06.9 — Acute upper respiratory infection, unspecified M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3874] [cursor=pointer]:
+                - cell "—" [ref=e3875]
+                - cell "Dr. Dr. James Okafor" [ref=e3876]
+                - cell "12/20/2023" [ref=e3877]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e3878]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified J06.9 — Acute upper respiratory infection, unspecified M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e3879]:
+                  - generic [ref=e3880]:
+                    - generic [ref=e3881]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e3882]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e3883]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Nadia Volkov 12/19/2023 Intermittent claudication in both calves I10 — Essential (primary) hypertension F32.1 — Major depressive disorder, single episode, moderate J06.9 — Acute upper respiratory infection, unspecified" [ref=e3884] [cursor=pointer]:
+                - cell "—" [ref=e3885]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e3886]
+                - cell "12/19/2023" [ref=e3887]
+                - cell "Intermittent claudication in both calves" [ref=e3888]
+                - cell "I10 — Essential (primary) hypertension F32.1 — Major depressive disorder, single episode, moderate J06.9 — Acute upper respiratory infection, unspecified" [ref=e3889]:
+                  - generic [ref=e3890]:
+                    - generic [ref=e3891]: I10 — Essential (primary) hypertension
+                    - generic [ref=e3892]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e3893]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Sofia Patel 12/17/2023 Nocturia ×4 and weak urinary stream E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation" [ref=e3894] [cursor=pointer]:
+                - cell "—" [ref=e3895]
+                - cell "Dr. Dr. Sofia Patel" [ref=e3896]
+                - cell "12/17/2023" [ref=e3897]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e3898]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation" [ref=e3899]:
+                  - generic [ref=e3900]:
+                    - generic [ref=e3901]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e3902]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Isabelle Moreau 12/17/2023 Recurrent episodes of loss of consciousness M54.4 — Lumbago with sciatica, right side J18.9 — Pneumonia, unspecified organism" [ref=e3903] [cursor=pointer]:
+                - cell "—" [ref=e3904]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e3905]
+                - cell "12/17/2023" [ref=e3906]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e3907]
+                - cell "M54.4 — Lumbago with sciatica, right side J18.9 — Pneumonia, unspecified organism" [ref=e3908]:
+                  - generic [ref=e3909]:
+                    - generic [ref=e3910]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e3911]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Nadia Volkov 12/17/2023 Widespread urticarial rash after new medication F20.9 — Schizophrenia, unspecified I10 — Essential (primary) hypertension" [ref=e3912] [cursor=pointer]:
+                - cell "—" [ref=e3913]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e3914]
+                - cell "12/17/2023" [ref=e3915]
+                - cell "Widespread urticarial rash after new medication" [ref=e3916]
+                - cell "F20.9 — Schizophrenia, unspecified I10 — Essential (primary) hypertension" [ref=e3917]:
+                  - generic [ref=e3918]:
+                    - generic [ref=e3919]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e3920]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Amara Diallo 12/17/2023 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home J18.9 — Pneumonia, unspecified organism" [ref=e3921] [cursor=pointer]:
+                - cell "—" [ref=e3922]
+                - cell "Dr. Dr. Amara Diallo" [ref=e3923]
+                - cell "12/17/2023" [ref=e3924]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e3925]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e3926]:
+                  - generic [ref=e3928]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Diego Ferreira 12/16/2023 Rapidly spreading cellulitis of the left lower leg E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3929] [cursor=pointer]:
+                - cell "—" [ref=e3930]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e3931]
+                - cell "12/16/2023" [ref=e3932]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e3933]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e3934]:
+                  - generic [ref=e3936]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Aiden Callahan 12/15/2023 Unintentional weight loss of 8 kg over 3 months C50.912 — Malignant neoplasm of unspecified site of left female breast K74.60 — Unspecified cirrhosis of liver" [ref=e3937] [cursor=pointer]:
+                - cell "—" [ref=e3938]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e3939]
+                - cell "12/15/2023" [ref=e3940]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e3941]
+                - cell "C50.912 — Malignant neoplasm of unspecified site of left female breast K74.60 — Unspecified cirrhosis of liver" [ref=e3942]:
+                  - generic [ref=e3943]:
+                    - generic [ref=e3944]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e3945]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Yasmin Aziz 12/11/2023 Nocturnal wheezing and cough disturbing sleep F41.1 — Generalised anxiety disorder J18.9 — Pneumonia, unspecified organism C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3946] [cursor=pointer]:
+                - cell "—" [ref=e3947]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e3948]
+                - cell "12/11/2023" [ref=e3949]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e3950]
+                - cell "F41.1 — Generalised anxiety disorder J18.9 — Pneumonia, unspecified organism C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e3951]:
+                  - generic [ref=e3952]:
+                    - generic [ref=e3953]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e3954]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3955]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. James Okafor 12/11/2023 Pleuritic chest pain, worse on deep inspiration J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation A41.9 — Sepsis, unspecified organism I73.9 — Peripheral vascular disease, unspecified" [ref=e3956] [cursor=pointer]:
+                - cell "—" [ref=e3957]
+                - cell "Dr. Dr. James Okafor" [ref=e3958]
+                - cell "12/11/2023" [ref=e3959]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e3960]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation A41.9 — Sepsis, unspecified organism I73.9 — Peripheral vascular disease, unspecified" [ref=e3961]:
+                  - generic [ref=e3962]:
+                    - generic [ref=e3963]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3964]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e3965]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Mei Zhang 12/9/2023 Bilateral hand numbness and tingling at night J18.9 — Pneumonia, unspecified organism E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I10 — Essential (primary) hypertension" [ref=e3966] [cursor=pointer]:
+                - cell "—" [ref=e3967]
+                - cell "Dr. Dr. Mei Zhang" [ref=e3968]
+                - cell "12/9/2023" [ref=e3969]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e3970]
+                - cell "J18.9 — Pneumonia, unspecified organism E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I10 — Essential (primary) hypertension" [ref=e3971]:
+                  - generic [ref=e3972]:
+                    - generic [ref=e3973]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e3974]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e3975]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Nadia Volkov 12/8/2023 Sudden onset severe headache — \"worst of my life\" N18.3 — Chronic kidney disease, stage 3 (moderate) J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation F20.9 — Schizophrenia, unspecified" [ref=e3976] [cursor=pointer]:
+                - cell "—" [ref=e3977]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e3978]
+                - cell "12/8/2023" [ref=e3979]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e3980]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation F20.9 — Schizophrenia, unspecified" [ref=e3981]:
+                  - generic [ref=e3982]:
+                    - generic [ref=e3983]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e3984]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e3985]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 12/7/2023 Gait instability and recurrent falls F32.1 — Major depressive disorder, single episode, moderate I10 — Essential (primary) hypertension" [ref=e3986] [cursor=pointer]:
+                - cell "—" [ref=e3987]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e3988]
+                - cell "12/7/2023" [ref=e3989]
+                - cell "Gait instability and recurrent falls" [ref=e3990]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate I10 — Essential (primary) hypertension" [ref=e3991]:
+                  - generic [ref=e3992]:
+                    - generic [ref=e3993]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e3994]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Fatima Al-Rashid 12/7/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks E66.01 — Morbid (severe) obesity due to excess calories E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e3995] [cursor=pointer]:
+                - cell "—" [ref=e3996]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e3997]
+                - cell "12/7/2023" [ref=e3998]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e3999]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4000]:
+                  - generic [ref=e4001]:
+                    - generic [ref=e4002]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4003]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Isabelle Moreau 12/6/2023 Polyuria and polydipsia for past 2 weeks K92.1 — Melaena" [ref=e4004] [cursor=pointer]:
+                - cell "—" [ref=e4005]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e4006]
+                - cell "12/6/2023" [ref=e4007]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e4008]
+                - cell "K92.1 — Melaena" [ref=e4009]:
+                  - generic [ref=e4011]: K92.1 — Melaena
+              - row "— Dr. Dr. Owen Fitzgerald 12/3/2023 Post-operative wound check — day 10 L40.0 — Psoriasis vulgaris I10 — Essential (primary) hypertension B02.9 — Zoster without complications" [ref=e4012] [cursor=pointer]:
+                - cell "—" [ref=e4013]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e4014]
+                - cell "12/3/2023" [ref=e4015]
+                - cell "Post-operative wound check — day 10" [ref=e4016]
+                - cell "L40.0 — Psoriasis vulgaris I10 — Essential (primary) hypertension B02.9 — Zoster without complications" [ref=e4017]:
+                  - generic [ref=e4018]:
+                    - generic [ref=e4019]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e4020]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4021]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Liam Sullivan 12/3/2023 Hypertensive urgency — BP 185/110 at home K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding J45.41 — Moderate persistent asthma with (acute) exacerbation I10 — Essential (primary) hypertension" [ref=e4022] [cursor=pointer]:
+                - cell "—" [ref=e4023]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4024]
+                - cell "12/3/2023" [ref=e4025]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4026]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding J45.41 — Moderate persistent asthma with (acute) exacerbation I10 — Essential (primary) hypertension" [ref=e4027]:
+                  - generic [ref=e4028]:
+                    - generic [ref=e4029]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e4030]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e4031]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Liam Sullivan 12/1/2023 Epigastric burning pain, worse after meals J18.9 — Pneumonia, unspecified organism K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4032] [cursor=pointer]:
+                - cell "—" [ref=e4033]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4034]
+                - cell "12/1/2023" [ref=e4035]
+                - cell "Epigastric burning pain, worse after meals" [ref=e4036]
+                - cell "J18.9 — Pneumonia, unspecified organism K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4037]:
+                  - generic [ref=e4038]:
+                    - generic [ref=e4039]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e4040]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Diego Ferreira 12/1/2023 Auditory hallucinations and disorganised behaviour reported by carer A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I73.9 — Peripheral vascular disease, unspecified" [ref=e4041] [cursor=pointer]:
+                - cell "—" [ref=e4042]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e4043]
+                - cell "12/1/2023" [ref=e4044]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e4045]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I73.9 — Peripheral vascular disease, unspecified" [ref=e4046]:
+                  - generic [ref=e4047]:
+                    - generic [ref=e4048]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e4049]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 11/30/2023 Morning stiffness in both hands lasting over 1 hour E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4050] [cursor=pointer]:
+                - cell "—" [ref=e4051]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e4052]
+                - cell "11/30/2023" [ref=e4053]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e4054]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4055]:
+                  - generic [ref=e4056]:
+                    - generic [ref=e4057]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4058]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 11/29/2023 Increasing anxiety interfering with daily activities I73.9 — Peripheral vascular disease, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e4059] [cursor=pointer]:
+                - cell "—" [ref=e4060]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e4061]
+                - cell "11/29/2023" [ref=e4062]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e4063]
+                - cell "I73.9 — Peripheral vascular disease, unspecified F32.1 — Major depressive disorder, single episode, moderate" [ref=e4064]:
+                  - generic [ref=e4065]:
+                    - generic [ref=e4066]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e4067]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Aiden Callahan 11/28/2023 Acute panic attack with palpitations and sense of doom I10 — Essential (primary) hypertension" [ref=e4068] [cursor=pointer]:
+                - cell "—" [ref=e4069]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e4070]
+                - cell "11/28/2023" [ref=e4071]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e4072]
+                - cell "I10 — Essential (primary) hypertension" [ref=e4073]:
+                  - generic [ref=e4075]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Chloe Nakamura 11/27/2023 Vaccination and travel health consultation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4076] [cursor=pointer]:
+                - cell "—" [ref=e4077]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e4078]
+                - cell "11/27/2023" [ref=e4079]
+                - cell "Vaccination and travel health consultation" [ref=e4080]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4081]:
+                  - generic [ref=e4083]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Amara Diallo 11/21/2023 Hypertensive urgency — BP 185/110 at home E78.00 — Pure hypercholesterolaemia, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E03.9 — Hypothyroidism, unspecified" [ref=e4084] [cursor=pointer]:
+                - cell "—" [ref=e4085]
+                - cell "Dr. Dr. Amara Diallo" [ref=e4086]
+                - cell "11/21/2023" [ref=e4087]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4088]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris E03.9 — Hypothyroidism, unspecified" [ref=e4089]:
+                  - generic [ref=e4090]:
+                    - generic [ref=e4091]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e4092]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4093]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Mei Zhang 11/16/2023 Widespread urticarial rash after new medication E78.00 — Pure hypercholesterolaemia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4094] [cursor=pointer]:
+                - cell "—" [ref=e4095]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4096]
+                - cell "11/16/2023" [ref=e4097]
+                - cell "Widespread urticarial rash after new medication" [ref=e4098]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4099]:
+                  - generic [ref=e4100]:
+                    - generic [ref=e4101]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e4102]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Ethan Blackwood 11/13/2023 Hypertensive urgency — BP 185/110 at home N18.3 — Chronic kidney disease, stage 3 (moderate) I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4103] [cursor=pointer]:
+                - cell "—" [ref=e4104]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e4105]
+                - cell "11/13/2023" [ref=e4106]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4107]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4108]:
+                  - generic [ref=e4109]:
+                    - generic [ref=e4110]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e4111]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Tariq Hassan 11/10/2023 Nocturnal wheezing and cough disturbing sleep K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4112] [cursor=pointer]:
+                - cell "—" [ref=e4113]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4114]
+                - cell "11/10/2023" [ref=e4115]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e4116]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4117]:
+                  - generic [ref=e4119]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Victor Reyes 11/10/2023 Right-sided facial droop and arm weakness, onset 1 hour ago F20.9 — Schizophrenia, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4120] [cursor=pointer]:
+                - cell "—" [ref=e4121]
+                - cell "Dr. Dr. Victor Reyes" [ref=e4122]
+                - cell "11/10/2023" [ref=e4123]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e4124]
+                - cell "F20.9 — Schizophrenia, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4125]:
+                  - generic [ref=e4126]:
+                    - generic [ref=e4127]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e4128]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Darius Osei 11/9/2023 Pleuritic chest pain, worse on deep inspiration E03.9 — Hypothyroidism, unspecified" [ref=e4129] [cursor=pointer]:
+                - cell "—" [ref=e4130]
+                - cell "Dr. Dr. Darius Osei" [ref=e4131]
+                - cell "11/9/2023" [ref=e4132]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e4133]
+                - cell "E03.9 — Hypothyroidism, unspecified" [ref=e4134]:
+                  - generic [ref=e4136]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Yasmin Aziz 11/7/2023 Tremor, heat intolerance, and unintentional weight loss E03.9 — Hypothyroidism, unspecified" [ref=e4137] [cursor=pointer]:
+                - cell "—" [ref=e4138]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e4139]
+                - cell "11/7/2023" [ref=e4140]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e4141]
+                - cell "E03.9 — Hypothyroidism, unspecified" [ref=e4142]:
+                  - generic [ref=e4144]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Tariq Hassan 11/6/2023 Chest pain radiating to left arm, onset 2 hours ago J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4145] [cursor=pointer]:
+                - cell "—" [ref=e4146]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4147]
+                - cell "11/6/2023" [ref=e4148]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e4149]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4150]:
+                  - generic [ref=e4152]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Liam Sullivan 11/5/2023 Post-operative wound check — day 10 M54.4 — Lumbago with sciatica, right side I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4153] [cursor=pointer]:
+                - cell "—" [ref=e4154]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4155]
+                - cell "11/5/2023" [ref=e4156]
+                - cell "Post-operative wound check — day 10" [ref=e4157]
+                - cell "M54.4 — Lumbago with sciatica, right side I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4158]:
+                  - generic [ref=e4159]:
+                    - generic [ref=e4160]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e4161]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Fatima Al-Rashid 11/5/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks I48.0 — Paroxysmal atrial fibrillation E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4162] [cursor=pointer]:
+                - cell "—" [ref=e4163]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e4164]
+                - cell "11/5/2023" [ref=e4165]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e4166]
+                - cell "I48.0 — Paroxysmal atrial fibrillation E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4167]:
+                  - generic [ref=e4168]:
+                    - generic [ref=e4169]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e4170]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Mei Zhang 11/2/2023 Widespread urticarial rash after new medication K92.1 — Melaena I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K74.60 — Unspecified cirrhosis of liver" [ref=e4171] [cursor=pointer]:
+                - cell "—" [ref=e4172]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4173]
+                - cell "11/2/2023" [ref=e4174]
+                - cell "Widespread urticarial rash after new medication" [ref=e4175]
+                - cell "K92.1 — Melaena I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K74.60 — Unspecified cirrhosis of liver" [ref=e4176]:
+                  - generic [ref=e4177]:
+                    - generic [ref=e4178]: K92.1 — Melaena
+                    - generic [ref=e4179]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4180]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Ethan Blackwood 11/2/2023 Sudden onset severe headache — \"worst of my life\" J18.9 — Pneumonia, unspecified organism" [ref=e4181] [cursor=pointer]:
+                - cell "—" [ref=e4182]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e4183]
+                - cell "11/2/2023" [ref=e4184]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e4185]
+                - cell "J18.9 — Pneumonia, unspecified organism" [ref=e4186]:
+                  - generic [ref=e4188]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Diego Ferreira 10/28/2023 Tremor, heat intolerance, and unintentional weight loss A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4189] [cursor=pointer]:
+                - cell "—" [ref=e4190]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e4191]
+                - cell "10/28/2023" [ref=e4192]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e4193]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4194]:
+                  - generic [ref=e4196]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Fatima Al-Rashid 10/27/2023 Sudden onset severe headache — \"worst of my life\" J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.65 — Type 2 diabetes mellitus with hyperglycaemia A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4197] [cursor=pointer]:
+                - cell "—" [ref=e4198]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e4199]
+                - cell "10/27/2023" [ref=e4200]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e4201]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.65 — Type 2 diabetes mellitus with hyperglycaemia A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4202]:
+                  - generic [ref=e4203]:
+                    - generic [ref=e4204]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e4205]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+                    - generic [ref=e4206]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Sienna Whitmore 10/27/2023 Morning stiffness in both hands lasting over 1 hour I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4207] [cursor=pointer]:
+                - cell "—" [ref=e4208]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e4209]
+                - cell "10/27/2023" [ref=e4210]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e4211]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4212]:
+                  - generic [ref=e4214]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Sofia Patel 10/25/2023 Jaundice and right upper quadrant discomfort F20.9 — Schizophrenia, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4215] [cursor=pointer]:
+                - cell "—" [ref=e4216]
+                - cell "Dr. Dr. Sofia Patel" [ref=e4217]
+                - cell "10/25/2023" [ref=e4218]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e4219]
+                - cell "F20.9 — Schizophrenia, unspecified E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4220]:
+                  - generic [ref=e4221]:
+                    - generic [ref=e4222]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e4223]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Hannah Bergmann 10/24/2023 Pre-operative assessment for elective procedure K21.0 — Gastro-oesophageal reflux disease with oesophagitis L40.0 — Psoriasis vulgaris J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4224] [cursor=pointer]:
+                - cell "—" [ref=e4225]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e4226]
+                - cell "10/24/2023" [ref=e4227]
+                - cell "Pre-operative assessment for elective procedure" [ref=e4228]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis L40.0 — Psoriasis vulgaris J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4229]:
+                  - generic [ref=e4230]:
+                    - generic [ref=e4231]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e4232]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e4233]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Hannah Bergmann 10/24/2023 Auditory hallucinations and disorganised behaviour reported by carer N39.0 — Urinary tract infection, site not specified A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4234] [cursor=pointer]:
+                - cell "—" [ref=e4235]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e4236]
+                - cell "10/24/2023" [ref=e4237]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e4238]
+                - cell "N39.0 — Urinary tract infection, site not specified A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4239]:
+                  - generic [ref=e4240]:
+                    - generic [ref=e4241]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e4242]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Marcus Chen 10/23/2023 Rapidly spreading cellulitis of the left lower leg E78.00 — Pure hypercholesterolaemia, unspecified B02.9 — Zoster without complications" [ref=e4243] [cursor=pointer]:
+                - cell "—" [ref=e4244]
+                - cell "Dr. Dr. Marcus Chen" [ref=e4245]
+                - cell "10/23/2023" [ref=e4246]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e4247]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified B02.9 — Zoster without complications" [ref=e4248]:
+                  - generic [ref=e4249]:
+                    - generic [ref=e4250]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e4251]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Eleanor Hartmann 10/21/2023 Suicidal ideation — passive, no plan or intent I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4252] [cursor=pointer]:
+                - cell "—" [ref=e4253]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e4254]
+                - cell "10/21/2023" [ref=e4255]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e4256]
+                - cell "I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4257]:
+                  - generic [ref=e4258]:
+                    - generic [ref=e4259]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4260]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e4261]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Owen Fitzgerald 10/20/2023 Increasing anxiety interfering with daily activities E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4262] [cursor=pointer]:
+                - cell "—" [ref=e4263]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e4264]
+                - cell "10/20/2023" [ref=e4265]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e4266]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4267]:
+                  - generic [ref=e4268]:
+                    - generic [ref=e4269]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4270]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Victor Reyes 10/19/2023 Post-operative wound check — day 10 I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M54.4 — Lumbago with sciatica, right side A41.9 — Sepsis, unspecified organism" [ref=e4271] [cursor=pointer]:
+                - cell "—" [ref=e4272]
+                - cell "Dr. Dr. Victor Reyes" [ref=e4273]
+                - cell "10/19/2023" [ref=e4274]
+                - cell "Post-operative wound check — day 10" [ref=e4275]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris M54.4 — Lumbago with sciatica, right side A41.9 — Sepsis, unspecified organism" [ref=e4276]:
+                  - generic [ref=e4277]:
+                    - generic [ref=e4278]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4279]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e4280]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Sofia Patel 10/19/2023 Chest pain radiating to left arm, onset 2 hours ago M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e4281] [cursor=pointer]:
+                - cell "—" [ref=e4282]
+                - cell "Dr. Dr. Sofia Patel" [ref=e4283]
+                - cell "10/19/2023" [ref=e4284]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e4285]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e4286]:
+                  - generic [ref=e4288]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Hannah Bergmann 10/18/2023 Recurrent urinary tract infections — fourth episode this year F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis I48.0 — Paroxysmal atrial fibrillation" [ref=e4289] [cursor=pointer]:
+                - cell "—" [ref=e4290]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e4291]
+                - cell "10/18/2023" [ref=e4292]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e4293]
+                - cell "F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis I48.0 — Paroxysmal atrial fibrillation" [ref=e4294]:
+                  - generic [ref=e4295]:
+                    - generic [ref=e4296]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e4297]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e4298]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Diego Ferreira 10/17/2023 Vaccination and travel health consultation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E03.9 — Hypothyroidism, unspecified" [ref=e4299] [cursor=pointer]:
+                - cell "—" [ref=e4300]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e4301]
+                - cell "10/17/2023" [ref=e4302]
+                - cell "Vaccination and travel health consultation" [ref=e4303]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E03.9 — Hypothyroidism, unspecified" [ref=e4304]:
+                  - generic [ref=e4305]:
+                    - generic [ref=e4306]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e4307]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e4308]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 10/14/2023 Bilateral hand numbness and tingling at night J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4309] [cursor=pointer]:
+                - cell "—" [ref=e4310]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e4311]
+                - cell "10/14/2023" [ref=e4312]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e4313]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4314]:
+                  - generic [ref=e4316]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Hannah Bergmann 10/13/2023 Medication review and repeat prescriptions F32.1 — Major depressive disorder, single episode, moderate E66.01 — Morbid (severe) obesity due to excess calories E03.9 — Hypothyroidism, unspecified" [ref=e4317] [cursor=pointer]:
+                - cell "—" [ref=e4318]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e4319]
+                - cell "10/13/2023" [ref=e4320]
+                - cell "Medication review and repeat prescriptions" [ref=e4321]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate E66.01 — Morbid (severe) obesity due to excess calories E03.9 — Hypothyroidism, unspecified" [ref=e4322]:
+                  - generic [ref=e4323]:
+                    - generic [ref=e4324]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e4325]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4326]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 10/12/2023 Right knee swelling and warmth since yesterday F41.1 — Generalised anxiety disorder L03.115 — Cellulitis of right lower limb" [ref=e4327] [cursor=pointer]:
+                - cell "—" [ref=e4328]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e4329]
+                - cell "10/12/2023" [ref=e4330]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e4331]
+                - cell "F41.1 — Generalised anxiety disorder L03.115 — Cellulitis of right lower limb" [ref=e4332]:
+                  - generic [ref=e4333]:
+                    - generic [ref=e4334]: F41.1 — Generalised anxiety disorder
+                    - generic [ref=e4335]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Priya Krishnamurthy 10/11/2023 Dysuria, frequency, and suprapubic pain for 3 days M16.11 — Unilateral primary osteoarthritis, right hip J18.9 — Pneumonia, unspecified organism L03.115 — Cellulitis of right lower limb" [ref=e4336] [cursor=pointer]:
+                - cell "—" [ref=e4337]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e4338]
+                - cell "10/11/2023" [ref=e4339]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e4340]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip J18.9 — Pneumonia, unspecified organism L03.115 — Cellulitis of right lower limb" [ref=e4341]:
+                  - generic [ref=e4342]:
+                    - generic [ref=e4343]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e4344]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e4345]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Rachel Kowalski 10/7/2023 Hypertensive urgency — BP 185/110 at home N39.0 — Urinary tract infection, site not specified M79.3 — Panniculitis, unspecified" [ref=e4346] [cursor=pointer]:
+                - cell "—" [ref=e4347]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e4348]
+                - cell "10/7/2023" [ref=e4349]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4350]
+                - cell "N39.0 — Urinary tract infection, site not specified M79.3 — Panniculitis, unspecified" [ref=e4351]:
+                  - generic [ref=e4352]:
+                    - generic [ref=e4353]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e4354]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 9/28/2023 Annual chronic disease review — diabetes and hypertension N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4355] [cursor=pointer]:
+                - cell "—" [ref=e4356]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e4357]
+                - cell "9/28/2023" [ref=e4358]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e4359]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4360]:
+                  - generic [ref=e4362]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Darius Osei 9/27/2023 Post-operative wound check — day 10 K92.1 — Melaena N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4363] [cursor=pointer]:
+                - cell "—" [ref=e4364]
+                - cell "Dr. Dr. Darius Osei" [ref=e4365]
+                - cell "9/27/2023" [ref=e4366]
+                - cell "Post-operative wound check — day 10" [ref=e4367]
+                - cell "K92.1 — Melaena N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4368]:
+                  - generic [ref=e4369]:
+                    - generic [ref=e4370]: K92.1 — Melaena
+                    - generic [ref=e4371]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Isabelle Moreau 9/26/2023 Auditory hallucinations and disorganised behaviour reported by carer F32.1 — Major depressive disorder, single episode, moderate I10 — Essential (primary) hypertension E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e4372] [cursor=pointer]:
+                - cell "—" [ref=e4373]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e4374]
+                - cell "9/26/2023" [ref=e4375]
+                - cell "Auditory hallucinations and disorganised behaviour reported by carer" [ref=e4376]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate I10 — Essential (primary) hypertension E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e4377]:
+                  - generic [ref=e4378]:
+                    - generic [ref=e4379]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e4380]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4381]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Amara Diallo 9/25/2023 Progressive memory loss noticed by family over 6 months E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4382] [cursor=pointer]:
+                - cell "—" [ref=e4383]
+                - cell "Dr. Dr. Amara Diallo" [ref=e4384]
+                - cell "9/25/2023" [ref=e4385]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e4386]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I63.9 — Cerebral infarction, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4387]:
+                  - generic [ref=e4388]:
+                    - generic [ref=e4389]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4390]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e4391]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Kenji Tanaka 9/22/2023 Rapidly spreading cellulitis of the left lower leg E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified L40.0 — Psoriasis vulgaris" [ref=e4392] [cursor=pointer]:
+                - cell "—" [ref=e4393]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e4394]
+                - cell "9/22/2023" [ref=e4395]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e4396]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified L40.0 — Psoriasis vulgaris" [ref=e4397]:
+                  - generic [ref=e4398]:
+                    - generic [ref=e4399]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e4400]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Rachel Kowalski 9/21/2023 Gait instability and recurrent falls I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e4401] [cursor=pointer]:
+                - cell "—" [ref=e4402]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e4403]
+                - cell "9/21/2023" [ref=e4404]
+                - cell "Gait instability and recurrent falls" [ref=e4405]
+                - cell "I10 — Essential (primary) hypertension C18.9 — Malignant neoplasm of colon, unspecified" [ref=e4406]:
+                  - generic [ref=e4407]:
+                    - generic [ref=e4408]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4409]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 9/20/2023 Hypertensive urgency — BP 185/110 at home I10 — Essential (primary) hypertension N20.0 — Calculus of kidney L03.115 — Cellulitis of right lower limb" [ref=e4410] [cursor=pointer]:
+                - cell "—" [ref=e4411]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e4412]
+                - cell "9/20/2023" [ref=e4413]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4414]
+                - cell "I10 — Essential (primary) hypertension N20.0 — Calculus of kidney L03.115 — Cellulitis of right lower limb" [ref=e4415]:
+                  - generic [ref=e4416]:
+                    - generic [ref=e4417]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4418]: N20.0 — Calculus of kidney
+                    - generic [ref=e4419]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Eleanor Hartmann 9/20/2023 Productive cough with yellow sputum for 5 days I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4420] [cursor=pointer]:
+                - cell "—" [ref=e4421]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e4422]
+                - cell "9/20/2023" [ref=e4423]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e4424]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e4425]:
+                  - generic [ref=e4427]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Priya Krishnamurthy 9/19/2023 Recurrent urinary tract infections — fourth episode this year E78.00 — Pure hypercholesterolaemia, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e4428] [cursor=pointer]:
+                - cell "—" [ref=e4429]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e4430]
+                - cell "9/19/2023" [ref=e4431]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e4432]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e4433]:
+                  - generic [ref=e4434]:
+                    - generic [ref=e4435]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e4436]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. Mei Zhang 9/18/2023 Nocturia ×4 and weak urinary stream I48.0 — Paroxysmal atrial fibrillation E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e4437] [cursor=pointer]:
+                - cell "—" [ref=e4438]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4439]
+                - cell "9/18/2023" [ref=e4440]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4441]
+                - cell "I48.0 — Paroxysmal atrial fibrillation E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis" [ref=e4442]:
+                  - generic [ref=e4443]:
+                    - generic [ref=e4444]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e4445]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+              - row "— Dr. Dr. Carlos Mendoza 9/18/2023 Acute low back pain after lifting heavy objects I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis N20.0 — Calculus of kidney" [ref=e4446] [cursor=pointer]:
+                - cell "—" [ref=e4447]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e4448]
+                - cell "9/18/2023" [ref=e4449]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e4450]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis N20.0 — Calculus of kidney" [ref=e4451]:
+                  - generic [ref=e4452]:
+                    - generic [ref=e4453]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e4454]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4455]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. James Okafor 9/17/2023 Acute onset severe abdominal pain, periumbilical J45.41 — Moderate persistent asthma with (acute) exacerbation I10 — Essential (primary) hypertension E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4456] [cursor=pointer]:
+                - cell "—" [ref=e4457]
+                - cell "Dr. Dr. James Okafor" [ref=e4458]
+                - cell "9/17/2023" [ref=e4459]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e4460]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I10 — Essential (primary) hypertension E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4461]:
+                  - generic [ref=e4462]:
+                    - generic [ref=e4463]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e4464]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4465]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Darius Osei 9/17/2023 Hypertensive urgency — BP 185/110 at home E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4466] [cursor=pointer]:
+                - cell "—" [ref=e4467]
+                - cell "Dr. Dr. Darius Osei" [ref=e4468]
+                - cell "9/17/2023" [ref=e4469]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4470]
+                - cell "E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4471]:
+                  - generic [ref=e4473]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Chloe Nakamura 9/17/2023 Hemoptysis — small amount noted this morning I48.0 — Paroxysmal atrial fibrillation" [ref=e4474] [cursor=pointer]:
+                - cell "—" [ref=e4475]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e4476]
+                - cell "9/17/2023" [ref=e4477]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e4478]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e4479]:
+                  - generic [ref=e4481]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Nadia Volkov 9/17/2023 Nausea, vomiting, and inability to tolerate fluids for 48 hours M06.9 — Rheumatoid arthritis, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4482] [cursor=pointer]:
+                - cell "—" [ref=e4483]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e4484]
+                - cell "9/17/2023" [ref=e4485]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e4486]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4487]:
+                  - generic [ref=e4488]:
+                    - generic [ref=e4489]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e4490]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Yasmin Aziz 9/17/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks F20.9 — Schizophrenia, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4491] [cursor=pointer]:
+                - cell "—" [ref=e4492]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e4493]
+                - cell "9/17/2023" [ref=e4494]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e4495]
+                - cell "F20.9 — Schizophrenia, unspecified J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4496]:
+                  - generic [ref=e4497]:
+                    - generic [ref=e4498]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e4499]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Tariq Hassan 9/12/2023 Epigastric burning pain, worse after meals J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip C18.9 — Malignant neoplasm of colon, unspecified" [ref=e4500] [cursor=pointer]:
+                - cell "—" [ref=e4501]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4502]
+                - cell "9/12/2023" [ref=e4503]
+                - cell "Epigastric burning pain, worse after meals" [ref=e4504]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip C18.9 — Malignant neoplasm of colon, unspecified" [ref=e4505]:
+                  - generic [ref=e4506]:
+                    - generic [ref=e4507]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e4508]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e4509]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 9/9/2023 Erythematous scaly plaques on elbows and scalp I63.9 — Cerebral infarction, unspecified" [ref=e4510] [cursor=pointer]:
+                - cell "—" [ref=e4511]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e4512]
+                - cell "9/9/2023" [ref=e4513]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e4514]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e4515]:
+                  - generic [ref=e4517]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Liam Sullivan 9/8/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks I73.9 — Peripheral vascular disease, unspecified" [ref=e4518] [cursor=pointer]:
+                - cell "—" [ref=e4519]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4520]
+                - cell "9/8/2023" [ref=e4521]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e4522]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e4523]:
+                  - generic [ref=e4525]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 9/7/2023 Annual chronic disease review — diabetes and hypertension J45.41 — Moderate persistent asthma with (acute) exacerbation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4526] [cursor=pointer]:
+                - cell "—" [ref=e4527]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e4528]
+                - cell "9/7/2023" [ref=e4529]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e4530]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4531]:
+                  - generic [ref=e4532]:
+                    - generic [ref=e4533]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e4534]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e4535]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Aiden Callahan 9/5/2023 Acute panic attack with palpitations and sense of doom I10 — Essential (primary) hypertension E66.01 — Morbid (severe) obesity due to excess calories N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4536] [cursor=pointer]:
+                - cell "—" [ref=e4537]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e4538]
+                - cell "9/5/2023" [ref=e4539]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e4540]
+                - cell "I10 — Essential (primary) hypertension E66.01 — Morbid (severe) obesity due to excess calories N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4541]:
+                  - generic [ref=e4542]:
+                    - generic [ref=e4543]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4544]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4545]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Fatima Al-Rashid 9/3/2023 Erythematous scaly plaques on elbows and scalp K74.60 — Unspecified cirrhosis of liver M06.9 — Rheumatoid arthritis, unspecified A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4546] [cursor=pointer]:
+                - cell "—" [ref=e4547]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e4548]
+                - cell "9/3/2023" [ref=e4549]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e4550]
+                - cell "K74.60 — Unspecified cirrhosis of liver M06.9 — Rheumatoid arthritis, unspecified A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e4551]:
+                  - generic [ref=e4552]:
+                    - generic [ref=e4553]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e4554]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e4555]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Tariq Hassan 9/1/2023 Recurrent episodes of loss of consciousness I48.0 — Paroxysmal atrial fibrillation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4556] [cursor=pointer]:
+                - cell "—" [ref=e4557]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4558]
+                - cell "9/1/2023" [ref=e4559]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e4560]
+                - cell "I48.0 — Paroxysmal atrial fibrillation J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4561]:
+                  - generic [ref=e4562]:
+                    - generic [ref=e4563]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e4564]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Marcus Chen 9/1/2023 Annual chronic disease review — diabetes and hypertension E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4565] [cursor=pointer]:
+                - cell "—" [ref=e4566]
+                - cell "Dr. Dr. Marcus Chen" [ref=e4567]
+                - cell "9/1/2023" [ref=e4568]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e4569]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories" [ref=e4570]:
+                  - generic [ref=e4572]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Eleanor Hartmann 9/1/2023 Widespread urticarial rash after new medication M54.4 — Lumbago with sciatica, right side E03.9 — Hypothyroidism, unspecified L03.115 — Cellulitis of right lower limb" [ref=e4573] [cursor=pointer]:
+                - cell "—" [ref=e4574]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e4575]
+                - cell "9/1/2023" [ref=e4576]
+                - cell "Widespread urticarial rash after new medication" [ref=e4577]
+                - cell "M54.4 — Lumbago with sciatica, right side E03.9 — Hypothyroidism, unspecified L03.115 — Cellulitis of right lower limb" [ref=e4578]:
+                  - generic [ref=e4579]:
+                    - generic [ref=e4580]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e4581]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e4582]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Kenji Tanaka 8/30/2023 Nocturia ×4 and weak urinary stream K21.0 — Gastro-oesophageal reflux disease with oesophagitis E66.01 — Morbid (severe) obesity due to excess calories N20.0 — Calculus of kidney" [ref=e4583] [cursor=pointer]:
+                - cell "—" [ref=e4584]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e4585]
+                - cell "8/30/2023" [ref=e4586]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4587]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis E66.01 — Morbid (severe) obesity due to excess calories N20.0 — Calculus of kidney" [ref=e4588]:
+                  - generic [ref=e4589]:
+                    - generic [ref=e4590]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e4591]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4592]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Yasmin Aziz 8/29/2023 Hypertensive urgency — BP 185/110 at home N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4593] [cursor=pointer]:
+                - cell "—" [ref=e4594]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e4595]
+                - cell "8/29/2023" [ref=e4596]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4597]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4598]:
+                  - generic [ref=e4600]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sofia Patel 8/28/2023 Suicidal ideation — passive, no plan or intent L40.0 — Psoriasis vulgaris E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4601] [cursor=pointer]:
+                - cell "—" [ref=e4602]
+                - cell "Dr. Dr. Sofia Patel" [ref=e4603]
+                - cell "8/28/2023" [ref=e4604]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e4605]
+                - cell "L40.0 — Psoriasis vulgaris E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4606]:
+                  - generic [ref=e4607]:
+                    - generic [ref=e4608]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e4609]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4610]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Amara Diallo 8/26/2023 Nocturnal wheezing and cough disturbing sleep I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4611] [cursor=pointer]:
+                - cell "—" [ref=e4612]
+                - cell "Dr. Dr. Amara Diallo" [ref=e4613]
+                - cell "8/26/2023" [ref=e4614]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e4615]
+                - cell "I10 — Essential (primary) hypertension E03.9 — Hypothyroidism, unspecified N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4616]:
+                  - generic [ref=e4617]:
+                    - generic [ref=e4618]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4619]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e4620]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Owen Fitzgerald 8/23/2023 Nocturia ×4 and weak urinary stream I10 — Essential (primary) hypertension I48.0 — Paroxysmal atrial fibrillation" [ref=e4621] [cursor=pointer]:
+                - cell "—" [ref=e4622]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e4623]
+                - cell "8/23/2023" [ref=e4624]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4625]
+                - cell "I10 — Essential (primary) hypertension I48.0 — Paroxysmal atrial fibrillation" [ref=e4626]:
+                  - generic [ref=e4627]:
+                    - generic [ref=e4628]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4629]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Marcus Chen 8/20/2023 Erythematous scaly plaques on elbows and scalp I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4630] [cursor=pointer]:
+                - cell "—" [ref=e4631]
+                - cell "Dr. Dr. Marcus Chen" [ref=e4632]
+                - cell "8/20/2023" [ref=e4633]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e4634]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4635]:
+                  - generic [ref=e4636]:
+                    - generic [ref=e4637]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e4638]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. James Okafor 8/18/2023 Hemoptysis — small amount noted this morning F32.1 — Major depressive disorder, single episode, moderate I50.32 — Chronic diastolic (congestive) heart failure, decompensated M54.4 — Lumbago with sciatica, right side" [ref=e4639] [cursor=pointer]:
+                - cell "—" [ref=e4640]
+                - cell "Dr. Dr. James Okafor" [ref=e4641]
+                - cell "8/18/2023" [ref=e4642]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e4643]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate I50.32 — Chronic diastolic (congestive) heart failure, decompensated M54.4 — Lumbago with sciatica, right side" [ref=e4644]:
+                  - generic [ref=e4645]:
+                    - generic [ref=e4646]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e4647]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e4648]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Sienna Whitmore 8/17/2023 Bilateral hand numbness and tingling at night I73.9 — Peripheral vascular disease, unspecified L03.115 — Cellulitis of right lower limb F41.1 — Generalised anxiety disorder" [ref=e4649] [cursor=pointer]:
+                - cell "—" [ref=e4650]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e4651]
+                - cell "8/17/2023" [ref=e4652]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e4653]
+                - cell "I73.9 — Peripheral vascular disease, unspecified L03.115 — Cellulitis of right lower limb F41.1 — Generalised anxiety disorder" [ref=e4654]:
+                  - generic [ref=e4655]:
+                    - generic [ref=e4656]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e4657]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e4658]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Carlos Mendoza 8/16/2023 Intermittent claudication in both calves N20.0 — Calculus of kidney J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4659] [cursor=pointer]:
+                - cell "—" [ref=e4660]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e4661]
+                - cell "8/16/2023" [ref=e4662]
+                - cell "Intermittent claudication in both calves" [ref=e4663]
+                - cell "N20.0 — Calculus of kidney J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e4664]:
+                  - generic [ref=e4665]:
+                    - generic [ref=e4666]: N20.0 — Calculus of kidney
+                    - generic [ref=e4667]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Carlos Mendoza 8/15/2023 Bilateral hand numbness and tingling at night F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4668] [cursor=pointer]:
+                - cell "—" [ref=e4669]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e4670]
+                - cell "8/15/2023" [ref=e4671]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e4672]
+                - cell "F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4673]:
+                  - generic [ref=e4674]:
+                    - generic [ref=e4675]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e4676]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Chloe Nakamura 8/14/2023 Nocturia ×4 and weak urinary stream J45.41 — Moderate persistent asthma with (acute) exacerbation C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e4677] [cursor=pointer]:
+                - cell "—" [ref=e4678]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e4679]
+                - cell "8/14/2023" [ref=e4680]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4681]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e4682]:
+                  - generic [ref=e4683]:
+                    - generic [ref=e4684]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e4685]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Isabelle Moreau 8/13/2023 Productive cough with yellow sputum for 5 days K74.60 — Unspecified cirrhosis of liver E03.9 — Hypothyroidism, unspecified" [ref=e4686] [cursor=pointer]:
+                - cell "—" [ref=e4687]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e4688]
+                - cell "8/13/2023" [ref=e4689]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e4690]
+                - cell "K74.60 — Unspecified cirrhosis of liver E03.9 — Hypothyroidism, unspecified" [ref=e4691]:
+                  - generic [ref=e4692]:
+                    - generic [ref=e4693]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e4694]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Eleanor Hartmann 8/13/2023 Productive cough with yellow sputum for 5 days N39.0 — Urinary tract infection, site not specified M79.3 — Panniculitis, unspecified" [ref=e4695] [cursor=pointer]:
+                - cell "—" [ref=e4696]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e4697]
+                - cell "8/13/2023" [ref=e4698]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e4699]
+                - cell "N39.0 — Urinary tract infection, site not specified M79.3 — Panniculitis, unspecified" [ref=e4700]:
+                  - generic [ref=e4701]:
+                    - generic [ref=e4702]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e4703]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 8/12/2023 Worsening dyspnea, unable to complete sentences F32.1 — Major depressive disorder, single episode, moderate I48.0 — Paroxysmal atrial fibrillation" [ref=e4704] [cursor=pointer]:
+                - cell "—" [ref=e4705]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e4706]
+                - cell "8/12/2023" [ref=e4707]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e4708]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate I48.0 — Paroxysmal atrial fibrillation" [ref=e4709]:
+                  - generic [ref=e4710]:
+                    - generic [ref=e4711]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e4712]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Kenji Tanaka 8/12/2023 Painful vesicular eruption following a dermatomal distribution I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4713] [cursor=pointer]:
+                - cell "—" [ref=e4714]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e4715]
+                - cell "8/12/2023" [ref=e4716]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e4717]
+                - cell "I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4718]:
+                  - generic [ref=e4719]:
+                    - generic [ref=e4720]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4721]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e4722]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Victor Reyes 8/11/2023 Progressive memory loss noticed by family over 6 months E03.9 — Hypothyroidism, unspecified" [ref=e4723] [cursor=pointer]:
+                - cell "—" [ref=e4724]
+                - cell "Dr. Dr. Victor Reyes" [ref=e4725]
+                - cell "8/11/2023" [ref=e4726]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e4727]
+                - cell "E03.9 — Hypothyroidism, unspecified" [ref=e4728]:
+                  - generic [ref=e4730]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Sienna Whitmore 8/11/2023 Polyuria and polydipsia for past 2 weeks E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation" [ref=e4731] [cursor=pointer]:
+                - cell "—" [ref=e4732]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e4733]
+                - cell "8/11/2023" [ref=e4734]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e4735]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I48.0 — Paroxysmal atrial fibrillation" [ref=e4736]:
+                  - generic [ref=e4737]:
+                    - generic [ref=e4738]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e4739]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Victor Reyes 8/9/2023 Productive cough with yellow sputum for 5 days K21.0 — Gastro-oesophageal reflux disease with oesophagitis E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e4740] [cursor=pointer]:
+                - cell "—" [ref=e4741]
+                - cell "Dr. Dr. Victor Reyes" [ref=e4742]
+                - cell "8/9/2023" [ref=e4743]
+                - cell "Productive cough with yellow sputum for 5 days" [ref=e4744]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis E03.9 — Hypothyroidism, unspecified N20.0 — Calculus of kidney" [ref=e4745]:
+                  - generic [ref=e4746]:
+                    - generic [ref=e4747]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e4748]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e4749]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Kenji Tanaka 8/8/2023 Gait instability and recurrent falls F20.9 — Schizophrenia, unspecified" [ref=e4750] [cursor=pointer]:
+                - cell "—" [ref=e4751]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e4752]
+                - cell "8/8/2023" [ref=e4753]
+                - cell "Gait instability and recurrent falls" [ref=e4754]
+                - cell "F20.9 — Schizophrenia, unspecified" [ref=e4755]:
+                  - generic [ref=e4757]: F20.9 — Schizophrenia, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 8/7/2023 Tremor, heat intolerance, and unintentional weight loss F32.1 — Major depressive disorder, single episode, moderate" [ref=e4758] [cursor=pointer]:
+                - cell "—" [ref=e4759]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e4760]
+                - cell "8/7/2023" [ref=e4761]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e4762]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate" [ref=e4763]:
+                  - generic [ref=e4765]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Aiden Callahan 8/7/2023 Right knee swelling and warmth since yesterday I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J06.9 — Acute upper respiratory infection, unspecified" [ref=e4766] [cursor=pointer]:
+                - cell "—" [ref=e4767]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e4768]
+                - cell "8/7/2023" [ref=e4769]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e4770]
+                - cell "I10 — Essential (primary) hypertension I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J06.9 — Acute upper respiratory infection, unspecified" [ref=e4771]:
+                  - generic [ref=e4772]:
+                    - generic [ref=e4773]: I10 — Essential (primary) hypertension
+                    - generic [ref=e4774]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4775]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Rachel Kowalski 8/5/2023 Rectal bleeding noted for 3 days, bright red I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e4776] [cursor=pointer]:
+                - cell "—" [ref=e4777]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e4778]
+                - cell "8/5/2023" [ref=e4779]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e4780]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E03.9 — Hypothyroidism, unspecified" [ref=e4781]:
+                  - generic [ref=e4782]:
+                    - generic [ref=e4783]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e4784]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Rachel Kowalski 8/5/2023 Hemoptysis — small amount noted this morning E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4785] [cursor=pointer]:
+                - cell "—" [ref=e4786]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e4787]
+                - cell "8/5/2023" [ref=e4788]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e4789]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K21.0 — Gastro-oesophageal reflux disease with oesophagitis" [ref=e4790]:
+                  - generic [ref=e4791]:
+                    - generic [ref=e4792]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4793]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+              - row "— Dr. Dr. Owen Fitzgerald 7/30/2023 Pre-operative assessment for elective procedure J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4794] [cursor=pointer]:
+                - cell "—" [ref=e4795]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e4796]
+                - cell "7/30/2023" [ref=e4797]
+                - cell "Pre-operative assessment for elective procedure" [ref=e4798]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4799]:
+                  - generic [ref=e4800]:
+                    - generic [ref=e4801]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e4802]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Ethan Blackwood 7/30/2023 Post-operative wound check — day 10 E03.9 — Hypothyroidism, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4803] [cursor=pointer]:
+                - cell "—" [ref=e4804]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e4805]
+                - cell "7/30/2023" [ref=e4806]
+                - cell "Post-operative wound check — day 10" [ref=e4807]
+                - cell "E03.9 — Hypothyroidism, unspecified J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e4808]:
+                  - generic [ref=e4809]:
+                    - generic [ref=e4810]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e4811]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Yasmin Aziz 7/25/2023 Intermittent claudication in both calves C18.9 — Malignant neoplasm of colon, unspecified B02.9 — Zoster without complications" [ref=e4812] [cursor=pointer]:
+                - cell "—" [ref=e4813]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e4814]
+                - cell "7/25/2023" [ref=e4815]
+                - cell "Intermittent claudication in both calves" [ref=e4816]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified B02.9 — Zoster without complications" [ref=e4817]:
+                  - generic [ref=e4818]:
+                    - generic [ref=e4819]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e4820]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Marcus Chen 7/25/2023 Hypertensive urgency — BP 185/110 at home E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis J06.9 — Acute upper respiratory infection, unspecified M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e4821] [cursor=pointer]:
+                - cell "—" [ref=e4822]
+                - cell "Dr. Dr. Marcus Chen" [ref=e4823]
+                - cell "7/25/2023" [ref=e4824]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4825]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis J06.9 — Acute upper respiratory infection, unspecified M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e4826]:
+                  - generic [ref=e4827]:
+                    - generic [ref=e4828]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4829]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e4830]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Darius Osei 7/25/2023 Fever 38.9 °C, rigors, and night sweats for 4 days N18.3 — Chronic kidney disease, stage 3 (moderate) C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e4831] [cursor=pointer]:
+                - cell "—" [ref=e4832]
+                - cell "Dr. Dr. Darius Osei" [ref=e4833]
+                - cell "7/25/2023" [ref=e4834]
+                - cell "Fever 38.9 °C, rigors, and night sweats for 4 days" [ref=e4835]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e4836]:
+                  - generic [ref=e4837]:
+                    - generic [ref=e4838]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e4839]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Amara Diallo 7/25/2023 Hemoptysis — small amount noted this morning J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4840] [cursor=pointer]:
+                - cell "—" [ref=e4841]
+                - cell "Dr. Dr. Amara Diallo" [ref=e4842]
+                - cell "7/25/2023" [ref=e4843]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e4844]
+                - cell "J18.9 — Pneumonia, unspecified organism E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e4845]:
+                  - generic [ref=e4846]:
+                    - generic [ref=e4847]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e4848]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Aiden Callahan 7/24/2023 Nocturia ×4 and weak urinary stream J45.41 — Moderate persistent asthma with (acute) exacerbation I48.0 — Paroxysmal atrial fibrillation" [ref=e4849] [cursor=pointer]:
+                - cell "—" [ref=e4850]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e4851]
+                - cell "7/24/2023" [ref=e4852]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4853]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation I48.0 — Paroxysmal atrial fibrillation" [ref=e4854]:
+                  - generic [ref=e4855]:
+                    - generic [ref=e4856]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e4857]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Isabelle Moreau 7/24/2023 Right knee swelling and warmth since yesterday A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4858] [cursor=pointer]:
+                - cell "—" [ref=e4859]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e4860]
+                - cell "7/24/2023" [ref=e4861]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e4862]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e4863]:
+                  - generic [ref=e4864]:
+                    - generic [ref=e4865]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e4866]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Tariq Hassan 7/22/2023 Hypoglycaemic episode — blood glucose 2.8 mmol/L at home I10 — Essential (primary) hypertension" [ref=e4867] [cursor=pointer]:
+                - cell "—" [ref=e4868]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4869]
+                - cell "7/22/2023" [ref=e4870]
+                - cell "Hypoglycaemic episode — blood glucose 2.8 mmol/L at home" [ref=e4871]
+                - cell "I10 — Essential (primary) hypertension" [ref=e4872]:
+                  - generic [ref=e4874]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Fatima Al-Rashid 7/21/2023 Acute panic attack with palpitations and sense of doom M06.9 — Rheumatoid arthritis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N20.0 — Calculus of kidney" [ref=e4875] [cursor=pointer]:
+                - cell "—" [ref=e4876]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e4877]
+                - cell "7/21/2023" [ref=e4878]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e4879]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N20.0 — Calculus of kidney" [ref=e4880]:
+                  - generic [ref=e4881]:
+                    - generic [ref=e4882]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e4883]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4884]: N20.0 — Calculus of kidney
+              - row "— Dr. Dr. Liam Sullivan 7/20/2023 Rapidly spreading cellulitis of the left lower leg F41.1 — Generalised anxiety disorder" [ref=e4885] [cursor=pointer]:
+                - cell "—" [ref=e4886]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4887]
+                - cell "7/20/2023" [ref=e4888]
+                - cell "Rapidly spreading cellulitis of the left lower leg" [ref=e4889]
+                - cell "F41.1 — Generalised anxiety disorder" [ref=e4890]:
+                  - generic [ref=e4892]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Ethan Blackwood 7/19/2023 Dysuria, frequency, and suprapubic pain for 3 days I50.32 — Chronic diastolic (congestive) heart failure, decompensated I48.0 — Paroxysmal atrial fibrillation" [ref=e4893] [cursor=pointer]:
+                - cell "—" [ref=e4894]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e4895]
+                - cell "7/19/2023" [ref=e4896]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e4897]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated I48.0 — Paroxysmal atrial fibrillation" [ref=e4898]:
+                  - generic [ref=e4899]:
+                    - generic [ref=e4900]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e4901]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Mei Zhang 7/19/2023 Hypertensive urgency — BP 185/110 at home I73.9 — Peripheral vascular disease, unspecified" [ref=e4902] [cursor=pointer]:
+                - cell "—" [ref=e4903]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4904]
+                - cell "7/19/2023" [ref=e4905]
+                - cell "Hypertensive urgency — BP 185/110 at home" [ref=e4906]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e4907]:
+                  - generic [ref=e4909]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Diego Ferreira 7/16/2023 Increasing anxiety interfering with daily activities I73.9 — Peripheral vascular disease, unspecified" [ref=e4910] [cursor=pointer]:
+                - cell "—" [ref=e4911]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e4912]
+                - cell "7/16/2023" [ref=e4913]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e4914]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e4915]:
+                  - generic [ref=e4917]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 7/16/2023 Nocturia ×4 and weak urinary stream K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4918] [cursor=pointer]:
+                - cell "—" [ref=e4919]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e4920]
+                - cell "7/16/2023" [ref=e4921]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4922]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e4923]:
+                  - generic [ref=e4925]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Amara Diallo 7/15/2023 Flank pain with haematuria — possible renal colic E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I48.0 — Paroxysmal atrial fibrillation" [ref=e4926] [cursor=pointer]:
+                - cell "—" [ref=e4927]
+                - cell "Dr. Dr. Amara Diallo" [ref=e4928]
+                - cell "7/15/2023" [ref=e4929]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e4930]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin I48.0 — Paroxysmal atrial fibrillation" [ref=e4931]:
+                  - generic [ref=e4932]:
+                    - generic [ref=e4933]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4934]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e4935]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Darius Osei 7/11/2023 Worsening dyspnea, unable to complete sentences K21.0 — Gastro-oesophageal reflux disease with oesophagitis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4936] [cursor=pointer]:
+                - cell "—" [ref=e4937]
+                - cell "Dr. Dr. Darius Osei" [ref=e4938]
+                - cell "7/11/2023" [ref=e4939]
+                - cell "Worsening dyspnea, unable to complete sentences" [ref=e4940]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e4941]:
+                  - generic [ref=e4942]:
+                    - generic [ref=e4943]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e4944]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Liam Sullivan 7/11/2023 Acute panic attack with palpitations and sense of doom E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e4945] [cursor=pointer]:
+                - cell "—" [ref=e4946]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e4947]
+                - cell "7/11/2023" [ref=e4948]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e4949]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e4950]:
+                  - generic [ref=e4951]:
+                    - generic [ref=e4952]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e4953]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e4954]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Chloe Nakamura 7/11/2023 Sudden onset severe headache — \"worst of my life\" F32.1 — Major depressive disorder, single episode, moderate M54.4 — Lumbago with sciatica, right side K74.60 — Unspecified cirrhosis of liver" [ref=e4955] [cursor=pointer]:
+                - cell "—" [ref=e4956]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e4957]
+                - cell "7/11/2023" [ref=e4958]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e4959]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate M54.4 — Lumbago with sciatica, right side K74.60 — Unspecified cirrhosis of liver" [ref=e4960]:
+                  - generic [ref=e4961]:
+                    - generic [ref=e4962]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e4963]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e4964]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Mei Zhang 7/10/2023 Bilateral hand numbness and tingling at night B02.9 — Zoster without complications I63.9 — Cerebral infarction, unspecified" [ref=e4965] [cursor=pointer]:
+                - cell "—" [ref=e4966]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4967]
+                - cell "7/10/2023" [ref=e4968]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e4969]
+                - cell "B02.9 — Zoster without complications I63.9 — Cerebral infarction, unspecified" [ref=e4970]:
+                  - generic [ref=e4971]:
+                    - generic [ref=e4972]: B02.9 — Zoster without complications
+                    - generic [ref=e4973]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Victor Reyes 7/10/2023 Nocturia ×4 and weak urinary stream I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4974] [cursor=pointer]:
+                - cell "—" [ref=e4975]
+                - cell "Dr. Dr. Victor Reyes" [ref=e4976]
+                - cell "7/10/2023" [ref=e4977]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e4978]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e4979]:
+                  - generic [ref=e4980]:
+                    - generic [ref=e4981]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e4982]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e4983]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Tariq Hassan 7/6/2023 Gait instability and recurrent falls J06.9 — Acute upper respiratory infection, unspecified F41.1 — Generalised anxiety disorder" [ref=e4984] [cursor=pointer]:
+                - cell "—" [ref=e4985]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e4986]
+                - cell "7/6/2023" [ref=e4987]
+                - cell "Gait instability and recurrent falls" [ref=e4988]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified F41.1 — Generalised anxiety disorder" [ref=e4989]:
+                  - generic [ref=e4990]:
+                    - generic [ref=e4991]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e4992]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Mei Zhang 3/30/2023 Sudden onset severe headache — \"worst of my life\" C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side I63.9 — Cerebral infarction, unspecified" [ref=e4993] [cursor=pointer]:
+                - cell "—" [ref=e4994]
+                - cell "Dr. Dr. Mei Zhang" [ref=e4995]
+                - cell "3/30/2023" [ref=e4996]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e4997]
+                - cell "C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side I63.9 — Cerebral infarction, unspecified" [ref=e4998]:
+                  - generic [ref=e4999]:
+                    - generic [ref=e5000]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e5001]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Darius Osei 3/30/2023 Annual chronic disease review — diabetes and hypertension M79.3 — Panniculitis, unspecified K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding L03.115 — Cellulitis of right lower limb" [ref=e5002] [cursor=pointer]:
+                - cell "—" [ref=e5003]
+                - cell "Dr. Dr. Darius Osei" [ref=e5004]
+                - cell "3/30/2023" [ref=e5005]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e5006]
+                - cell "M79.3 — Panniculitis, unspecified K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding L03.115 — Cellulitis of right lower limb" [ref=e5007]:
+                  - generic [ref=e5008]:
+                    - generic [ref=e5009]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e5010]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e5011]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Diego Ferreira 3/30/2023 Chest pain radiating to left arm, onset 2 hours ago E66.01 — Morbid (severe) obesity due to excess calories I50.32 — Chronic diastolic (congestive) heart failure, decompensated F41.1 — Generalised anxiety disorder" [ref=e5012] [cursor=pointer]:
+                - cell "—" [ref=e5013]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e5014]
+                - cell "3/30/2023" [ref=e5015]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e5016]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories I50.32 — Chronic diastolic (congestive) heart failure, decompensated F41.1 — Generalised anxiety disorder" [ref=e5017]:
+                  - generic [ref=e5018]:
+                    - generic [ref=e5019]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e5020]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e5021]: F41.1 — Generalised anxiety disorder
+              - row "— Dr. Dr. Rachel Kowalski 3/29/2023 Morning stiffness in both hands lasting over 1 hour N20.0 — Calculus of kidney I48.0 — Paroxysmal atrial fibrillation" [ref=e5022] [cursor=pointer]:
+                - cell "—" [ref=e5023]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e5024]
+                - cell "3/29/2023" [ref=e5025]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e5026]
+                - cell "N20.0 — Calculus of kidney I48.0 — Paroxysmal atrial fibrillation" [ref=e5027]:
+                  - generic [ref=e5028]:
+                    - generic [ref=e5029]: N20.0 — Calculus of kidney
+                    - generic [ref=e5030]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Ethan Blackwood 3/29/2023 Acute panic attack with palpitations and sense of doom I48.0 — Paroxysmal atrial fibrillation" [ref=e5031] [cursor=pointer]:
+                - cell "—" [ref=e5032]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e5033]
+                - cell "3/29/2023" [ref=e5034]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e5035]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e5036]:
+                  - generic [ref=e5038]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Ethan Blackwood 3/28/2023 Acute onset severe abdominal pain, periumbilical A41.9 — Sepsis, unspecified organism I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5039] [cursor=pointer]:
+                - cell "—" [ref=e5040]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e5041]
+                - cell "3/28/2023" [ref=e5042]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e5043]
+                - cell "A41.9 — Sepsis, unspecified organism I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5044]:
+                  - generic [ref=e5045]:
+                    - generic [ref=e5046]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e5047]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Yasmin Aziz 3/28/2023 Bilateral hand numbness and tingling at night L40.0 — Psoriasis vulgaris C18.9 — Malignant neoplasm of colon, unspecified" [ref=e5048] [cursor=pointer]:
+                - cell "—" [ref=e5049]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e5050]
+                - cell "3/28/2023" [ref=e5051]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e5052]
+                - cell "L40.0 — Psoriasis vulgaris C18.9 — Malignant neoplasm of colon, unspecified" [ref=e5053]:
+                  - generic [ref=e5054]:
+                    - generic [ref=e5055]: L40.0 — Psoriasis vulgaris
+                    - generic [ref=e5056]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Liam Sullivan 3/27/2023 Progressive memory loss noticed by family over 6 months J45.41 — Moderate persistent asthma with (acute) exacerbation M54.4 — Lumbago with sciatica, right side M06.9 — Rheumatoid arthritis, unspecified" [ref=e5057] [cursor=pointer]:
+                - cell "—" [ref=e5058]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e5059]
+                - cell "3/27/2023" [ref=e5060]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e5061]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation M54.4 — Lumbago with sciatica, right side M06.9 — Rheumatoid arthritis, unspecified" [ref=e5062]:
+                  - generic [ref=e5063]:
+                    - generic [ref=e5064]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e5065]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e5066]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 3/27/2023 Gait instability and recurrent falls N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5067] [cursor=pointer]:
+                - cell "—" [ref=e5068]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e5069]
+                - cell "3/27/2023" [ref=e5070]
+                - cell "Gait instability and recurrent falls" [ref=e5071]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5072]:
+                  - generic [ref=e5074]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sienna Whitmore 3/27/2023 Flank pain with haematuria — possible renal colic K92.1 — Melaena A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5075] [cursor=pointer]:
+                - cell "—" [ref=e5076]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e5077]
+                - cell "3/27/2023" [ref=e5078]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e5079]
+                - cell "K92.1 — Melaena A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5080]:
+                  - generic [ref=e5081]:
+                    - generic [ref=e5082]: K92.1 — Melaena
+                    - generic [ref=e5083]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e5084]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Diego Ferreira 3/27/2023 Acute onset severe abdominal pain, periumbilical J45.41 — Moderate persistent asthma with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5085] [cursor=pointer]:
+                - cell "—" [ref=e5086]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e5087]
+                - cell "3/27/2023" [ref=e5088]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e5089]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5090]:
+                  - generic [ref=e5091]:
+                    - generic [ref=e5092]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e5093]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Kenji Tanaka 3/26/2023 Pre-operative assessment for elective procedure I73.9 — Peripheral vascular disease, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5094] [cursor=pointer]:
+                - cell "—" [ref=e5095]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e5096]
+                - cell "3/26/2023" [ref=e5097]
+                - cell "Pre-operative assessment for elective procedure" [ref=e5098]
+                - cell "I73.9 — Peripheral vascular disease, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5099]:
+                  - generic [ref=e5100]:
+                    - generic [ref=e5101]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e5102]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Amara Diallo 3/26/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks K74.60 — Unspecified cirrhosis of liver I63.9 — Cerebral infarction, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e5103] [cursor=pointer]:
+                - cell "—" [ref=e5104]
+                - cell "Dr. Dr. Amara Diallo" [ref=e5105]
+                - cell "3/26/2023" [ref=e5106]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e5107]
+                - cell "K74.60 — Unspecified cirrhosis of liver I63.9 — Cerebral infarction, unspecified J18.9 — Pneumonia, unspecified organism" [ref=e5108]:
+                  - generic [ref=e5109]:
+                    - generic [ref=e5110]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e5111]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e5112]: J18.9 — Pneumonia, unspecified organism
+              - row "— Dr. Dr. James Okafor 3/25/2023 Unintentional weight loss of 8 kg over 3 months I10 — Essential (primary) hypertension" [ref=e5113] [cursor=pointer]:
+                - cell "—" [ref=e5114]
+                - cell "Dr. Dr. James Okafor" [ref=e5115]
+                - cell "3/25/2023" [ref=e5116]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e5117]
+                - cell "I10 — Essential (primary) hypertension" [ref=e5118]:
+                  - generic [ref=e5120]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. James Okafor 3/25/2023 Nocturnal wheezing and cough disturbing sleep I73.9 — Peripheral vascular disease, unspecified" [ref=e5121] [cursor=pointer]:
+                - cell "—" [ref=e5122]
+                - cell "Dr. Dr. James Okafor" [ref=e5123]
+                - cell "3/25/2023" [ref=e5124]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e5125]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e5126]:
+                  - generic [ref=e5128]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Sofia Patel 3/24/2023 Recurrent episodes of loss of consciousness E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5129] [cursor=pointer]:
+                - cell "—" [ref=e5130]
+                - cell "Dr. Dr. Sofia Patel" [ref=e5131]
+                - cell "3/24/2023" [ref=e5132]
+                - cell "Recurrent episodes of loss of consciousness" [ref=e5133]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5134]:
+                  - generic [ref=e5136]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Tariq Hassan 3/24/2023 Dysuria, frequency, and suprapubic pain for 3 days I73.9 — Peripheral vascular disease, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast I63.9 — Cerebral infarction, unspecified" [ref=e5137] [cursor=pointer]:
+                - cell "—" [ref=e5138]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e5139]
+                - cell "3/24/2023" [ref=e5140]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5141]
+                - cell "I73.9 — Peripheral vascular disease, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast I63.9 — Cerebral infarction, unspecified" [ref=e5142]:
+                  - generic [ref=e5143]:
+                    - generic [ref=e5144]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e5145]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e5146]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 3/24/2023 Dysuria, frequency, and suprapubic pain for 3 days K74.60 — Unspecified cirrhosis of liver" [ref=e5147] [cursor=pointer]:
+                - cell "—" [ref=e5148]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e5149]
+                - cell "3/24/2023" [ref=e5150]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5151]
+                - cell "K74.60 — Unspecified cirrhosis of liver" [ref=e5152]:
+                  - generic [ref=e5154]: K74.60 — Unspecified cirrhosis of liver
+              - row "— Dr. Dr. Amara Diallo 3/23/2023 Painful vesicular eruption following a dermatomal distribution E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5155] [cursor=pointer]:
+                - cell "—" [ref=e5156]
+                - cell "Dr. Dr. Amara Diallo" [ref=e5157]
+                - cell "3/23/2023" [ref=e5158]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e5159]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5160]:
+                  - generic [ref=e5162]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 3/22/2023 Right-sided facial droop and arm weakness, onset 1 hour ago E78.00 — Pure hypercholesterolaemia, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5163] [cursor=pointer]:
+                - cell "—" [ref=e5164]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e5165]
+                - cell "3/22/2023" [ref=e5166]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e5167]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5168]:
+                  - generic [ref=e5169]:
+                    - generic [ref=e5170]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e5171]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Fatima Al-Rashid 3/22/2023 Suicidal ideation — passive, no plan or intent I10 — Essential (primary) hypertension C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5172] [cursor=pointer]:
+                - cell "—" [ref=e5173]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e5174]
+                - cell "3/22/2023" [ref=e5175]
+                - cell "Suicidal ideation — passive, no plan or intent" [ref=e5176]
+                - cell "I10 — Essential (primary) hypertension C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5177]:
+                  - generic [ref=e5178]:
+                    - generic [ref=e5179]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5180]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Victor Reyes 3/21/2023 Post-operative wound check — day 10 M06.9 — Rheumatoid arthritis, unspecified" [ref=e5181] [cursor=pointer]:
+                - cell "—" [ref=e5182]
+                - cell "Dr. Dr. Victor Reyes" [ref=e5183]
+                - cell "3/21/2023" [ref=e5184]
+                - cell "Post-operative wound check — day 10" [ref=e5185]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified" [ref=e5186]:
+                  - generic [ref=e5188]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 3/21/2023 Tremor, heat intolerance, and unintentional weight loss K74.60 — Unspecified cirrhosis of liver K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5189] [cursor=pointer]:
+                - cell "—" [ref=e5190]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e5191]
+                - cell "3/21/2023" [ref=e5192]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e5193]
+                - cell "K74.60 — Unspecified cirrhosis of liver K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5194]:
+                  - generic [ref=e5195]:
+                    - generic [ref=e5196]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e5197]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Tariq Hassan 3/21/2023 Intermittent claudication in both calves J18.9 — Pneumonia, unspecified organism B02.9 — Zoster without complications I10 — Essential (primary) hypertension" [ref=e5198] [cursor=pointer]:
+                - cell "—" [ref=e5199]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e5200]
+                - cell "3/21/2023" [ref=e5201]
+                - cell "Intermittent claudication in both calves" [ref=e5202]
+                - cell "J18.9 — Pneumonia, unspecified organism B02.9 — Zoster without complications I10 — Essential (primary) hypertension" [ref=e5203]:
+                  - generic [ref=e5204]:
+                    - generic [ref=e5205]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e5206]: B02.9 — Zoster without complications
+                    - generic [ref=e5207]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Nadia Volkov 3/21/2023 Rectal bleeding noted for 3 days, bright red I63.9 — Cerebral infarction, unspecified" [ref=e5208] [cursor=pointer]:
+                - cell "—" [ref=e5209]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e5210]
+                - cell "3/21/2023" [ref=e5211]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e5212]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e5213]:
+                  - generic [ref=e5215]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. James Okafor 3/20/2023 Reduced urine output and lower limb oedema for 5 days K21.0 — Gastro-oesophageal reflux disease with oesophagitis E66.01 — Morbid (severe) obesity due to excess calories I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5216] [cursor=pointer]:
+                - cell "—" [ref=e5217]
+                - cell "Dr. Dr. James Okafor" [ref=e5218]
+                - cell "3/20/2023" [ref=e5219]
+                - cell "Reduced urine output and lower limb oedema for 5 days" [ref=e5220]
+                - cell "K21.0 — Gastro-oesophageal reflux disease with oesophagitis E66.01 — Morbid (severe) obesity due to excess calories I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5221]:
+                  - generic [ref=e5222]:
+                    - generic [ref=e5223]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e5224]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e5225]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Marcus Chen 3/20/2023 Right knee swelling and warmth since yesterday I63.9 — Cerebral infarction, unspecified" [ref=e5226] [cursor=pointer]:
+                - cell "—" [ref=e5227]
+                - cell "Dr. Dr. Marcus Chen" [ref=e5228]
+                - cell "3/20/2023" [ref=e5229]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e5230]
+                - cell "I63.9 — Cerebral infarction, unspecified" [ref=e5231]:
+                  - generic [ref=e5233]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 3/19/2023 Rectal bleeding noted for 3 days, bright red L03.115 — Cellulitis of right lower limb N20.0 — Calculus of kidney L40.0 — Psoriasis vulgaris" [ref=e5234] [cursor=pointer]:
+                - cell "—" [ref=e5235]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e5236]
+                - cell "3/19/2023" [ref=e5237]
+                - cell "Rectal bleeding noted for 3 days, bright red" [ref=e5238]
+                - cell "L03.115 — Cellulitis of right lower limb N20.0 — Calculus of kidney L40.0 — Psoriasis vulgaris" [ref=e5239]:
+                  - generic [ref=e5240]:
+                    - generic [ref=e5241]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e5242]: N20.0 — Calculus of kidney
+                    - generic [ref=e5243]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Sofia Patel 3/19/2023 Pre-operative assessment for elective procedure J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I63.9 — Cerebral infarction, unspecified" [ref=e5244] [cursor=pointer]:
+                - cell "—" [ref=e5245]
+                - cell "Dr. Dr. Sofia Patel" [ref=e5246]
+                - cell "3/19/2023" [ref=e5247]
+                - cell "Pre-operative assessment for elective procedure" [ref=e5248]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation I63.9 — Cerebral infarction, unspecified" [ref=e5249]:
+                  - generic [ref=e5250]:
+                    - generic [ref=e5251]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+                    - generic [ref=e5252]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Rachel Kowalski 3/19/2023 Polyuria and polydipsia for past 2 weeks M79.3 — Panniculitis, unspecified" [ref=e5253] [cursor=pointer]:
+                - cell "—" [ref=e5254]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e5255]
+                - cell "3/19/2023" [ref=e5256]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e5257]
+                - cell "M79.3 — Panniculitis, unspecified" [ref=e5258]:
+                  - generic [ref=e5260]: M79.3 — Panniculitis, unspecified
+              - row "— Dr. Dr. Victor Reyes 3/19/2023 Intermittent claudication in both calves M16.11 — Unilateral primary osteoarthritis, right hip I63.9 — Cerebral infarction, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5261] [cursor=pointer]:
+                - cell "—" [ref=e5262]
+                - cell "Dr. Dr. Victor Reyes" [ref=e5263]
+                - cell "3/19/2023" [ref=e5264]
+                - cell "Intermittent claudication in both calves" [ref=e5265]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip I63.9 — Cerebral infarction, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5266]:
+                  - generic [ref=e5267]:
+                    - generic [ref=e5268]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e5269]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e5270]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Carlos Mendoza 3/18/2023 Intermittent claudication in both calves I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5271] [cursor=pointer]:
+                - cell "—" [ref=e5272]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e5273]
+                - cell "3/18/2023" [ref=e5274]
+                - cell "Intermittent claudication in both calves" [ref=e5275]
+                - cell "I10 — Essential (primary) hypertension J18.9 — Pneumonia, unspecified organism M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5276]:
+                  - generic [ref=e5277]:
+                    - generic [ref=e5278]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5279]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e5280]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Hannah Bergmann 3/18/2023 Increasing anxiety interfering with daily activities L03.115 — Cellulitis of right lower limb M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e5281] [cursor=pointer]:
+                - cell "—" [ref=e5282]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e5283]
+                - cell "3/18/2023" [ref=e5284]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e5285]
+                - cell "L03.115 — Cellulitis of right lower limb M54.4 — Lumbago with sciatica, right side A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin" [ref=e5286]:
+                  - generic [ref=e5287]:
+                    - generic [ref=e5288]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e5289]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e5290]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+              - row "— Dr. Dr. Yasmin Aziz 3/18/2023 Palpitations and shortness of breath on exertion L03.115 — Cellulitis of right lower limb" [ref=e5291] [cursor=pointer]:
+                - cell "—" [ref=e5292]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e5293]
+                - cell "3/18/2023" [ref=e5294]
+                - cell "Palpitations and shortness of breath on exertion" [ref=e5295]
+                - cell "L03.115 — Cellulitis of right lower limb" [ref=e5296]:
+                  - generic [ref=e5298]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Priya Krishnamurthy 3/18/2023 Pre-operative assessment for elective procedure I10 — Essential (primary) hypertension I73.9 — Peripheral vascular disease, unspecified" [ref=e5299] [cursor=pointer]:
+                - cell "—" [ref=e5300]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e5301]
+                - cell "3/18/2023" [ref=e5302]
+                - cell "Pre-operative assessment for elective procedure" [ref=e5303]
+                - cell "I10 — Essential (primary) hypertension I73.9 — Peripheral vascular disease, unspecified" [ref=e5304]:
+                  - generic [ref=e5305]:
+                    - generic [ref=e5306]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5307]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Nadia Volkov 3/17/2023 Acute panic attack with palpitations and sense of doom E03.9 — Hypothyroidism, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5308] [cursor=pointer]:
+                - cell "—" [ref=e5309]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e5310]
+                - cell "3/17/2023" [ref=e5311]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e5312]
+                - cell "E03.9 — Hypothyroidism, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5313]:
+                  - generic [ref=e5314]:
+                    - generic [ref=e5315]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e5316]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Marcus Chen 3/17/2023 Right-sided facial droop and arm weakness, onset 1 hour ago J06.9 — Acute upper respiratory infection, unspecified E66.01 — Morbid (severe) obesity due to excess calories A41.9 — Sepsis, unspecified organism" [ref=e5317] [cursor=pointer]:
+                - cell "—" [ref=e5318]
+                - cell "Dr. Dr. Marcus Chen" [ref=e5319]
+                - cell "3/17/2023" [ref=e5320]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e5321]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified E66.01 — Morbid (severe) obesity due to excess calories A41.9 — Sepsis, unspecified organism" [ref=e5322]:
+                  - generic [ref=e5323]:
+                    - generic [ref=e5324]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e5325]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e5326]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Liam Sullivan 3/17/2023 Polyuria and polydipsia for past 2 weeks A41.9 — Sepsis, unspecified organism M54.4 — Lumbago with sciatica, right side" [ref=e5327] [cursor=pointer]:
+                - cell "—" [ref=e5328]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e5329]
+                - cell "3/17/2023" [ref=e5330]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e5331]
+                - cell "A41.9 — Sepsis, unspecified organism M54.4 — Lumbago with sciatica, right side" [ref=e5332]:
+                  - generic [ref=e5333]:
+                    - generic [ref=e5334]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e5335]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Eleanor Hartmann 3/17/2023 Chest pain radiating to left arm, onset 2 hours ago N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5336] [cursor=pointer]:
+                - cell "—" [ref=e5337]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e5338]
+                - cell "3/17/2023" [ref=e5339]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e5340]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5341]:
+                  - generic [ref=e5343]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Yasmin Aziz 3/17/2023 Jaundice and right upper quadrant discomfort E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis C18.9 — Malignant neoplasm of colon, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e5344] [cursor=pointer]:
+                - cell "—" [ref=e5345]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e5346]
+                - cell "3/17/2023" [ref=e5347]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e5348]
+                - cell "E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis C18.9 — Malignant neoplasm of colon, unspecified E03.9 — Hypothyroidism, unspecified" [ref=e5349]:
+                  - generic [ref=e5350]:
+                    - generic [ref=e5351]: E05.90 — Thyrotoxicosis, unspecified without thyrotoxic crisis
+                    - generic [ref=e5352]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e5353]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Chloe Nakamura 3/17/2023 Annual chronic disease review — diabetes and hypertension I63.9 — Cerebral infarction, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5354] [cursor=pointer]:
+                - cell "—" [ref=e5355]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e5356]
+                - cell "3/17/2023" [ref=e5357]
+                - cell "Annual chronic disease review — diabetes and hypertension" [ref=e5358]
+                - cell "I63.9 — Cerebral infarction, unspecified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5359]:
+                  - generic [ref=e5360]:
+                    - generic [ref=e5361]: I63.9 — Cerebral infarction, unspecified
+                    - generic [ref=e5362]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Mei Zhang 3/16/2023 Nocturia ×4 and weak urinary stream F32.1 — Major depressive disorder, single episode, moderate E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e5363] [cursor=pointer]:
+                - cell "—" [ref=e5364]
+                - cell "Dr. Dr. Mei Zhang" [ref=e5365]
+                - cell "3/16/2023" [ref=e5366]
+                - cell "Nocturia ×4 and weak urinary stream" [ref=e5367]
+                - cell "F32.1 — Major depressive disorder, single episode, moderate E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e5368]:
+                  - generic [ref=e5369]:
+                    - generic [ref=e5370]: F32.1 — Major depressive disorder, single episode, moderate
+                    - generic [ref=e5371]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Kenji Tanaka 3/16/2023 Progressive memory loss noticed by family over 6 months I50.32 — Chronic diastolic (congestive) heart failure, decompensated C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side M06.9 — Rheumatoid arthritis, unspecified" [ref=e5372] [cursor=pointer]:
+                - cell "—" [ref=e5373]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e5374]
+                - cell "3/16/2023" [ref=e5375]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e5376]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side M06.9 — Rheumatoid arthritis, unspecified" [ref=e5377]:
+                  - generic [ref=e5378]:
+                    - generic [ref=e5379]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e5380]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+                    - generic [ref=e5381]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Diego Ferreira 3/15/2023 Bilateral leg edema worsening over past week I48.0 — Paroxysmal atrial fibrillation" [ref=e5382] [cursor=pointer]:
+                - cell "—" [ref=e5383]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e5384]
+                - cell "3/15/2023" [ref=e5385]
+                - cell "Bilateral leg edema worsening over past week" [ref=e5386]
+                - cell "I48.0 — Paroxysmal atrial fibrillation" [ref=e5387]:
+                  - generic [ref=e5389]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Chloe Nakamura 3/15/2023 Unintentional weight loss of 8 kg over 3 months I73.9 — Peripheral vascular disease, unspecified" [ref=e5390] [cursor=pointer]:
+                - cell "—" [ref=e5391]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e5392]
+                - cell "3/15/2023" [ref=e5393]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e5394]
+                - cell "I73.9 — Peripheral vascular disease, unspecified" [ref=e5395]:
+                  - generic [ref=e5397]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Darius Osei 3/15/2023 Medication review and repeat prescriptions N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e5398] [cursor=pointer]:
+                - cell "—" [ref=e5399]
+                - cell "Dr. Dr. Darius Osei" [ref=e5400]
+                - cell "3/15/2023" [ref=e5401]
+                - cell "Medication review and repeat prescriptions" [ref=e5402]
+                - cell "N20.0 — Calculus of kidney I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris J45.41 — Moderate persistent asthma with (acute) exacerbation" [ref=e5403]:
+                  - generic [ref=e5404]:
+                    - generic [ref=e5405]: N20.0 — Calculus of kidney
+                    - generic [ref=e5406]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e5407]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+              - row "— Dr. Dr. Fatima Al-Rashid 3/15/2023 Epigastric burning pain, worse after meals E66.01 — Morbid (severe) obesity due to excess calories K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I48.0 — Paroxysmal atrial fibrillation" [ref=e5408] [cursor=pointer]:
+                - cell "—" [ref=e5409]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e5410]
+                - cell "3/15/2023" [ref=e5411]
+                - cell "Epigastric burning pain, worse after meals" [ref=e5412]
+                - cell "E66.01 — Morbid (severe) obesity due to excess calories K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I48.0 — Paroxysmal atrial fibrillation" [ref=e5413]:
+                  - generic [ref=e5414]:
+                    - generic [ref=e5415]: E66.01 — Morbid (severe) obesity due to excess calories
+                    - generic [ref=e5416]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e5417]: I48.0 — Paroxysmal atrial fibrillation
+              - row "— Dr. Dr. Marcus Chen 3/14/2023 Right knee swelling and warmth since yesterday A41.9 — Sepsis, unspecified organism I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5418] [cursor=pointer]:
+                - cell "—" [ref=e5419]
+                - cell "Dr. Dr. Marcus Chen" [ref=e5420]
+                - cell "3/14/2023" [ref=e5421]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e5422]
+                - cell "A41.9 — Sepsis, unspecified organism I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5423]:
+                  - generic [ref=e5424]:
+                    - generic [ref=e5425]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e5426]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Eleanor Hartmann 3/14/2023 Dysuria, frequency, and suprapubic pain for 3 days M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e5427] [cursor=pointer]:
+                - cell "—" [ref=e5428]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e5429]
+                - cell "3/14/2023" [ref=e5430]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5431]
+                - cell "M54.4 — Lumbago with sciatica, right side I10 — Essential (primary) hypertension" [ref=e5432]:
+                  - generic [ref=e5433]:
+                    - generic [ref=e5434]: M54.4 — Lumbago with sciatica, right side
+                    - generic [ref=e5435]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Yasmin Aziz 3/13/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks N39.0 — Urinary tract infection, site not specified F20.9 — Schizophrenia, unspecified K92.1 — Melaena" [ref=e5436] [cursor=pointer]:
+                - cell "—" [ref=e5437]
+                - cell "Dr. Dr. Yasmin Aziz" [ref=e5438]
+                - cell "3/13/2023" [ref=e5439]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e5440]
+                - cell "N39.0 — Urinary tract infection, site not specified F20.9 — Schizophrenia, unspecified K92.1 — Melaena" [ref=e5441]:
+                  - generic [ref=e5442]:
+                    - generic [ref=e5443]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e5444]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e5445]: K92.1 — Melaena
+              - row "— Dr. Dr. Sienna Whitmore 3/13/2023 Acute panic attack with palpitations and sense of doom M54.4 — Lumbago with sciatica, right side" [ref=e5446] [cursor=pointer]:
+                - cell "—" [ref=e5447]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e5448]
+                - cell "3/13/2023" [ref=e5449]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e5450]
+                - cell "M54.4 — Lumbago with sciatica, right side" [ref=e5451]:
+                  - generic [ref=e5453]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Isabelle Moreau 3/13/2023 Morning stiffness in both hands lasting over 1 hour J06.9 — Acute upper respiratory infection, unspecified L03.115 — Cellulitis of right lower limb J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e5454] [cursor=pointer]:
+                - cell "—" [ref=e5455]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e5456]
+                - cell "3/13/2023" [ref=e5457]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e5458]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified L03.115 — Cellulitis of right lower limb J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e5459]:
+                  - generic [ref=e5460]:
+                    - generic [ref=e5461]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e5462]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e5463]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Aiden Callahan 3/13/2023 Acute low back pain after lifting heavy objects J45.41 — Moderate persistent asthma with (acute) exacerbation L40.0 — Psoriasis vulgaris" [ref=e5464] [cursor=pointer]:
+                - cell "—" [ref=e5465]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e5466]
+                - cell "3/13/2023" [ref=e5467]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e5468]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation L40.0 — Psoriasis vulgaris" [ref=e5469]:
+                  - generic [ref=e5470]:
+                    - generic [ref=e5471]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e5472]: L40.0 — Psoriasis vulgaris
+              - row "— Dr. Dr. Nadia Volkov 3/13/2023 Medication review and repeat prescriptions M16.11 — Unilateral primary osteoarthritis, right hip I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5473] [cursor=pointer]:
+                - cell "—" [ref=e5474]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e5475]
+                - cell "3/13/2023" [ref=e5476]
+                - cell "Medication review and repeat prescriptions" [ref=e5477]
+                - cell "M16.11 — Unilateral primary osteoarthritis, right hip I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5478]:
+                  - generic [ref=e5479]:
+                    - generic [ref=e5480]: M16.11 — Unilateral primary osteoarthritis, right hip
+                    - generic [ref=e5481]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Rachel Kowalski 3/13/2023 Sudden onset severe headache — \"worst of my life\" M79.3 — Panniculitis, unspecified I10 — Essential (primary) hypertension" [ref=e5482] [cursor=pointer]:
+                - cell "—" [ref=e5483]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e5484]
+                - cell "3/13/2023" [ref=e5485]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e5486]
+                - cell "M79.3 — Panniculitis, unspecified I10 — Essential (primary) hypertension" [ref=e5487]:
+                  - generic [ref=e5488]:
+                    - generic [ref=e5489]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e5490]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Hannah Bergmann 3/13/2023 Nocturnal wheezing and cough disturbing sleep N39.0 — Urinary tract infection, site not specified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5491] [cursor=pointer]:
+                - cell "—" [ref=e5492]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e5493]
+                - cell "3/13/2023" [ref=e5494]
+                - cell "Nocturnal wheezing and cough disturbing sleep" [ref=e5495]
+                - cell "N39.0 — Urinary tract infection, site not specified J06.9 — Acute upper respiratory infection, unspecified" [ref=e5496]:
+                  - generic [ref=e5497]:
+                    - generic [ref=e5498]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e5499]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Amara Diallo 3/13/2023 Tremor, heat intolerance, and unintentional weight loss I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5500] [cursor=pointer]:
+                - cell "—" [ref=e5501]
+                - cell "Dr. Dr. Amara Diallo" [ref=e5502]
+                - cell "3/13/2023" [ref=e5503]
+                - cell "Tremor, heat intolerance, and unintentional weight loss" [ref=e5504]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5505]:
+                  - generic [ref=e5507]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Aiden Callahan 3/12/2023 Intermittent claudication in both calves E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e5508] [cursor=pointer]:
+                - cell "—" [ref=e5509]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e5510]
+                - cell "3/12/2023" [ref=e5511]
+                - cell "Intermittent claudication in both calves" [ref=e5512]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified M06.9 — Rheumatoid arthritis, unspecified" [ref=e5513]:
+                  - generic [ref=e5514]:
+                    - generic [ref=e5515]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+                    - generic [ref=e5516]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Hannah Bergmann 3/12/2023 Bilateral leg edema worsening over past week I10 — Essential (primary) hypertension" [ref=e5517] [cursor=pointer]:
+                - cell "—" [ref=e5518]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e5519]
+                - cell "3/12/2023" [ref=e5520]
+                - cell "Bilateral leg edema worsening over past week" [ref=e5521]
+                - cell "I10 — Essential (primary) hypertension" [ref=e5522]:
+                  - generic [ref=e5524]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Diego Ferreira 3/12/2023 Right knee swelling and warmth since yesterday I10 — Essential (primary) hypertension" [ref=e5525] [cursor=pointer]:
+                - cell "—" [ref=e5526]
+                - cell "Dr. Dr. Diego Ferreira" [ref=e5527]
+                - cell "3/12/2023" [ref=e5528]
+                - cell "Right knee swelling and warmth since yesterday" [ref=e5529]
+                - cell "I10 — Essential (primary) hypertension" [ref=e5530]:
+                  - generic [ref=e5532]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Chloe Nakamura 3/11/2023 Nausea, vomiting, and inability to tolerate fluids for 48 hours I50.32 — Chronic diastolic (congestive) heart failure, decompensated E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5533] [cursor=pointer]:
+                - cell "—" [ref=e5534]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e5535]
+                - cell "3/11/2023" [ref=e5536]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e5537]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5538]:
+                  - generic [ref=e5539]:
+                    - generic [ref=e5540]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e5541]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Kenji Tanaka 3/11/2023 Unintentional weight loss of 8 kg over 3 months N20.0 — Calculus of kidney I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5542] [cursor=pointer]:
+                - cell "—" [ref=e5543]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e5544]
+                - cell "3/11/2023" [ref=e5545]
+                - cell "Unintentional weight loss of 8 kg over 3 months" [ref=e5546]
+                - cell "N20.0 — Calculus of kidney I10 — Essential (primary) hypertension C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5547]:
+                  - generic [ref=e5548]:
+                    - generic [ref=e5549]: N20.0 — Calculus of kidney
+                    - generic [ref=e5550]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5551]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Darius Osei 3/11/2023 Shoulder pain limiting range of motion for 2 weeks J06.9 — Acute upper respiratory infection, unspecified I10 — Essential (primary) hypertension" [ref=e5552] [cursor=pointer]:
+                - cell "—" [ref=e5553]
+                - cell "Dr. Dr. Darius Osei" [ref=e5554]
+                - cell "3/11/2023" [ref=e5555]
+                - cell "Shoulder pain limiting range of motion for 2 weeks" [ref=e5556]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified I10 — Essential (primary) hypertension" [ref=e5557]:
+                  - generic [ref=e5558]:
+                    - generic [ref=e5559]: J06.9 — Acute upper respiratory infection, unspecified
+                    - generic [ref=e5560]: I10 — Essential (primary) hypertension
+              - row "— Dr. Dr. Kenji Tanaka 3/11/2023 Recurrent urinary tract infections — fourth episode this year K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5561] [cursor=pointer]:
+                - cell "—" [ref=e5562]
+                - cell "Dr. Dr. Kenji Tanaka" [ref=e5563]
+                - cell "3/11/2023" [ref=e5564]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e5565]
+                - cell "K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5566]:
+                  - generic [ref=e5568]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Amara Diallo 3/11/2023 Pleuritic chest pain, worse on deep inspiration I48.0 — Paroxysmal atrial fibrillation M79.3 — Panniculitis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5569] [cursor=pointer]:
+                - cell "—" [ref=e5570]
+                - cell "Dr. Dr. Amara Diallo" [ref=e5571]
+                - cell "3/11/2023" [ref=e5572]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e5573]
+                - cell "I48.0 — Paroxysmal atrial fibrillation M79.3 — Panniculitis, unspecified I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris" [ref=e5574]:
+                  - generic [ref=e5575]:
+                    - generic [ref=e5576]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e5577]: M79.3 — Panniculitis, unspecified
+                    - generic [ref=e5578]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+              - row "— Dr. Dr. Owen Fitzgerald 3/10/2023 Sudden onset severe headache — \"worst of my life\" M06.9 — Rheumatoid arthritis, unspecified" [ref=e5579] [cursor=pointer]:
+                - cell "—" [ref=e5580]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e5581]
+                - cell "3/10/2023" [ref=e5582]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e5583]
+                - cell "M06.9 — Rheumatoid arthritis, unspecified" [ref=e5584]:
+                  - generic [ref=e5586]: M06.9 — Rheumatoid arthritis, unspecified
+              - row "— Dr. Dr. Carlos Mendoza 3/9/2023 Post-operative wound check — day 10 C18.9 — Malignant neoplasm of colon, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5587] [cursor=pointer]:
+                - cell "—" [ref=e5588]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e5589]
+                - cell "3/9/2023" [ref=e5590]
+                - cell "Post-operative wound check — day 10" [ref=e5591]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5592]:
+                  - generic [ref=e5593]:
+                    - generic [ref=e5594]: C18.9 — Malignant neoplasm of colon, unspecified
+                    - generic [ref=e5595]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Eleanor Hartmann 3/8/2023 Painful vesicular eruption following a dermatomal distribution J45.41 — Moderate persistent asthma with (acute) exacerbation M06.9 — Rheumatoid arthritis, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5596] [cursor=pointer]:
+                - cell "—" [ref=e5597]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e5598]
+                - cell "3/8/2023" [ref=e5599]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e5600]
+                - cell "J45.41 — Moderate persistent asthma with (acute) exacerbation M06.9 — Rheumatoid arthritis, unspecified C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5601]:
+                  - generic [ref=e5602]:
+                    - generic [ref=e5603]: J45.41 — Moderate persistent asthma with (acute) exacerbation
+                    - generic [ref=e5604]: M06.9 — Rheumatoid arthritis, unspecified
+                    - generic [ref=e5605]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Aiden Callahan 3/8/2023 Acute panic attack with palpitations and sense of doom I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5606] [cursor=pointer]:
+                - cell "—" [ref=e5607]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e5608]
+                - cell "3/8/2023" [ref=e5609]
+                - cell "Acute panic attack with palpitations and sense of doom" [ref=e5610]
+                - cell "I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5611]:
+                  - generic [ref=e5612]:
+                    - generic [ref=e5613]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5614]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Isabelle Moreau 3/8/2023 Flank pain with haematuria — possible renal colic A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin F20.9 — Schizophrenia, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5615] [cursor=pointer]:
+                - cell "—" [ref=e5616]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e5617]
+                - cell "3/8/2023" [ref=e5618]
+                - cell "Flank pain with haematuria — possible renal colic" [ref=e5619]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin F20.9 — Schizophrenia, unspecified I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5620]:
+                  - generic [ref=e5621]:
+                    - generic [ref=e5622]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e5623]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e5624]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Rachel Kowalski 3/7/2023 Vaccination and travel health consultation E03.9 — Hypothyroidism, unspecified" [ref=e5625] [cursor=pointer]:
+                - cell "—" [ref=e5626]
+                - cell "Dr. Dr. Rachel Kowalski" [ref=e5627]
+                - cell "3/7/2023" [ref=e5628]
+                - cell "Vaccination and travel health consultation" [ref=e5629]
+                - cell "E03.9 — Hypothyroidism, unspecified" [ref=e5630]:
+                  - generic [ref=e5632]: E03.9 — Hypothyroidism, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 3/7/2023 Acute low back pain after lifting heavy objects L03.115 — Cellulitis of right lower limb E66.01 — Morbid (severe) obesity due to excess calories" [ref=e5633] [cursor=pointer]:
+                - cell "—" [ref=e5634]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e5635]
+                - cell "3/7/2023" [ref=e5636]
+                - cell "Acute low back pain after lifting heavy objects" [ref=e5637]
+                - cell "L03.115 — Cellulitis of right lower limb E66.01 — Morbid (severe) obesity due to excess calories" [ref=e5638]:
+                  - generic [ref=e5639]:
+                    - generic [ref=e5640]: L03.115 — Cellulitis of right lower limb
+                    - generic [ref=e5641]: E66.01 — Morbid (severe) obesity due to excess calories
+              - row "— Dr. Dr. Chloe Nakamura 3/7/2023 Erythematous scaly plaques on elbows and scalp I73.9 — Peripheral vascular disease, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e5642] [cursor=pointer]:
+                - cell "—" [ref=e5643]
+                - cell "Dr. Dr. Chloe Nakamura" [ref=e5644]
+                - cell "3/7/2023" [ref=e5645]
+                - cell "Erythematous scaly plaques on elbows and scalp" [ref=e5646]
+                - cell "I73.9 — Peripheral vascular disease, unspecified E11.65 — Type 2 diabetes mellitus with hyperglycaemia" [ref=e5647]:
+                  - generic [ref=e5648]:
+                    - generic [ref=e5649]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e5650]: E11.65 — Type 2 diabetes mellitus with hyperglycaemia
+              - row "— Dr. Dr. Nadia Volkov 3/7/2023 Right-sided facial droop and arm weakness, onset 1 hour ago N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5651] [cursor=pointer]:
+                - cell "—" [ref=e5652]
+                - cell "Dr. Dr. Nadia Volkov" [ref=e5653]
+                - cell "3/7/2023" [ref=e5654]
+                - cell "Right-sided facial droop and arm weakness, onset 1 hour ago" [ref=e5655]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5656]:
+                  - generic [ref=e5658]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Sienna Whitmore 3/7/2023 Recurrent urinary tract infections — fourth episode this year J18.9 — Pneumonia, unspecified organism I63.9 — Cerebral infarction, unspecified" [ref=e5659] [cursor=pointer]:
+                - cell "—" [ref=e5660]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e5661]
+                - cell "3/7/2023" [ref=e5662]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e5663]
+                - cell "J18.9 — Pneumonia, unspecified organism I63.9 — Cerebral infarction, unspecified" [ref=e5664]:
+                  - generic [ref=e5665]:
+                    - generic [ref=e5666]: J18.9 — Pneumonia, unspecified organism
+                    - generic [ref=e5667]: I63.9 — Cerebral infarction, unspecified
+              - row "— Dr. Dr. Owen Fitzgerald 3/6/2023 Epigastric burning pain, worse after meals L03.115 — Cellulitis of right lower limb" [ref=e5668] [cursor=pointer]:
+                - cell "—" [ref=e5669]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e5670]
+                - cell "3/6/2023" [ref=e5671]
+                - cell "Epigastric burning pain, worse after meals" [ref=e5672]
+                - cell "L03.115 — Cellulitis of right lower limb" [ref=e5673]:
+                  - generic [ref=e5675]: L03.115 — Cellulitis of right lower limb
+              - row "— Dr. Dr. Fatima Al-Rashid 3/6/2023 Increasing anxiety interfering with daily activities N39.0 — Urinary tract infection, site not specified F32.1 — Major depressive disorder, single episode, moderate" [ref=e5676] [cursor=pointer]:
+                - cell "—" [ref=e5677]
+                - cell "Dr. Dr. Fatima Al-Rashid" [ref=e5678]
+                - cell "3/6/2023" [ref=e5679]
+                - cell "Increasing anxiety interfering with daily activities" [ref=e5680]
+                - cell "N39.0 — Urinary tract infection, site not specified F32.1 — Major depressive disorder, single episode, moderate" [ref=e5681]:
+                  - generic [ref=e5682]:
+                    - generic [ref=e5683]: N39.0 — Urinary tract infection, site not specified
+                    - generic [ref=e5684]: F32.1 — Major depressive disorder, single episode, moderate
+              - row "— Dr. Dr. Mei Zhang 3/6/2023 Acute onset severe abdominal pain, periumbilical A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5685] [cursor=pointer]:
+                - cell "—" [ref=e5686]
+                - cell "Dr. Dr. Mei Zhang" [ref=e5687]
+                - cell "3/6/2023" [ref=e5688]
+                - cell "Acute onset severe abdominal pain, periumbilical" [ref=e5689]
+                - cell "A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin E78.00 — Pure hypercholesterolaemia, unspecified" [ref=e5690]:
+                  - generic [ref=e5691]:
+                    - generic [ref=e5692]: A09 — Other and unspecified gastroenteritis and colitis of infectious and unspecified origin
+                    - generic [ref=e5693]: E78.00 — Pure hypercholesterolaemia, unspecified
+              - row "— Dr. Dr. Liam Sullivan 3/6/2023 Painful vesicular eruption following a dermatomal distribution C18.9 — Malignant neoplasm of colon, unspecified" [ref=e5694] [cursor=pointer]:
+                - cell "—" [ref=e5695]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e5696]
+                - cell "3/6/2023" [ref=e5697]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e5698]
+                - cell "C18.9 — Malignant neoplasm of colon, unspecified" [ref=e5699]:
+                  - generic [ref=e5701]: C18.9 — Malignant neoplasm of colon, unspecified
+              - row "— Dr. Dr. Isabelle Moreau 3/6/2023 Recurrent urinary tract infections — fourth episode this year I48.0 — Paroxysmal atrial fibrillation C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5702] [cursor=pointer]:
+                - cell "—" [ref=e5703]
+                - cell "Dr. Dr. Isabelle Moreau" [ref=e5704]
+                - cell "3/6/2023" [ref=e5705]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e5706]
+                - cell "I48.0 — Paroxysmal atrial fibrillation C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side" [ref=e5707]:
+                  - generic [ref=e5708]:
+                    - generic [ref=e5709]: I48.0 — Paroxysmal atrial fibrillation
+                    - generic [ref=e5710]: C34.10 — Malignant neoplasm of upper lobe, bronchus or lung, unspecified side
+              - row "— Dr. Dr. Hannah Bergmann 3/6/2023 Hemoptysis — small amount noted this morning N18.3 — Chronic kidney disease, stage 3 (moderate) K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5711] [cursor=pointer]:
+                - cell "—" [ref=e5712]
+                - cell "Dr. Dr. Hannah Bergmann" [ref=e5713]
+                - cell "3/6/2023" [ref=e5714]
+                - cell "Hemoptysis — small amount noted this morning" [ref=e5715]
+                - cell "N18.3 — Chronic kidney disease, stage 3 (moderate) K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding M16.11 — Unilateral primary osteoarthritis, right hip" [ref=e5716]:
+                  - generic [ref=e5717]:
+                    - generic [ref=e5718]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+                    - generic [ref=e5719]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e5720]: M16.11 — Unilateral primary osteoarthritis, right hip
+              - row "— Dr. Dr. Sienna Whitmore 3/5/2023 Polyuria and polydipsia for past 2 weeks I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side" [ref=e5721] [cursor=pointer]:
+                - cell "—" [ref=e5722]
+                - cell "Dr. Dr. Sienna Whitmore" [ref=e5723]
+                - cell "3/5/2023" [ref=e5724]
+                - cell "Polyuria and polydipsia for past 2 weeks" [ref=e5725]
+                - cell "I10 — Essential (primary) hypertension M54.4 — Lumbago with sciatica, right side" [ref=e5726]:
+                  - generic [ref=e5727]:
+                    - generic [ref=e5728]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5729]: M54.4 — Lumbago with sciatica, right side
+              - row "— Dr. Dr. Marcus Chen 3/5/2023 Dysuria, frequency, and suprapubic pain for 3 days I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I73.9 — Peripheral vascular disease, unspecified" [ref=e5730] [cursor=pointer]:
+                - cell "—" [ref=e5731]
+                - cell "Dr. Dr. Marcus Chen" [ref=e5732]
+                - cell "3/5/2023" [ref=e5733]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5734]
+                - cell "I10 — Essential (primary) hypertension K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding I73.9 — Peripheral vascular disease, unspecified" [ref=e5735]:
+                  - generic [ref=e5736]:
+                    - generic [ref=e5737]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5738]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+                    - generic [ref=e5739]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. Ethan Blackwood 3/5/2023 Sudden onset severe headache — \"worst of my life\" K92.1 — Melaena" [ref=e5740] [cursor=pointer]:
+                - cell "—" [ref=e5741]
+                - cell "Dr. Dr. Ethan Blackwood" [ref=e5742]
+                - cell "3/5/2023" [ref=e5743]
+                - cell "Sudden onset severe headache — \"worst of my life\"" [ref=e5744]
+                - cell "K92.1 — Melaena" [ref=e5745]:
+                  - generic [ref=e5747]: K92.1 — Melaena
+              - row "— Dr. Dr. Carlos Mendoza 3/4/2023 Bilateral hand numbness and tingling at night I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5748] [cursor=pointer]:
+                - cell "—" [ref=e5749]
+                - cell "Dr. Dr. Carlos Mendoza" [ref=e5750]
+                - cell "3/4/2023" [ref=e5751]
+                - cell "Bilateral hand numbness and tingling at night" [ref=e5752]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5753]:
+                  - generic [ref=e5755]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Owen Fitzgerald 3/4/2023 Morning stiffness in both hands lasting over 1 hour E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5756] [cursor=pointer]:
+                - cell "—" [ref=e5757]
+                - cell "Dr. Dr. Owen Fitzgerald" [ref=e5758]
+                - cell "3/4/2023" [ref=e5759]
+                - cell "Morning stiffness in both hands lasting over 1 hour" [ref=e5760]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5761]:
+                  - generic [ref=e5763]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Darius Osei 3/4/2023 Recurrent urinary tract infections — fourth episode this year I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5764] [cursor=pointer]:
+                - cell "—" [ref=e5765]
+                - cell "Dr. Dr. Darius Osei" [ref=e5766]
+                - cell "3/4/2023" [ref=e5767]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e5768]
+                - cell "I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris N18.3 — Chronic kidney disease, stage 3 (moderate)" [ref=e5769]:
+                  - generic [ref=e5770]:
+                    - generic [ref=e5771]: I25.10 — Atherosclerotic heart disease of native coronary artery without angina pectoris
+                    - generic [ref=e5772]: N18.3 — Chronic kidney disease, stage 3 (moderate)
+              - row "— Dr. Dr. Mei Zhang 3/4/2023 Pleuritic chest pain, worse on deep inspiration E03.9 — Hypothyroidism, unspecified K74.60 — Unspecified cirrhosis of liver J06.9 — Acute upper respiratory infection, unspecified" [ref=e5773] [cursor=pointer]:
+                - cell "—" [ref=e5774]
+                - cell "Dr. Dr. Mei Zhang" [ref=e5775]
+                - cell "3/4/2023" [ref=e5776]
+                - cell "Pleuritic chest pain, worse on deep inspiration" [ref=e5777]
+                - cell "E03.9 — Hypothyroidism, unspecified K74.60 — Unspecified cirrhosis of liver J06.9 — Acute upper respiratory infection, unspecified" [ref=e5778]:
+                  - generic [ref=e5779]:
+                    - generic [ref=e5780]: E03.9 — Hypothyroidism, unspecified
+                    - generic [ref=e5781]: K74.60 — Unspecified cirrhosis of liver
+                    - generic [ref=e5782]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Priya Krishnamurthy 3/3/2023 Progressive memory loss noticed by family over 6 months A41.9 — Sepsis, unspecified organism K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5783] [cursor=pointer]:
+                - cell "—" [ref=e5784]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e5785]
+                - cell "3/3/2023" [ref=e5786]
+                - cell "Progressive memory loss noticed by family over 6 months" [ref=e5787]
+                - cell "A41.9 — Sepsis, unspecified organism K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding" [ref=e5788]:
+                  - generic [ref=e5789]:
+                    - generic [ref=e5790]: A41.9 — Sepsis, unspecified organism
+                    - generic [ref=e5791]: K57.30 — Diverticulosis of large intestine without perforation or abscess without bleeding
+              - row "— Dr. Dr. Sofia Patel 3/3/2023 Pre-operative assessment for elective procedure J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e5792] [cursor=pointer]:
+                - cell "—" [ref=e5793]
+                - cell "Dr. Dr. Sofia Patel" [ref=e5794]
+                - cell "3/3/2023" [ref=e5795]
+                - cell "Pre-operative assessment for elective procedure" [ref=e5796]
+                - cell "J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation" [ref=e5797]:
+                  - generic [ref=e5799]: J44.1 — Chronic obstructive pulmonary disease with (acute) exacerbation
+              - row "— Dr. Dr. Eleanor Hartmann 3/3/2023 Gait instability and recurrent falls E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension K92.1 — Melaena" [ref=e5800] [cursor=pointer]:
+                - cell "—" [ref=e5801]
+                - cell "Dr. Dr. Eleanor Hartmann" [ref=e5802]
+                - cell "3/3/2023" [ref=e5803]
+                - cell "Gait instability and recurrent falls" [ref=e5804]
+                - cell "E78.00 — Pure hypercholesterolaemia, unspecified I10 — Essential (primary) hypertension K92.1 — Melaena" [ref=e5805]:
+                  - generic [ref=e5806]:
+                    - generic [ref=e5807]: E78.00 — Pure hypercholesterolaemia, unspecified
+                    - generic [ref=e5808]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5809]: K92.1 — Melaena
+              - row "— Dr. Dr. Sofia Patel 3/3/2023 Chest pain radiating to left arm, onset 2 hours ago I50.32 — Chronic diastolic (congestive) heart failure, decompensated B02.9 — Zoster without complications" [ref=e5810] [cursor=pointer]:
+                - cell "—" [ref=e5811]
+                - cell "Dr. Dr. Sofia Patel" [ref=e5812]
+                - cell "3/3/2023" [ref=e5813]
+                - cell "Chest pain radiating to left arm, onset 2 hours ago" [ref=e5814]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated B02.9 — Zoster without complications" [ref=e5815]:
+                  - generic [ref=e5816]:
+                    - generic [ref=e5817]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+                    - generic [ref=e5818]: B02.9 — Zoster without complications
+              - row "— Dr. Dr. Victor Reyes 3/2/2023 Vaccination and travel health consultation E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5819] [cursor=pointer]:
+                - cell "—" [ref=e5820]
+                - cell "Dr. Dr. Victor Reyes" [ref=e5821]
+                - cell "3/2/2023" [ref=e5822]
+                - cell "Vaccination and travel health consultation" [ref=e5823]
+                - cell "E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified" [ref=e5824]:
+                  - generic [ref=e5826]: E11.40 — Type 2 diabetes mellitus with diabetic neuropathy, unspecified
+              - row "— Dr. Dr. Tariq Hassan 3/1/2023 Recurrent urinary tract infections — fourth episode this year J06.9 — Acute upper respiratory infection, unspecified" [ref=e5827] [cursor=pointer]:
+                - cell "—" [ref=e5828]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e5829]
+                - cell "3/1/2023" [ref=e5830]
+                - cell "Recurrent urinary tract infections — fourth episode this year" [ref=e5831]
+                - cell "J06.9 — Acute upper respiratory infection, unspecified" [ref=e5832]:
+                  - generic [ref=e5834]: J06.9 — Acute upper respiratory infection, unspecified
+              - row "— Dr. Dr. Tariq Hassan 3/1/2023 Jaundice and right upper quadrant discomfort I73.9 — Peripheral vascular disease, unspecified A41.9 — Sepsis, unspecified organism" [ref=e5835] [cursor=pointer]:
+                - cell "—" [ref=e5836]
+                - cell "Dr. Dr. Tariq Hassan" [ref=e5837]
+                - cell "3/1/2023" [ref=e5838]
+                - cell "Jaundice and right upper quadrant discomfort" [ref=e5839]
+                - cell "I73.9 — Peripheral vascular disease, unspecified A41.9 — Sepsis, unspecified organism" [ref=e5840]:
+                  - generic [ref=e5841]:
+                    - generic [ref=e5842]: I73.9 — Peripheral vascular disease, unspecified
+                    - generic [ref=e5843]: A41.9 — Sepsis, unspecified organism
+              - row "— Dr. Dr. Aiden Callahan 3/1/2023 Painful vesicular eruption following a dermatomal distribution F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5844] [cursor=pointer]:
+                - cell "—" [ref=e5845]
+                - cell "Dr. Dr. Aiden Callahan" [ref=e5846]
+                - cell "3/1/2023" [ref=e5847]
+                - cell "Painful vesicular eruption following a dermatomal distribution" [ref=e5848]
+                - cell "F20.9 — Schizophrenia, unspecified K21.0 — Gastro-oesophageal reflux disease with oesophagitis C50.912 — Malignant neoplasm of unspecified site of left female breast" [ref=e5849]:
+                  - generic [ref=e5850]:
+                    - generic [ref=e5851]: F20.9 — Schizophrenia, unspecified
+                    - generic [ref=e5852]: K21.0 — Gastro-oesophageal reflux disease with oesophagitis
+                    - generic [ref=e5853]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+              - row "— Dr. Dr. Liam Sullivan 3/1/2023 Nausea, vomiting, and inability to tolerate fluids for 48 hours I10 — Essential (primary) hypertension K92.1 — Melaena" [ref=e5854] [cursor=pointer]:
+                - cell "—" [ref=e5855]
+                - cell "Dr. Dr. Liam Sullivan" [ref=e5856]
+                - cell "3/1/2023" [ref=e5857]
+                - cell "Nausea, vomiting, and inability to tolerate fluids for 48 hours" [ref=e5858]
+                - cell "I10 — Essential (primary) hypertension K92.1 — Melaena" [ref=e5859]:
+                  - generic [ref=e5860]:
+                    - generic [ref=e5861]: I10 — Essential (primary) hypertension
+                    - generic [ref=e5862]: K92.1 — Melaena
+              - row "— Dr. Dr. Priya Krishnamurthy 3/1/2023 Persistent low mood, anhedonia, and poor sleep for 6 weeks I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5863] [cursor=pointer]:
+                - cell "—" [ref=e5864]
+                - cell "Dr. Dr. Priya Krishnamurthy" [ref=e5865]
+                - cell "3/1/2023" [ref=e5866]
+                - cell "Persistent low mood, anhedonia, and poor sleep for 6 weeks" [ref=e5867]
+                - cell "I50.32 — Chronic diastolic (congestive) heart failure, decompensated" [ref=e5868]:
+                  - generic [ref=e5870]: I50.32 — Chronic diastolic (congestive) heart failure, decompensated
+              - row "— Dr. Dr. Victor Reyes 2/28/2023 Dysuria, frequency, and suprapubic pain for 3 days C50.912 — Malignant neoplasm of unspecified site of left female breast I73.9 — Peripheral vascular disease, unspecified" [ref=e5871] [cursor=pointer]:
+                - cell "—" [ref=e5872]
+                - cell "Dr. Dr. Victor Reyes" [ref=e5873]
+                - cell "2/28/2023" [ref=e5874]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5875]
+                - cell "C50.912 — Malignant neoplasm of unspecified site of left female breast I73.9 — Peripheral vascular disease, unspecified" [ref=e5876]:
+                  - generic [ref=e5877]:
+                    - generic [ref=e5878]: C50.912 — Malignant neoplasm of unspecified site of left female breast
+                    - generic [ref=e5879]: I73.9 — Peripheral vascular disease, unspecified
+              - row "— Dr. Dr. James Okafor 2/28/2023 Dysuria, frequency, and suprapubic pain for 3 days L40.0 — Psoriasis vulgaris" [ref=e5880] [cursor=pointer]:
+                - cell "—" [ref=e5881]
+                - cell "Dr. Dr. James Okafor" [ref=e5882]
+                - cell "2/28/2023" [ref=e5883]
+                - cell "Dysuria, frequency, and suprapubic pain for 3 days" [ref=e5884]
+                - cell "L40.0 — Psoriasis vulgaris" [ref=e5885]:
+                  - generic [ref=e5887]: L40.0 — Psoriasis vulgaris
+    - button "💬" [ref=e5888]
+  - region "Notifications Alt+T"
+```

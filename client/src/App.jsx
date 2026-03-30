@@ -11,8 +11,8 @@
  *   ProtectedRoute — requires any authenticated user
  *   RoleRoute      — restricts to specific roles
  */
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import { BrowserRouter, Routes, Route, Navigate, useParams, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -39,19 +39,49 @@ import BillingPage from './pages/BillingPage';
 import WardMap from './pages/WardMap';
 import AdminPanel from './pages/AdminPanel';
 
+/** Forces a fresh EHRRecord instance per record id so view state does not leak between routes */
+function EHRRecordById() {
+  const { id } = useParams();
+  return <EHRRecord key={id} />;
+}
+
 /** Shell layout wrapping authenticated pages */
 function AppShell({ children }) {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const location = useLocation();
+  // Desktop: sidebar visible by default; mobile: drawer closed until hamburger opens
+  const [sidebarOpen, setSidebarOpen] = useState(() =>
+    typeof window !== 'undefined' && window.matchMedia('(min-width: 1024px)').matches
+  );
+
+  // Close the mobile drawer after navigation so content is not covered
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.matchMedia('(max-width: 1023px)').matches) {
+      setSidebarOpen(false);
+    }
+  }, [location.pathname]);
 
   return (
     <div className="flex h-screen overflow-hidden bg-gray-50">
-      {/* Sidebar */}
-      <div className="hidden lg:flex flex-col flex-shrink-0">
+      {/* Mobile: dim background when drawer open */}
+      {sidebarOpen && (
+        <button
+          type="button"
+          aria-label="Close menu"
+          className="fixed inset-0 z-30 bg-black/40 lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+      {/* Sidebar: off-canvas on small screens, always visible on lg+ */}
+      <div
+        className={`fixed lg:static inset-y-0 left-0 z-40 flex flex-col flex-shrink-0 transition-transform duration-200 ease-out
+          ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+          lg:translate-x-0`}
+      >
         <Sidebar open={sidebarOpen} onToggle={() => setSidebarOpen((o) => !o)} />
       </div>
 
       {/* Main content area */}
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col overflow-hidden min-w-0">
         <Navbar onMenuToggle={() => setSidebarOpen((o) => !o)} />
         <main className="flex-1 overflow-y-auto">
           {children}
@@ -130,7 +160,8 @@ export default function App() {
           <Route path="/records/new" element={
             <ProtectedRoute>
               <RoleRoute allowedRoles={['admin', 'doctor', 'nurse']}>
-                <AppShell><EHRRecord /></AppShell>
+                {/* key resets local state when switching between new and an existing record */}
+                <AppShell><EHRRecord key="records-new" /></AppShell>
               </RoleRoute>
             </ProtectedRoute>
           } />
@@ -138,7 +169,7 @@ export default function App() {
           {/* /records/:id → view mode for an existing record */}
           <Route path="/records/:id" element={
             <ProtectedRoute>
-              <AppShell><EHRRecord /></AppShell>
+              <AppShell><EHRRecordById /></AppShell>
             </ProtectedRoute>
           } />
 

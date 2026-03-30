@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm *)",
+      "Bash(git *)",
+      "Bash(npx *)",
+      "Bash(vercel *)",
+      "Bash(gh *)",
+      "Bash(node scripts/*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '$CLAUDE_TOOL_INPUT' | grep -q 'git push' && (cd server && npm run test:unit -- --run) && (cd client && npm run test:unit -- --run) || true"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '$CLAUDE_TOOL_INPUT' | grep -q 'vercel --prod' && TAG=$(git tag --sort=-version:refname | head -1) && [ -n \"$TAG\" ] && gh release create $TAG --generate-notes || true"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '\\n--- MediCore Coverage Snapshot ---' && cd server && npm run test:coverage -- --silent 2>/dev/null | tail -5 || true"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledMcpjsonServers": ["trello"]
+}

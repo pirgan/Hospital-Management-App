@@ -1,0 +1,1324 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - button "◀" [ref=e6]
+      - navigation [ref=e7]:
+        - link "🏠 Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e9]: 🏠
+          - generic [ref=e10]: Dashboard
+        - link "👥 Patients" [ref=e11] [cursor=pointer]:
+          - /url: /patients
+          - generic [ref=e12]: 👥
+          - generic [ref=e13]: Patients
+        - link "📅 Appointments" [ref=e14] [cursor=pointer]:
+          - /url: /appointments
+          - generic [ref=e15]: 📅
+          - generic [ref=e16]: Appointments
+        - link "💳 Billing" [ref=e17] [cursor=pointer]:
+          - /url: /billing
+          - generic [ref=e18]: 💳
+          - generic [ref=e19]: Billing
+    - generic [ref=e20]:
+      - banner [ref=e21]:
+        - link "MediCore" [ref=e22] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Dashboard" [ref=e23] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e24]:
+          - generic "receptionist" [ref=e25]
+          - generic [ref=e26]: E2E receptionist 2
+          - button "Logout" [ref=e27]
+      - main [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Billing" [level=1] [ref=e31]
+            - button "+ New Invoice" [active] [ref=e32]
+          - generic [ref=e33]:
+            - button "all" [ref=e34]
+            - button "draft" [ref=e35]
+            - button "sent" [ref=e36]
+            - button "paid" [ref=e37]
+            - button "overdue" [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e41] [cursor=pointer]:
+              - generic [ref=e42]:
+                - paragraph [ref=e43]: Billing Patient 1774822790942
+                - paragraph [ref=e44]: "Due: 1/1/2027 · Paid: 3/30/2026"
+              - generic [ref=e45]:
+                - generic [ref=e46]: £200.00
+                - generic [ref=e47]: paid
+            - generic [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]:
+                - paragraph [ref=e51]: Billing Patient 1774822776554
+                - paragraph [ref=e52]: "Due: 1/1/2027"
+              - generic [ref=e53]:
+                - generic [ref=e54]: £200.00
+                - generic [ref=e55]: overdue
+                - button "Mark Paid" [ref=e56]
+            - generic [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]:
+                - paragraph [ref=e60]: Billing Patient 1774822763605
+                - paragraph [ref=e61]: "Due: 1/1/2027"
+              - generic [ref=e62]:
+                - generic [ref=e63]: £200.00
+                - generic [ref=e64]: draft
+            - generic [ref=e66] [cursor=pointer]:
+              - generic [ref=e67]:
+                - paragraph [ref=e68]: Billing Patient 1774822759071
+                - paragraph [ref=e69]: "Due: 1/1/2027"
+              - generic [ref=e70]:
+                - generic [ref=e71]: £200.00
+                - generic [ref=e72]: sent
+                - button "Mark Paid" [ref=e73]
+            - generic [ref=e75] [cursor=pointer]:
+              - generic [ref=e76]:
+                - paragraph [ref=e77]: Dennis Mendoza
+                - paragraph [ref=e78]: "Due: 3/29/2026"
+              - generic [ref=e79]:
+                - generic [ref=e80]: £300.00
+                - generic [ref=e81]: draft
+            - generic [ref=e83] [cursor=pointer]:
+              - generic [ref=e84]:
+                - paragraph [ref=e85]: Nancy Anderson
+                - paragraph [ref=e86]: "Due: 3/7/2026"
+              - generic [ref=e87]:
+                - generic [ref=e88]: £11620.00
+                - generic [ref=e89]: draft
+            - generic [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]:
+                - paragraph [ref=e93]: Diane Clark
+                - paragraph [ref=e94]: "Due: 2/10/2026"
+              - generic [ref=e95]:
+                - generic [ref=e96]: £1070.00
+                - generic [ref=e97]: overdue
+                - button "Mark Paid" [ref=e98]
+            - generic [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]:
+                - paragraph [ref=e102]: Christine Kelly
+                - paragraph [ref=e103]: "Due: 2/24/2026 · Paid: 3/29/2026"
+              - generic [ref=e104]:
+                - generic [ref=e105]: £1555.00
+                - generic [ref=e106]: paid
+            - generic [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]:
+                - paragraph [ref=e110]: Shirley Mendoza
+                - paragraph [ref=e111]: "Due: 2/23/2026"
+              - generic [ref=e112]:
+                - generic [ref=e113]: £1180.00
+                - generic [ref=e114]: overdue
+                - button "Mark Paid" [ref=e115]
+            - generic [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]:
+                - paragraph [ref=e119]: Frank Peterson
+                - paragraph [ref=e120]: "Due: 2/6/2026"
+              - generic [ref=e121]:
+                - generic [ref=e122]: £15240.00
+                - generic [ref=e123]: draft
+            - generic [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: Laura Scott
+                - paragraph [ref=e128]: "Due: 3/10/2026"
+              - generic [ref=e129]:
+                - generic [ref=e130]: £4465.00
+                - generic [ref=e131]: draft
+            - generic [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: Brian Bennett
+                - paragraph [ref=e136]: "Due: 2/22/2026"
+              - generic [ref=e137]:
+                - generic [ref=e138]: £4780.00
+                - generic [ref=e139]: overdue
+                - button "Mark Paid" [ref=e140]
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]:
+                - paragraph [ref=e144]: Stephen Anderson
+                - paragraph [ref=e145]: "Due: 2/25/2026"
+              - generic [ref=e146]:
+                - generic [ref=e147]: £16655.00
+                - generic [ref=e148]: overdue
+                - button "Mark Paid" [ref=e149]
+            - generic [ref=e151] [cursor=pointer]:
+              - generic [ref=e152]:
+                - paragraph [ref=e153]: Joshua Ortiz
+                - paragraph [ref=e154]: "Due: 3/3/2026"
+              - generic [ref=e155]:
+                - generic [ref=e156]: £2445.00
+                - generic [ref=e157]: overdue
+                - button "Mark Paid" [ref=e158]
+            - generic [ref=e160] [cursor=pointer]:
+              - generic [ref=e161]:
+                - paragraph [ref=e162]: Raymond Flores
+                - paragraph [ref=e163]: "Due: 1/29/2026"
+              - generic [ref=e164]:
+                - generic [ref=e165]: £10590.00
+                - generic [ref=e166]: overdue
+                - button "Mark Paid" [ref=e167]
+            - generic [ref=e169] [cursor=pointer]:
+              - generic [ref=e170]:
+                - paragraph [ref=e171]: William Perez
+                - paragraph [ref=e172]: "Due: 3/25/2026"
+              - generic [ref=e173]:
+                - generic [ref=e174]: £2615.00
+                - generic [ref=e175]: overdue
+                - button "Mark Paid" [ref=e176]
+            - generic [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]:
+                - paragraph [ref=e180]: Scott Morgan
+                - paragraph [ref=e181]: "Due: 4/17/2026"
+              - generic [ref=e182]:
+                - generic [ref=e183]: £3325.00
+                - generic [ref=e184]: sent
+                - button "Mark Paid" [ref=e185]
+            - generic [ref=e187] [cursor=pointer]:
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: Nicholas Scott
+                - paragraph [ref=e190]: "Due: 3/17/2026"
+              - generic [ref=e191]:
+                - generic [ref=e192]: £1680.00
+                - generic [ref=e193]: overdue
+                - button "Mark Paid" [ref=e194]
+            - generic [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - paragraph [ref=e198]: Brandon Cox
+                - paragraph [ref=e199]: "Due: 3/6/2026"
+              - generic [ref=e200]:
+                - generic [ref=e201]: £2860.00
+                - generic [ref=e202]: overdue
+                - button "Mark Paid" [ref=e203]
+            - generic [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: Dennis Garcia
+                - paragraph [ref=e208]: "Due: 2/3/2026"
+              - generic [ref=e209]:
+                - generic [ref=e210]: £17560.00
+                - generic [ref=e211]: overdue
+                - button "Mark Paid" [ref=e212]
+            - generic [ref=e214] [cursor=pointer]:
+              - generic [ref=e215]:
+                - paragraph [ref=e216]: Donna Morris
+                - paragraph [ref=e217]: "Due: 3/13/2026"
+              - generic [ref=e218]:
+                - generic [ref=e219]: £2370.00
+                - generic [ref=e220]: draft
+            - generic [ref=e222] [cursor=pointer]:
+              - generic [ref=e223]:
+                - paragraph [ref=e224]: Rebecca Allen
+                - paragraph [ref=e225]: "Due: 4/6/2026 · Paid: 3/23/2026"
+              - generic [ref=e226]:
+                - generic [ref=e227]: £7530.00
+                - generic [ref=e228]: paid
+            - generic [ref=e230] [cursor=pointer]:
+              - generic [ref=e231]:
+                - paragraph [ref=e232]: Jeffrey Murphy
+                - paragraph [ref=e233]: "Due: 4/1/2026"
+              - generic [ref=e234]:
+                - generic [ref=e235]: £740.00
+                - generic [ref=e236]: sent
+                - button "Mark Paid" [ref=e237]
+            - generic [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]:
+                - paragraph [ref=e241]: Debra Hill
+                - paragraph [ref=e242]: "Due: 4/14/2026"
+              - generic [ref=e243]:
+                - generic [ref=e244]: £2980.00
+                - generic [ref=e245]: draft
+            - generic [ref=e247] [cursor=pointer]:
+              - generic [ref=e248]:
+                - paragraph [ref=e249]: Jerry Bennett
+                - paragraph [ref=e250]: "Due: 4/5/2026"
+              - generic [ref=e251]:
+                - generic [ref=e252]: £340.00
+                - generic [ref=e253]: overdue
+                - button "Mark Paid" [ref=e254]
+            - generic [ref=e256] [cursor=pointer]:
+              - generic [ref=e257]:
+                - paragraph [ref=e258]: Shirley Kim
+                - paragraph [ref=e259]: "Due: 1/4/2026"
+              - generic [ref=e260]:
+                - generic [ref=e261]: £1285.00
+                - generic [ref=e262]: overdue
+                - button "Mark Paid" [ref=e263]
+            - generic [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]:
+                - paragraph [ref=e267]: Daniel Ramirez
+                - paragraph [ref=e268]: "Due: 2/11/2026 · Paid: 3/9/2026"
+              - generic [ref=e269]:
+                - generic [ref=e270]: £10875.00
+                - generic [ref=e271]: paid
+            - generic [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]:
+                - paragraph [ref=e275]: Lisa Allen
+                - paragraph [ref=e276]: "Due: 4/4/2026 · Paid: 3/13/2026"
+              - generic [ref=e277]:
+                - generic [ref=e278]: £1375.00
+                - generic [ref=e279]: paid
+            - generic [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]:
+                - paragraph [ref=e283]: Sharon Long
+                - paragraph [ref=e284]: "Due: 1/23/2026"
+              - generic [ref=e285]:
+                - generic [ref=e286]: £815.00
+                - generic [ref=e287]: overdue
+                - button "Mark Paid" [ref=e288]
+            - generic [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]:
+                - paragraph [ref=e292]: Karen Lewis
+                - paragraph [ref=e293]: "Due: 4/28/2026 · Paid: 3/14/2026"
+              - generic [ref=e294]:
+                - generic [ref=e295]: £3270.00
+                - generic [ref=e296]: paid
+            - generic [ref=e298] [cursor=pointer]:
+              - generic [ref=e299]:
+                - paragraph [ref=e300]: Debra Nelson
+                - paragraph [ref=e301]: "Due: 1/30/2026"
+              - generic [ref=e302]:
+                - generic [ref=e303]: £1470.00
+                - generic [ref=e304]: draft
+            - generic [ref=e306] [cursor=pointer]:
+              - generic [ref=e307]:
+                - paragraph [ref=e308]: Brandon Ruiz
+                - paragraph [ref=e309]: "Due: 1/23/2026"
+              - generic [ref=e310]:
+                - generic [ref=e311]: £2345.00
+                - generic [ref=e312]: overdue
+                - button "Mark Paid" [ref=e313]
+            - generic [ref=e315] [cursor=pointer]:
+              - generic [ref=e316]:
+                - paragraph [ref=e317]: Nicole Powell
+                - paragraph [ref=e318]: "Due: 1/8/2026 · Paid: 3/29/2026"
+              - generic [ref=e319]:
+                - generic [ref=e320]: £26470.00
+                - generic [ref=e321]: paid
+            - generic [ref=e323] [cursor=pointer]:
+              - generic [ref=e324]:
+                - paragraph [ref=e325]: Nicole Kim
+                - paragraph [ref=e326]: "Due: 2/13/2026 · Paid: 3/20/2026"
+              - generic [ref=e327]:
+                - generic [ref=e328]: £4810.00
+                - generic [ref=e329]: paid
+            - generic [ref=e331] [cursor=pointer]:
+              - generic [ref=e332]:
+                - paragraph [ref=e333]: Betty Walker
+                - paragraph [ref=e334]: "Due: 4/20/2026"
+              - generic [ref=e335]:
+                - generic [ref=e336]: £1745.00
+                - generic [ref=e337]: overdue
+                - button "Mark Paid" [ref=e338]
+            - generic [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]:
+                - paragraph [ref=e342]: Samantha Castillo
+                - paragraph [ref=e343]: "Due: 3/9/2026"
+              - generic [ref=e344]:
+                - generic [ref=e345]: £5740.00
+                - generic [ref=e346]: overdue
+                - button "Mark Paid" [ref=e347]
+            - generic [ref=e349] [cursor=pointer]:
+              - generic [ref=e350]:
+                - paragraph [ref=e351]: Sandra Hall
+                - paragraph [ref=e352]: "Due: 4/27/2026"
+              - generic [ref=e353]:
+                - generic [ref=e354]: £625.00
+                - generic [ref=e355]: draft
+            - generic [ref=e357] [cursor=pointer]:
+              - generic [ref=e358]:
+                - paragraph [ref=e359]: Debra Stewart
+                - paragraph [ref=e360]: "Due: 2/19/2026"
+              - generic [ref=e361]:
+                - generic [ref=e362]: £1320.00
+                - generic [ref=e363]: draft
+            - generic [ref=e365] [cursor=pointer]:
+              - generic [ref=e366]:
+                - paragraph [ref=e367]: Justin Brown
+                - paragraph [ref=e368]: "Due: 3/8/2026"
+              - generic [ref=e369]:
+                - generic [ref=e370]: £16405.00
+                - generic [ref=e371]: draft
+            - generic [ref=e373] [cursor=pointer]:
+              - generic [ref=e374]:
+                - paragraph [ref=e375]: Joseph Ruiz
+                - paragraph [ref=e376]: "Due: 12/29/2025 · Paid: 3/11/2026"
+              - generic [ref=e377]:
+                - generic [ref=e378]: £10040.00
+                - generic [ref=e379]: paid
+            - generic [ref=e381] [cursor=pointer]:
+              - generic [ref=e382]:
+                - paragraph [ref=e383]: Donna Adams
+                - paragraph [ref=e384]: "Due: 2/25/2026"
+              - generic [ref=e385]:
+                - generic [ref=e386]: £20150.00
+                - generic [ref=e387]: overdue
+                - button "Mark Paid" [ref=e388]
+            - generic [ref=e390] [cursor=pointer]:
+              - generic [ref=e391]:
+                - paragraph [ref=e392]: Robert Robinson
+                - paragraph [ref=e393]: "Due: 3/9/2026"
+              - generic [ref=e394]:
+                - generic [ref=e395]: £7570.00
+                - generic [ref=e396]: overdue
+                - button "Mark Paid" [ref=e397]
+            - generic [ref=e399] [cursor=pointer]:
+              - generic [ref=e400]:
+                - paragraph [ref=e401]: Helen Carter
+                - paragraph [ref=e402]: "Due: 4/16/2026 · Paid: 3/16/2026"
+              - generic [ref=e403]:
+                - generic [ref=e404]: £630.00
+                - generic [ref=e405]: paid
+            - generic [ref=e407] [cursor=pointer]:
+              - generic [ref=e408]:
+                - paragraph [ref=e409]: Jack Reed
+                - paragraph [ref=e410]: "Due: 4/22/2026"
+              - generic [ref=e411]:
+                - generic [ref=e412]: £1310.00
+                - generic [ref=e413]: overdue
+                - button "Mark Paid" [ref=e414]
+            - generic [ref=e416] [cursor=pointer]:
+              - generic [ref=e417]:
+                - paragraph [ref=e418]: Scott Jenkins
+                - paragraph [ref=e419]: "Due: 1/4/2026"
+              - generic [ref=e420]:
+                - generic [ref=e421]: £1395.00
+                - generic [ref=e422]: overdue
+                - button "Mark Paid" [ref=e423]
+            - generic [ref=e425] [cursor=pointer]:
+              - generic [ref=e426]:
+                - paragraph [ref=e427]: Steven Baker
+                - paragraph [ref=e428]: "Due: 3/16/2026"
+              - generic [ref=e429]:
+                - generic [ref=e430]: £3280.00
+                - generic [ref=e431]: draft
+            - generic [ref=e433] [cursor=pointer]:
+              - generic [ref=e434]:
+                - paragraph [ref=e435]: Michelle Lewis
+                - paragraph [ref=e436]: "Due: 12/31/2025"
+              - generic [ref=e437]:
+                - generic [ref=e438]: £4405.00
+                - generic [ref=e439]: overdue
+                - button "Mark Paid" [ref=e440]
+            - generic [ref=e442] [cursor=pointer]:
+              - generic [ref=e443]:
+                - paragraph [ref=e444]: Sarah Watson
+                - paragraph [ref=e445]: "Due: 2/7/2026"
+              - generic [ref=e446]:
+                - generic [ref=e447]: £1630.00
+                - generic [ref=e448]: overdue
+                - button "Mark Paid" [ref=e449]
+            - generic [ref=e451] [cursor=pointer]:
+              - generic [ref=e452]:
+                - paragraph [ref=e453]: Benjamin Rogers
+                - paragraph [ref=e454]: "Due: 2/2/2026"
+              - generic [ref=e455]:
+                - generic [ref=e456]: £15250.00
+                - generic [ref=e457]: overdue
+                - button "Mark Paid" [ref=e458]
+            - generic [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]:
+                - paragraph [ref=e462]: Carolyn Johnson
+                - paragraph [ref=e463]: "Due: 4/25/2026 · Paid: 3/14/2026"
+              - generic [ref=e464]:
+                - generic [ref=e465]: £3425.00
+                - generic [ref=e466]: paid
+            - generic [ref=e468] [cursor=pointer]:
+              - generic [ref=e469]:
+                - paragraph [ref=e470]: Brenda Jimenez
+                - paragraph [ref=e471]: "Due: 2/6/2026"
+              - generic [ref=e472]:
+                - generic [ref=e473]: £1090.00
+                - generic [ref=e474]: draft
+            - generic [ref=e476] [cursor=pointer]:
+              - generic [ref=e477]:
+                - paragraph [ref=e478]: Gary Hernandez
+                - paragraph [ref=e479]: "Due: 4/19/2026 · Paid: 3/28/2026"
+              - generic [ref=e480]:
+                - generic [ref=e481]: £2710.00
+                - generic [ref=e482]: paid
+            - generic [ref=e484] [cursor=pointer]:
+              - generic [ref=e485]:
+                - paragraph [ref=e486]: Dennis Mendoza
+                - paragraph [ref=e487]: "Due: 4/20/2026"
+              - generic [ref=e488]:
+                - generic [ref=e489]: £4000.00
+                - generic [ref=e490]: overdue
+                - button "Mark Paid" [ref=e491]
+            - generic [ref=e493] [cursor=pointer]:
+              - generic [ref=e494]:
+                - paragraph [ref=e495]: Emily Peterson
+                - paragraph [ref=e496]: "Due: 4/9/2026 · Paid: 3/20/2026"
+              - generic [ref=e497]:
+                - generic [ref=e498]: £715.00
+                - generic [ref=e499]: paid
+            - generic [ref=e501] [cursor=pointer]:
+              - generic [ref=e502]:
+                - paragraph [ref=e503]: Katherine Sullivan
+                - paragraph [ref=e504]: "Due: 2/9/2026"
+              - generic [ref=e505]:
+                - generic [ref=e506]: £4565.00
+                - generic [ref=e507]: draft
+            - generic [ref=e509] [cursor=pointer]:
+              - generic [ref=e510]:
+                - paragraph [ref=e511]: Stephanie Cox
+                - paragraph [ref=e512]: "Due: 1/19/2026"
+              - generic [ref=e513]:
+                - generic [ref=e514]: £2085.00
+                - generic [ref=e515]: draft
+            - generic [ref=e517] [cursor=pointer]:
+              - generic [ref=e518]:
+                - paragraph [ref=e519]: Laura Campbell
+                - paragraph [ref=e520]: "Due: 4/26/2026 · Paid: 3/24/2026"
+              - generic [ref=e521]:
+                - generic [ref=e522]: £3335.00
+                - generic [ref=e523]: paid
+            - generic [ref=e525] [cursor=pointer]:
+              - generic [ref=e526]:
+                - paragraph [ref=e527]: Michael Kelly
+                - paragraph [ref=e528]: "Due: 4/23/2026 · Paid: 3/14/2026"
+              - generic [ref=e529]:
+                - generic [ref=e530]: £7580.00
+                - generic [ref=e531]: paid
+            - generic [ref=e533] [cursor=pointer]:
+              - generic [ref=e534]:
+                - paragraph [ref=e535]: Dennis Cox
+                - paragraph [ref=e536]: "Due: 2/13/2026 · Paid: 3/19/2026"
+              - generic [ref=e537]:
+                - generic [ref=e538]: £1690.00
+                - generic [ref=e539]: paid
+            - generic [ref=e541] [cursor=pointer]:
+              - generic [ref=e542]:
+                - paragraph [ref=e543]: Ashley Howard
+                - paragraph [ref=e544]: "Due: 1/21/2026"
+              - generic [ref=e545]:
+                - generic [ref=e546]: £2150.00
+                - generic [ref=e547]: overdue
+                - button "Mark Paid" [ref=e548]
+            - generic [ref=e550] [cursor=pointer]:
+              - generic [ref=e551]:
+                - paragraph [ref=e552]: Charles Carter
+                - paragraph [ref=e553]: "Due: 1/23/2026 · Paid: 3/18/2026"
+              - generic [ref=e554]:
+                - generic [ref=e555]: £3110.00
+                - generic [ref=e556]: paid
+            - generic [ref=e558] [cursor=pointer]:
+              - generic [ref=e559]:
+                - paragraph [ref=e560]: Angela Ruiz
+                - paragraph [ref=e561]: "Due: 4/12/2026 · Paid: 3/28/2026"
+              - generic [ref=e562]:
+                - generic [ref=e563]: £410.00
+                - generic [ref=e564]: paid
+            - generic [ref=e566] [cursor=pointer]:
+              - generic [ref=e567]:
+                - paragraph [ref=e568]: Sarah Jenkins
+                - paragraph [ref=e569]: "Due: 4/3/2026"
+              - generic [ref=e570]:
+                - generic [ref=e571]: £2815.00
+                - generic [ref=e572]: draft
+            - generic [ref=e574] [cursor=pointer]:
+              - generic [ref=e575]:
+                - paragraph [ref=e576]: Ryan Garcia
+                - paragraph [ref=e577]: "Due: 1/18/2026"
+              - generic [ref=e578]:
+                - generic [ref=e579]: £2170.00
+                - generic [ref=e580]: draft
+            - generic [ref=e582] [cursor=pointer]:
+              - generic [ref=e583]:
+                - paragraph [ref=e584]: Debra Jones
+                - paragraph [ref=e585]: "Due: 3/10/2026"
+              - generic [ref=e586]:
+                - generic [ref=e587]: £1390.00
+                - generic [ref=e588]: overdue
+                - button "Mark Paid" [ref=e589]
+            - generic [ref=e591] [cursor=pointer]:
+              - generic [ref=e592]:
+                - paragraph [ref=e593]: Heather Perry
+                - paragraph [ref=e594]: "Due: 2/1/2026"
+              - generic [ref=e595]:
+                - generic [ref=e596]: £4660.00
+                - generic [ref=e597]: overdue
+                - button "Mark Paid" [ref=e598]
+            - generic [ref=e600] [cursor=pointer]:
+              - generic [ref=e601]:
+                - paragraph [ref=e602]: Emily Foster
+                - paragraph [ref=e603]: "Due: 1/21/2026 · Paid: 3/25/2026"
+              - generic [ref=e604]:
+                - generic [ref=e605]: £3840.00
+                - generic [ref=e606]: paid
+            - generic [ref=e608] [cursor=pointer]:
+              - generic [ref=e609]:
+                - paragraph [ref=e610]: Ryan Clark
+                - paragraph [ref=e611]: "Due: 1/9/2026"
+              - generic [ref=e612]:
+                - generic [ref=e613]: £2550.00
+                - generic [ref=e614]: overdue
+                - button "Mark Paid" [ref=e615]
+            - generic [ref=e617] [cursor=pointer]:
+              - generic [ref=e618]:
+                - paragraph [ref=e619]: Maria Reed
+                - paragraph [ref=e620]: "Due: 4/12/2026"
+              - generic [ref=e621]:
+                - generic [ref=e622]: £10720.00
+                - generic [ref=e623]: overdue
+                - button "Mark Paid" [ref=e624]
+            - generic [ref=e626] [cursor=pointer]:
+              - generic [ref=e627]:
+                - paragraph [ref=e628]: Barbara White
+                - paragraph [ref=e629]: "Due: 1/5/2026"
+              - generic [ref=e630]:
+                - generic [ref=e631]: £1720.00
+                - generic [ref=e632]: overdue
+                - button "Mark Paid" [ref=e633]
+            - generic [ref=e635] [cursor=pointer]:
+              - generic [ref=e636]:
+                - paragraph [ref=e637]: Eric Hall
+                - paragraph [ref=e638]: "Due: 1/13/2026"
+              - generic [ref=e639]:
+                - generic [ref=e640]: £6775.00
+                - generic [ref=e641]: draft
+            - generic [ref=e643] [cursor=pointer]:
+              - generic [ref=e644]:
+                - paragraph [ref=e645]: Susan Chavez
+                - paragraph [ref=e646]: "Due: 3/17/2026"
+              - generic [ref=e647]:
+                - generic [ref=e648]: £3125.00
+                - generic [ref=e649]: draft
+            - generic [ref=e651] [cursor=pointer]:
+              - generic [ref=e652]:
+                - paragraph [ref=e653]: Helen Adams
+                - paragraph [ref=e654]: "Due: 4/22/2026 · Paid: 3/16/2026"
+              - generic [ref=e655]:
+                - generic [ref=e656]: £415.00
+                - generic [ref=e657]: paid
+            - generic [ref=e659] [cursor=pointer]:
+              - generic [ref=e660]:
+                - paragraph [ref=e661]: Barbara Bailey
+                - paragraph [ref=e662]: "Due: 3/13/2026"
+              - generic [ref=e663]:
+                - generic [ref=e664]: £6210.00
+                - generic [ref=e665]: draft
+            - generic [ref=e667] [cursor=pointer]:
+              - generic [ref=e668]:
+                - paragraph [ref=e669]: Timothy Watson
+                - paragraph [ref=e670]: "Due: 4/15/2026"
+              - generic [ref=e671]:
+                - generic [ref=e672]: £3670.00
+                - generic [ref=e673]: overdue
+                - button "Mark Paid" [ref=e674]
+            - generic [ref=e676] [cursor=pointer]:
+              - generic [ref=e677]:
+                - paragraph [ref=e678]: John Martinez
+                - paragraph [ref=e679]: "Due: 3/19/2026"
+              - generic [ref=e680]:
+                - generic [ref=e681]: £5120.00
+                - generic [ref=e682]: draft
+            - generic [ref=e684] [cursor=pointer]:
+              - generic [ref=e685]:
+                - paragraph [ref=e686]: Michelle Hughes
+                - paragraph [ref=e687]: "Due: 2/28/2026"
+              - generic [ref=e688]:
+                - generic [ref=e689]: £1630.00
+                - generic [ref=e690]: overdue
+                - button "Mark Paid" [ref=e691]
+            - generic [ref=e693] [cursor=pointer]:
+              - generic [ref=e694]:
+                - paragraph [ref=e695]: Brandon Castillo
+                - paragraph [ref=e696]: "Due: 3/15/2026"
+              - generic [ref=e697]:
+                - generic [ref=e698]: £5325.00
+                - generic [ref=e699]: overdue
+                - button "Mark Paid" [ref=e700]
+            - generic [ref=e702] [cursor=pointer]:
+              - generic [ref=e703]:
+                - paragraph [ref=e704]: Nancy Moore
+                - paragraph [ref=e705]: "Due: 1/1/2026"
+              - generic [ref=e706]:
+                - generic [ref=e707]: £1215.00
+                - generic [ref=e708]: overdue
+                - button "Mark Paid" [ref=e709]
+            - generic [ref=e711] [cursor=pointer]:
+              - generic [ref=e712]:
+                - paragraph [ref=e713]: Jeffrey Green
+                - paragraph [ref=e714]: "Due: 2/15/2026 · Paid: 3/26/2026"
+              - generic [ref=e715]:
+                - generic [ref=e716]: £10735.00
+                - generic [ref=e717]: paid
+            - generic [ref=e719] [cursor=pointer]:
+              - generic [ref=e720]:
+                - paragraph [ref=e721]: Daniel Martinez
+                - paragraph [ref=e722]: "Due: 2/17/2026"
+              - generic [ref=e723]:
+                - generic [ref=e724]: £2295.00
+                - generic [ref=e725]: overdue
+                - button "Mark Paid" [ref=e726]
+            - generic [ref=e728] [cursor=pointer]:
+              - generic [ref=e729]:
+                - paragraph [ref=e730]: Thomas Collins
+                - paragraph [ref=e731]: "Due: 2/4/2026 · Paid: 3/19/2026"
+              - generic [ref=e732]:
+                - generic [ref=e733]: £3430.00
+                - generic [ref=e734]: paid
+            - generic [ref=e736] [cursor=pointer]:
+              - generic [ref=e737]:
+                - paragraph [ref=e738]: Amy Gray
+                - paragraph [ref=e739]: "Due: 3/19/2026"
+              - generic [ref=e740]:
+                - generic [ref=e741]: £11375.00
+                - generic [ref=e742]: overdue
+                - button "Mark Paid" [ref=e743]
+            - generic [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]:
+                - paragraph [ref=e747]: Amy Wilson
+                - paragraph [ref=e748]: "Due: 1/16/2026"
+              - generic [ref=e749]:
+                - generic [ref=e750]: £3590.00
+                - generic [ref=e751]: overdue
+                - button "Mark Paid" [ref=e752]
+            - generic [ref=e754] [cursor=pointer]:
+              - generic [ref=e755]:
+                - paragraph [ref=e756]: Amanda Ortiz
+                - paragraph [ref=e757]: "Due: 1/18/2026"
+              - generic [ref=e758]:
+                - generic [ref=e759]: £2270.00
+                - generic [ref=e760]: draft
+            - generic [ref=e762] [cursor=pointer]:
+              - generic [ref=e763]:
+                - paragraph [ref=e764]: Scott Robinson
+                - paragraph [ref=e765]: "Due: 2/1/2026"
+              - generic [ref=e766]:
+                - generic [ref=e767]: £1535.00
+                - generic [ref=e768]: draft
+            - generic [ref=e770] [cursor=pointer]:
+              - generic [ref=e771]:
+                - paragraph [ref=e772]: Ashley Campbell
+                - paragraph [ref=e773]: "Due: 1/12/2026"
+              - generic [ref=e774]:
+                - generic [ref=e775]: £1745.00
+                - generic [ref=e776]: overdue
+                - button "Mark Paid" [ref=e777]
+            - generic [ref=e779] [cursor=pointer]:
+              - generic [ref=e780]:
+                - paragraph [ref=e781]: Joseph Brooks
+                - paragraph [ref=e782]: "Due: 4/2/2026"
+              - generic [ref=e783]:
+                - generic [ref=e784]: £700.00
+                - generic [ref=e785]: sent
+                - button "Mark Paid" [ref=e786]
+            - generic [ref=e788] [cursor=pointer]:
+              - generic [ref=e789]:
+                - paragraph [ref=e790]: Kevin Perez
+                - paragraph [ref=e791]: "Due: 2/10/2026"
+              - generic [ref=e792]:
+                - generic [ref=e793]: £3605.00
+                - generic [ref=e794]: overdue
+                - button "Mark Paid" [ref=e795]
+            - generic [ref=e797] [cursor=pointer]:
+              - generic [ref=e798]:
+                - paragraph [ref=e799]: Jonathan Turner
+                - paragraph [ref=e800]: "Due: 3/16/2026"
+              - generic [ref=e801]:
+                - generic [ref=e802]: £25740.00
+                - generic [ref=e803]: overdue
+                - button "Mark Paid" [ref=e804]
+            - generic [ref=e806] [cursor=pointer]:
+              - generic [ref=e807]:
+                - paragraph [ref=e808]: Nicholas Cox
+                - paragraph [ref=e809]: "Due: 4/17/2026 · Paid: 3/15/2026"
+              - generic [ref=e810]:
+                - generic [ref=e811]: £7550.00
+                - generic [ref=e812]: paid
+            - generic [ref=e814] [cursor=pointer]:
+              - generic [ref=e815]:
+                - paragraph [ref=e816]: Carol Sanchez
+                - paragraph [ref=e817]: "Due: 1/22/2026"
+              - generic [ref=e818]:
+                - generic [ref=e819]: £3385.00
+                - generic [ref=e820]: draft
+            - generic [ref=e822] [cursor=pointer]:
+              - generic [ref=e823]:
+                - paragraph [ref=e824]: Benjamin Bennett
+                - paragraph [ref=e825]: "Due: 3/24/2026"
+              - generic [ref=e826]:
+                - generic [ref=e827]: £975.00
+                - generic [ref=e828]: overdue
+                - button "Mark Paid" [ref=e829]
+            - generic [ref=e831] [cursor=pointer]:
+              - generic [ref=e832]:
+                - paragraph [ref=e833]: Stephanie Allen
+                - paragraph [ref=e834]: "Due: 2/27/2026"
+              - generic [ref=e835]:
+                - generic [ref=e836]: £1280.00
+                - generic [ref=e837]: draft
+            - generic [ref=e839] [cursor=pointer]:
+              - generic [ref=e840]:
+                - paragraph [ref=e841]: Amy Adams
+                - paragraph [ref=e842]: "Due: 3/27/2026"
+              - generic [ref=e843]:
+                - generic [ref=e844]: £5175.00
+                - generic [ref=e845]: draft
+            - generic [ref=e847] [cursor=pointer]:
+              - generic [ref=e848]:
+                - paragraph [ref=e849]: Richard Young
+                - paragraph [ref=e850]: "Due: 2/14/2026 · Paid: 3/22/2026"
+              - generic [ref=e851]:
+                - generic [ref=e852]: £4095.00
+                - generic [ref=e853]: paid
+            - generic [ref=e855] [cursor=pointer]:
+              - generic [ref=e856]:
+                - paragraph [ref=e857]: Kimberly Thompson
+                - paragraph [ref=e858]: "Due: 2/12/2026 · Paid: 3/28/2026"
+              - generic [ref=e859]:
+                - generic [ref=e860]: £865.00
+                - generic [ref=e861]: paid
+            - generic [ref=e863] [cursor=pointer]:
+              - generic [ref=e864]:
+                - paragraph [ref=e865]: Eric Hughes
+                - paragraph [ref=e866]: "Due: 1/21/2026"
+              - generic [ref=e867]:
+                - generic [ref=e868]: £285.00
+                - generic [ref=e869]: draft
+            - generic [ref=e871] [cursor=pointer]:
+              - generic [ref=e872]:
+                - paragraph [ref=e873]: Joseph Perez
+                - paragraph [ref=e874]: "Due: 4/14/2026"
+              - generic [ref=e875]:
+                - generic [ref=e876]: £950.00
+                - generic [ref=e877]: sent
+                - button "Mark Paid" [ref=e878]
+            - generic [ref=e880] [cursor=pointer]:
+              - generic [ref=e881]:
+                - paragraph [ref=e882]: Kathleen Mendoza
+                - paragraph [ref=e883]: "Due: 3/18/2026"
+              - generic [ref=e884]:
+                - generic [ref=e885]: £1850.00
+                - generic [ref=e886]: draft
+            - generic [ref=e888] [cursor=pointer]:
+              - generic [ref=e889]:
+                - paragraph [ref=e890]: George Foster
+                - paragraph [ref=e891]: "Due: 4/5/2026"
+              - generic [ref=e892]:
+                - generic [ref=e893]: £1330.00
+                - generic [ref=e894]: overdue
+                - button "Mark Paid" [ref=e895]
+            - generic [ref=e897] [cursor=pointer]:
+              - generic [ref=e898]:
+                - paragraph [ref=e899]: Sandra Carter
+                - paragraph [ref=e900]: "Due: 1/13/2026"
+              - generic [ref=e901]:
+                - generic [ref=e902]: £640.00
+                - generic [ref=e903]: overdue
+                - button "Mark Paid" [ref=e904]
+            - generic [ref=e906] [cursor=pointer]:
+              - generic [ref=e907]:
+                - paragraph [ref=e908]: Frank Jimenez
+                - paragraph [ref=e909]: "Due: 1/21/2026"
+              - generic [ref=e910]:
+                - generic [ref=e911]: £3125.00
+                - generic [ref=e912]: draft
+            - generic [ref=e914] [cursor=pointer]:
+              - generic [ref=e915]:
+                - paragraph [ref=e916]: Nicholas Scott
+                - paragraph [ref=e917]: "Due: 3/25/2026 · Paid: 3/24/2026"
+              - generic [ref=e918]:
+                - generic [ref=e919]: £3495.00
+                - generic [ref=e920]: paid
+            - generic [ref=e922] [cursor=pointer]:
+              - generic [ref=e923]:
+                - paragraph [ref=e924]: Brandon Cox
+                - paragraph [ref=e925]: "Due: 4/19/2026"
+              - generic [ref=e926]:
+                - generic [ref=e927]: £1930.00
+                - generic [ref=e928]: sent
+                - button "Mark Paid" [ref=e929]
+            - generic [ref=e931] [cursor=pointer]:
+              - generic [ref=e932]:
+                - paragraph [ref=e933]: Raymond Flores
+                - paragraph [ref=e934]: "Due: 3/13/2026"
+              - generic [ref=e935]:
+                - generic [ref=e936]: £490.00
+                - generic [ref=e937]: draft
+            - generic [ref=e939] [cursor=pointer]:
+              - generic [ref=e940]:
+                - paragraph [ref=e941]: William Perez
+                - paragraph [ref=e942]: "Due: 1/9/2026"
+              - generic [ref=e943]:
+                - generic [ref=e944]: £2695.00
+                - generic [ref=e945]: overdue
+                - button "Mark Paid" [ref=e946]
+            - generic [ref=e948] [cursor=pointer]:
+              - generic [ref=e949]:
+                - paragraph [ref=e950]: Scott Morgan
+                - paragraph [ref=e951]: "Due: 4/5/2026"
+              - generic [ref=e952]:
+                - generic [ref=e953]: £800.00
+                - generic [ref=e954]: sent
+                - button "Mark Paid" [ref=e955]
+            - generic [ref=e957] [cursor=pointer]:
+              - generic [ref=e958]:
+                - paragraph [ref=e959]: Christine Kelly
+                - paragraph [ref=e960]: "Due: 1/20/2026"
+              - generic [ref=e961]:
+                - generic [ref=e962]: £20285.00
+                - generic [ref=e963]: overdue
+                - button "Mark Paid" [ref=e964]
+            - generic [ref=e966] [cursor=pointer]:
+              - generic [ref=e967]:
+                - paragraph [ref=e968]: Diane Clark
+                - paragraph [ref=e969]: "Due: 1/11/2026"
+              - generic [ref=e970]:
+                - generic [ref=e971]: £1420.00
+                - generic [ref=e972]: draft
+            - generic [ref=e974] [cursor=pointer]:
+              - generic [ref=e975]:
+                - paragraph [ref=e976]: Nancy Anderson
+                - paragraph [ref=e977]: "Due: 3/29/2026 · Paid: 3/21/2026"
+              - generic [ref=e978]:
+                - generic [ref=e979]: £1865.00
+                - generic [ref=e980]: paid
+            - generic [ref=e982] [cursor=pointer]:
+              - generic [ref=e983]:
+                - paragraph [ref=e984]: Daniel White
+                - paragraph [ref=e985]: "Due: 3/18/2026"
+              - generic [ref=e986]:
+                - generic [ref=e987]: £24515.00
+                - generic [ref=e988]: overdue
+                - button "Mark Paid" [ref=e989]
+            - generic [ref=e991] [cursor=pointer]:
+              - generic [ref=e992]:
+                - paragraph [ref=e993]: Rebecca Nguyen
+                - paragraph [ref=e994]: "Due: 4/13/2026"
+              - generic [ref=e995]:
+                - generic [ref=e996]: £625.00
+                - generic [ref=e997]: sent
+                - button "Mark Paid" [ref=e998]
+            - generic [ref=e1000] [cursor=pointer]:
+              - generic [ref=e1001]:
+                - paragraph [ref=e1002]: Shirley Mendoza
+                - paragraph [ref=e1003]: "Due: 12/29/2025"
+              - generic [ref=e1004]:
+                - generic [ref=e1005]: £11235.00
+                - generic [ref=e1006]: overdue
+                - button "Mark Paid" [ref=e1007]
+            - generic [ref=e1009] [cursor=pointer]:
+              - generic [ref=e1010]:
+                - paragraph [ref=e1011]: Dennis Garcia
+                - paragraph [ref=e1012]: "Due: 4/6/2026"
+              - generic [ref=e1013]:
+                - generic [ref=e1014]: £2315.00
+                - generic [ref=e1015]: draft
+            - generic [ref=e1017] [cursor=pointer]:
+              - generic [ref=e1018]:
+                - paragraph [ref=e1019]: Jerry Bennett
+                - paragraph [ref=e1020]: "Due: 4/26/2026"
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: £520.00
+                - generic [ref=e1023]: draft
+            - generic [ref=e1025] [cursor=pointer]:
+              - generic [ref=e1026]:
+                - paragraph [ref=e1027]: Shirley Kim
+                - paragraph [ref=e1028]: "Due: 2/27/2026"
+              - generic [ref=e1029]:
+                - generic [ref=e1030]: £7250.00
+                - generic [ref=e1031]: draft
+            - generic [ref=e1033] [cursor=pointer]:
+              - generic [ref=e1034]:
+                - paragraph [ref=e1035]: Daniel Ramirez
+                - paragraph [ref=e1036]: "Due: 3/9/2026"
+              - generic [ref=e1037]:
+                - generic [ref=e1038]: £1000.00
+                - generic [ref=e1039]: overdue
+                - button "Mark Paid" [ref=e1040]
+            - generic [ref=e1042] [cursor=pointer]:
+              - generic [ref=e1043]:
+                - paragraph [ref=e1044]: Frank Peterson
+                - paragraph [ref=e1045]: "Due: 4/22/2026"
+              - generic [ref=e1046]:
+                - generic [ref=e1047]: £2330.00
+                - generic [ref=e1048]: sent
+                - button "Mark Paid" [ref=e1049]
+            - generic [ref=e1051] [cursor=pointer]:
+              - generic [ref=e1052]:
+                - paragraph [ref=e1053]: Brian Bennett
+                - paragraph [ref=e1054]: "Due: 2/10/2026 · Paid: 3/12/2026"
+              - generic [ref=e1055]:
+                - generic [ref=e1056]: £3760.00
+                - generic [ref=e1057]: paid
+            - generic [ref=e1059] [cursor=pointer]:
+              - generic [ref=e1060]:
+                - paragraph [ref=e1061]: Laura Scott
+                - paragraph [ref=e1062]: "Due: 1/31/2026"
+              - generic [ref=e1063]:
+                - generic [ref=e1064]: £545.00
+                - generic [ref=e1065]: draft
+            - generic [ref=e1067] [cursor=pointer]:
+              - generic [ref=e1068]:
+                - paragraph [ref=e1069]: Stephen Anderson
+                - paragraph [ref=e1070]: "Due: 12/29/2025"
+              - generic [ref=e1071]:
+                - generic [ref=e1072]: £17780.00
+                - generic [ref=e1073]: overdue
+                - button "Mark Paid" [ref=e1074]
+            - generic [ref=e1076] [cursor=pointer]:
+              - generic [ref=e1077]:
+                - paragraph [ref=e1078]: Joshua Ortiz
+                - paragraph [ref=e1079]: "Due: 3/4/2026 · Paid: 3/27/2026"
+              - generic [ref=e1080]:
+                - generic [ref=e1081]: £2165.00
+                - generic [ref=e1082]: paid
+            - generic [ref=e1084] [cursor=pointer]:
+              - generic [ref=e1085]:
+                - paragraph [ref=e1086]: Donna Morris
+                - paragraph [ref=e1087]: "Due: 3/11/2026"
+              - generic [ref=e1088]:
+                - generic [ref=e1089]: £1995.00
+                - generic [ref=e1090]: draft
+            - generic [ref=e1092] [cursor=pointer]:
+              - generic [ref=e1093]:
+                - paragraph [ref=e1094]: Nicole Powell
+                - paragraph [ref=e1095]: "Due: 3/11/2026"
+              - generic [ref=e1096]:
+                - generic [ref=e1097]: £8350.00
+                - generic [ref=e1098]: draft
+            - generic [ref=e1100] [cursor=pointer]:
+              - generic [ref=e1101]:
+                - paragraph [ref=e1102]: Betty Walker
+                - paragraph [ref=e1103]: "Due: 3/30/2026"
+              - generic [ref=e1104]:
+                - generic [ref=e1105]: £1815.00
+                - generic [ref=e1106]: overdue
+                - button "Mark Paid" [ref=e1107]
+            - generic [ref=e1109] [cursor=pointer]:
+              - generic [ref=e1110]:
+                - paragraph [ref=e1111]: Nicole Kim
+                - paragraph [ref=e1112]: "Due: 4/8/2026 · Paid: 3/10/2026"
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: £3375.00
+                - generic [ref=e1115]: paid
+            - generic [ref=e1117] [cursor=pointer]:
+              - generic [ref=e1118]:
+                - paragraph [ref=e1119]: Debra Stewart
+                - paragraph [ref=e1120]: "Due: 3/31/2026"
+              - generic [ref=e1121]:
+                - generic [ref=e1122]: £1805.00
+                - generic [ref=e1123]: overdue
+                - button "Mark Paid" [ref=e1124]
+            - generic [ref=e1126] [cursor=pointer]:
+              - generic [ref=e1127]:
+                - paragraph [ref=e1128]: Justin Brown
+                - paragraph [ref=e1129]: "Due: 1/18/2026"
+              - generic [ref=e1130]:
+                - generic [ref=e1131]: £6120.00
+                - generic [ref=e1132]: overdue
+                - button "Mark Paid" [ref=e1133]
+            - generic [ref=e1135] [cursor=pointer]:
+              - generic [ref=e1136]:
+                - paragraph [ref=e1137]: Sandra Hall
+                - paragraph [ref=e1138]: "Due: 1/27/2026"
+              - generic [ref=e1139]:
+                - generic [ref=e1140]: £1680.00
+                - generic [ref=e1141]: draft
+            - generic [ref=e1143] [cursor=pointer]:
+              - generic [ref=e1144]:
+                - paragraph [ref=e1145]: Samantha Castillo
+                - paragraph [ref=e1146]: "Due: 3/30/2026"
+              - generic [ref=e1147]:
+                - generic [ref=e1148]: £440.00
+                - generic [ref=e1149]: overdue
+                - button "Mark Paid" [ref=e1150]
+            - generic [ref=e1152] [cursor=pointer]:
+              - generic [ref=e1153]:
+                - paragraph [ref=e1154]: Rebecca Allen
+                - paragraph [ref=e1155]: "Due: 4/7/2026"
+              - generic [ref=e1156]:
+                - generic [ref=e1157]: £770.00
+                - generic [ref=e1158]: sent
+                - button "Mark Paid" [ref=e1159]
+            - generic [ref=e1161] [cursor=pointer]:
+              - generic [ref=e1162]:
+                - paragraph [ref=e1163]: Jeffrey Murphy
+                - paragraph [ref=e1164]: "Due: 1/10/2026"
+              - generic [ref=e1165]:
+                - generic [ref=e1166]: £5400.00
+                - generic [ref=e1167]: overdue
+                - button "Mark Paid" [ref=e1168]
+            - generic [ref=e1170] [cursor=pointer]:
+              - generic [ref=e1171]:
+                - paragraph [ref=e1172]: Debra Hill
+                - paragraph [ref=e1173]: "Due: 4/1/2026"
+              - generic [ref=e1174]:
+                - generic [ref=e1175]: £3770.00
+                - generic [ref=e1176]: draft
+            - generic [ref=e1178] [cursor=pointer]:
+              - generic [ref=e1179]:
+                - paragraph [ref=e1180]: Karen Lewis
+                - paragraph [ref=e1181]: "Due: 4/2/2026"
+              - generic [ref=e1182]:
+                - generic [ref=e1183]: £4030.00
+                - generic [ref=e1184]: sent
+                - button "Mark Paid" [ref=e1185]
+            - generic [ref=e1187] [cursor=pointer]:
+              - generic [ref=e1188]:
+                - paragraph [ref=e1189]: Debra Nelson
+                - paragraph [ref=e1190]: "Due: 2/28/2026"
+              - generic [ref=e1191]:
+                - generic [ref=e1192]: £9420.00
+                - generic [ref=e1193]: overdue
+                - button "Mark Paid" [ref=e1194]
+            - generic [ref=e1196] [cursor=pointer]:
+              - generic [ref=e1197]:
+                - paragraph [ref=e1198]: Brandon Ruiz
+                - paragraph [ref=e1199]: "Due: 3/16/2026 · Paid: 3/12/2026"
+              - generic [ref=e1200]:
+                - generic [ref=e1201]: £2580.00
+                - generic [ref=e1202]: paid
+            - generic [ref=e1204] [cursor=pointer]:
+              - generic [ref=e1205]:
+                - paragraph [ref=e1206]: Sharon Long
+                - paragraph [ref=e1207]: "Due: 4/2/2026"
+              - generic [ref=e1208]:
+                - generic [ref=e1209]: £4650.00
+                - generic [ref=e1210]: overdue
+                - button "Mark Paid" [ref=e1211]
+            - generic [ref=e1213] [cursor=pointer]:
+              - generic [ref=e1214]:
+                - paragraph [ref=e1215]: Lisa Allen
+                - paragraph [ref=e1216]: "Due: 3/18/2026"
+              - generic [ref=e1217]:
+                - generic [ref=e1218]: £3640.00
+                - generic [ref=e1219]: draft
+            - generic [ref=e1221] [cursor=pointer]:
+              - generic [ref=e1222]:
+                - paragraph [ref=e1223]: Carolyn Johnson
+                - paragraph [ref=e1224]: "Due: 1/19/2026"
+              - generic [ref=e1225]:
+                - generic [ref=e1226]: £1215.00
+                - generic [ref=e1227]: draft
+            - generic [ref=e1229] [cursor=pointer]:
+              - generic [ref=e1230]:
+                - paragraph [ref=e1231]: Benjamin Rogers
+                - paragraph [ref=e1232]: "Due: 4/2/2026"
+              - generic [ref=e1233]:
+                - generic [ref=e1234]: £1700.00
+                - generic [ref=e1235]: draft
+            - generic [ref=e1237] [cursor=pointer]:
+              - generic [ref=e1238]:
+                - paragraph [ref=e1239]: Sarah Watson
+                - paragraph [ref=e1240]: "Due: 2/8/2026"
+              - generic [ref=e1241]:
+                - generic [ref=e1242]: £2965.00
+                - generic [ref=e1243]: overdue
+                - button "Mark Paid" [ref=e1244]
+            - generic [ref=e1246] [cursor=pointer]:
+              - generic [ref=e1247]:
+                - paragraph [ref=e1248]: Laura Campbell
+                - paragraph [ref=e1249]: "Due: 4/9/2026"
+              - generic [ref=e1250]:
+                - generic [ref=e1251]: £1735.00
+                - generic [ref=e1252]: draft
+            - generic [ref=e1254] [cursor=pointer]:
+              - generic [ref=e1255]:
+                - paragraph [ref=e1256]: Michael Kelly
+                - paragraph [ref=e1257]: "Due: 4/18/2026"
+              - generic [ref=e1258]:
+                - generic [ref=e1259]: £2115.00
+                - generic [ref=e1260]: overdue
+                - button "Mark Paid" [ref=e1261]
+            - generic [ref=e1263] [cursor=pointer]:
+              - generic [ref=e1264]:
+                - paragraph [ref=e1265]: Donna Adams
+                - paragraph [ref=e1266]: "Due: 2/13/2026"
+              - generic [ref=e1267]:
+                - generic [ref=e1268]: £2685.00
+                - generic [ref=e1269]: draft
+            - generic [ref=e1271] [cursor=pointer]:
+              - generic [ref=e1272]:
+                - paragraph [ref=e1273]: Robert Robinson
+                - paragraph [ref=e1274]: "Due: 1/30/2026"
+              - generic [ref=e1275]:
+                - generic [ref=e1276]: £6140.00
+                - generic [ref=e1277]: draft
+            - generic [ref=e1279] [cursor=pointer]:
+              - generic [ref=e1280]:
+                - paragraph [ref=e1281]: Helen Carter
+                - paragraph [ref=e1282]: "Due: 2/11/2026"
+              - generic [ref=e1283]:
+                - generic [ref=e1284]: £2550.00
+                - generic [ref=e1285]: overdue
+                - button "Mark Paid" [ref=e1286]
+            - generic [ref=e1288] [cursor=pointer]:
+              - generic [ref=e1289]:
+                - paragraph [ref=e1290]: Jack Reed
+                - paragraph [ref=e1291]: "Due: 4/9/2026"
+              - generic [ref=e1292]:
+                - generic [ref=e1293]: £2245.00
+                - generic [ref=e1294]: overdue
+                - button "Mark Paid" [ref=e1295]
+            - generic [ref=e1297] [cursor=pointer]:
+              - generic [ref=e1298]:
+                - paragraph [ref=e1299]: Joseph Ruiz
+                - paragraph [ref=e1300]: "Due: 4/13/2026"
+              - generic [ref=e1301]:
+                - generic [ref=e1302]: £5350.00
+                - generic [ref=e1303]: sent
+                - button "Mark Paid" [ref=e1304]
+            - generic [ref=e1306] [cursor=pointer]:
+              - generic [ref=e1307]:
+                - paragraph [ref=e1308]: Scott Jenkins
+                - paragraph [ref=e1309]: "Due: 2/18/2026"
+              - generic [ref=e1310]:
+                - generic [ref=e1311]: £1360.00
+                - generic [ref=e1312]: draft
+            - generic [ref=e1314] [cursor=pointer]:
+              - generic [ref=e1315]:
+                - paragraph [ref=e1316]: Steven Baker
+                - paragraph [ref=e1317]: "Due: 3/11/2026"
+              - generic [ref=e1318]:
+                - generic [ref=e1319]: £1740.00
+                - generic [ref=e1320]: overdue
+                - button "Mark Paid" [ref=e1321]
+            - generic [ref=e1323] [cursor=pointer]:
+              - generic [ref=e1324]:
+                - paragraph [ref=e1325]: Michelle Lewis
+                - paragraph [ref=e1326]: "Due: 1/4/2026"
+              - generic [ref=e1327]:
+                - generic [ref=e1328]: £940.00
+                - generic [ref=e1329]: overdue
+                - button "Mark Paid" [ref=e1330]
+            - generic [ref=e1332] [cursor=pointer]:
+              - generic [ref=e1333]:
+                - paragraph [ref=e1334]: Dennis Cox
+                - paragraph [ref=e1335]: "Due: 4/8/2026 · Paid: 3/28/2026"
+              - generic [ref=e1336]:
+                - generic [ref=e1337]: £12880.00
+                - generic [ref=e1338]: paid
+            - generic [ref=e1340] [cursor=pointer]:
+              - generic [ref=e1341]:
+                - paragraph [ref=e1342]: Stephanie Cox
+                - paragraph [ref=e1343]: "Due: 1/25/2026"
+              - generic [ref=e1344]:
+                - generic [ref=e1345]: £3660.00
+                - generic [ref=e1346]: draft
+            - generic [ref=e1348] [cursor=pointer]:
+              - generic [ref=e1349]:
+                - paragraph [ref=e1350]: Katherine Sullivan
+                - paragraph [ref=e1351]: "Due: 12/31/2025"
+              - generic [ref=e1352]:
+                - generic [ref=e1353]: £870.00
+                - generic [ref=e1354]: overdue
+                - button "Mark Paid" [ref=e1355]
+          - generic [ref=e1357]:
+            - heading "New Invoice" [level=2] [ref=e1358]
+            - generic [ref=e1359]:
+              - combobox [ref=e1360]:
+                - option "Select patient..." [selected]
+                - option "Billing Patient 1774822797326"
+                - option "Billing Patient 1774822790942"
+                - option "Billing Patient 1774822776554"
+                - option "Billing Patient 1774822763605"
+                - option "Billing Patient 1774822759071"
+                - option "Book Patient 1774822622200"
+                - option "Cal Patient 1774822566501"
+                - option "Brenda Jimenez"
+                - option "Gary Hernandez"
+                - option "Angela Ruiz"
+                - option "Emily Peterson"
+                - option "Ashley Howard"
+                - option "Dennis Mendoza"
+                - option "Debra Jones"
+                - option "Sarah Jenkins"
+                - option "Emily Foster"
+                - option "Heather Perry"
+                - option "Ryan Garcia"
+                - option "Maria Reed"
+                - option "Barbara White"
+                - option "Charles Carter"
+                - option "Eric Hall"
+                - option "Susan Chavez"
+                - option "Nancy Moore"
+                - option "Brandon Castillo"
+                - option "Barbara Bailey"
+                - option "Helen Adams"
+                - option "Michelle Hughes"
+                - option "John Martinez"
+                - option "Ryan Clark"
+                - option "Timothy Watson"
+                - option "Daniel Martinez"
+                - option "Jeffrey Green"
+                - option "Thomas Collins"
+                - option "Amy Gray"
+                - option "Ashley Campbell"
+                - option "Amanda Ortiz"
+                - option "Scott Robinson"
+                - option "Amy Wilson"
+                - option "Joseph Brooks"
+                - option "Amy Adams"
+                - option "Richard Young"
+                - option "Kevin Perez"
+                - option "Stephanie Allen"
+                - option "Scott Morgan"
+                - option "Nicholas Scott"
+                - option "Christine Kelly"
+                - option "Diane Clark"
+                - option "Nancy Anderson"
+                - option "Daniel White"
+                - option "Rebecca Nguyen"
+                - option "Eric Hughes"
+                - option "Joseph Perez"
+                - option "Kathleen Mendoza"
+                - option "Frank Jimenez"
+                - option "George Foster"
+                - option "Kimberly Thompson"
+                - option "Sandra Carter"
+                - option "Jonathan Turner"
+                - option "Nicholas Cox"
+                - option "Carol Sanchez"
+                - option "Benjamin Bennett"
+                - option "Debra Hill"
+                - option "Dennis Garcia"
+                - option "Jerry Bennett"
+                - option "Shirley Kim"
+                - option "Daniel Ramirez"
+                - option "Frank Peterson"
+                - option "Laura Scott"
+                - option "Brian Bennett"
+                - option "Shirley Mendoza"
+                - option "Stephen Anderson"
+                - option "Joshua Ortiz"
+                - option "Brandon Cox"
+                - option "Raymond Flores"
+                - option "William Perez"
+                - option "Debra Stewart"
+                - option "Justin Brown"
+                - option "Sandra Hall"
+                - option "Samantha Castillo"
+                - option "Donna Morris"
+                - option "Rebecca Allen"
+                - option "Jeffrey Murphy"
+                - option "Carolyn Johnson"
+                - option "Lisa Allen"
+                - option "Sharon Long"
+                - option "Karen Lewis"
+                - option "Debra Nelson"
+                - option "Brandon Ruiz"
+                - option "Nicole Powell"
+                - option "Betty Walker"
+                - option "Nicole Kim"
+                - option "Michelle Lewis"
+                - option "Sarah Watson"
+                - option "Benjamin Rogers"
+                - option "Helen Carter"
+                - option "Laura Campbell"
+                - option "Jack Reed"
+                - option "Joseph Ruiz"
+                - option "Dennis Cox"
+              - generic [ref=e1361]:
+                - textbox "Description" [ref=e1362]
+                - spinbutton [ref=e1363]: "1"
+                - spinbutton [ref=e1364]: "0"
+              - button "+ Add line item" [ref=e1365]
+              - textbox [ref=e1366]
+              - generic [ref=e1367]:
+                - button "Cancel" [ref=e1368]
+                - button "Create Invoice" [ref=e1369]
+    - button "💬" [ref=e1370]
+  - region "Notifications Alt+T"
+```

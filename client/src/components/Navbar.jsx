@@ -7,7 +7,8 @@
  * @param {function} onMenuToggle — called when hamburger is clicked (mobile)
  */
 import { useAuth } from '../context/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
+import { formatUserRoles } from '../utils/roles';
 
 const ROLE_COLOURS = {
   admin: 'bg-purple-100 text-purple-700',
@@ -37,16 +38,25 @@ export default function Navbar({ onMenuToggle }) {
         ☰
       </button>
 
-      <span className="text-lg font-bold text-teal-700 tracking-tight">MediCore</span>
+      <Link to="/dashboard" className="text-lg font-bold text-teal-700 tracking-tight hover:opacity-90">
+        MediCore
+      </Link>
+      <Link
+        to="/dashboard"
+        className="hidden sm:inline text-sm font-medium text-gray-600 hover:text-teal-700 ml-2"
+      >
+        Dashboard
+      </Link>
 
       <div className="ml-auto flex items-center gap-3">
         {user && (
           <>
             <span
-              className={`text-xs font-semibold px-2 py-0.5 rounded-full capitalize
+              className={`text-xs font-semibold px-2 py-0.5 rounded-full capitalize max-w-[200px] truncate
                 ${ROLE_COLOURS[user.role] || 'bg-gray-100 text-gray-600'}`}
+              title={formatUserRoles(user)}
             >
-              {user.role}
+              {formatUserRoles(user)}
             </span>
             <span className="text-sm text-gray-700 hidden sm:block">{user.name}</span>
           </>

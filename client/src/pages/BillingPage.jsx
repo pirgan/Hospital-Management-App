@@ -138,7 +138,13 @@ function CreateInvoiceModal({ onClose }) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    api.get('/patients?limit=100').then(({ data }) => setPatients(data.data || data)).catch(() => {});
+    api
+      .get('/patients?limit=100')
+      .then(({ data }) => {
+        const list = Array.isArray(data) ? data : data.patients ?? data.data;
+        setPatients(Array.isArray(list) ? list : []);
+      })
+      .catch(() => {});
   }, []);
 
   /**

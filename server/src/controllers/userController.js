@@ -26,8 +26,10 @@ import User from '../models/User.js';
  */
 export const getUsers = async (req, res) => {
   try {
-    // Build the MongoDB filter — only include role if the query param was provided
-    const filter = req.query.role ? { role: req.query.role } : {};
+    // Match primary role or secondaryRoles (e.g. admin who is also a doctor appears in ?role=doctor)
+    const filter = req.query.role
+      ? { $or: [{ role: req.query.role }, { secondaryRoles: req.query.role }] }
+      : {};
 
     // .select('-password') removes the hashed password from the result projection.
     // .sort({ name: 1 }) alphabetical order makes dropdown lists easier to scan.

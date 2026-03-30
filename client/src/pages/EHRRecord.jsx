@@ -2,7 +2,8 @@
  * EHRRecord
  * Create or view a medical record (visit note).
  *
- * In create mode (no :id param): shows a full form with vitals entry,
+ * In create mode (no real record id — path is /records/new or :id is the literal "new"):
+ *   shows a full form with vitals entry,
  *   diagnosis fields (ICD-10 code + description), treatment plan, and
  *   the AI Differential Diagnosis panel for the current patient.
  *
@@ -37,15 +38,24 @@ export default function EHRRecord() {
   const [loading, setLoading] = useState(false);
   const [patients, setPatients] = useState([]);
 
-  const isCreateMode = !id;
+  // If /records/:id matches the literal segment "new", id is the string "new" — still create mode.
+  // (!id alone would be false for that string, wrongly entering view mode and fetching /medical-records/new.)
+  const isCreateMode = !id || id === 'new';
 
   useEffect(() => {
     if (!isCreateMode) {
       // View mode: fetch the specific record by id for display
       api.get(`/medical-records/${id}`).then(({ data }) => setRecord(data)).catch(() => {});
     } else {
+      setRecord(null);
       // Create mode: load patient list so the doctor can select who the record is for
-      api.get('/patients?limit=100').then(({ data }) => setPatients(data.data || data)).catch(() => {});
+      api
+        .get('/patients?limit=100')
+        .then(({ data }) => {
+          const list = Array.isArray(data) ? data : data.patients ?? data.data;
+          setPatients(Array.isArray(list) ? list : []);
+        })
+        .catch(() => {});
     }
   }, [id, isCreateMode]);
 

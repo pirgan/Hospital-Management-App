@@ -12,6 +12,7 @@
  */
 import { NavLink } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { userHasRole } from '../utils/roles';
 
 // Each item has a roles array; shown only if user.role is included
 const NAV_ITEMS = [
@@ -30,7 +31,9 @@ export default function Sidebar({ open, onToggle }) {
   const { user } = useAuth();
   // Filter nav items by the current user's role — each item declares which roles can see it.
   // Optional chaining on user?.role handles the brief moment before auth state is loaded.
-  const filtered = NAV_ITEMS.filter((item) => item.roles.includes(user?.role));
+  const filtered = NAV_ITEMS.filter((item) =>
+    item.roles.some((r) => userHasRole(user, r))
+  );
 
   return (
     <aside
@@ -47,9 +50,8 @@ export default function Sidebar({ open, onToggle }) {
       </button>
 
       <nav className="flex-1 py-2">
+        {/* NavLink: className receives isActive from React Router for the current route */}
         {filtered.map((item) => (
-          {/* NavLink provides an isActive prop — React Router sets it true when the
-              current URL matches this item's path, giving it the teal highlight */}
           <NavLink
             key={item.path}
             to={item.path}

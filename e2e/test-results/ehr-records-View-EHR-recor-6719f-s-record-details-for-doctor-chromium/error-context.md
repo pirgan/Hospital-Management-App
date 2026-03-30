@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - button "◀" [ref=e6]
+      - navigation [ref=e7]:
+        - link "🏠 Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e9]: 🏠
+          - generic [ref=e10]: Dashboard
+        - link "👥 Patients" [ref=e11] [cursor=pointer]:
+          - /url: /patients
+          - generic [ref=e12]: 👥
+          - generic [ref=e13]: Patients
+        - link "📅 Appointments" [ref=e14] [cursor=pointer]:
+          - /url: /appointments
+          - generic [ref=e15]: 📅
+          - generic [ref=e16]: Appointments
+        - link "📋 EHR Records" [ref=e17] [cursor=pointer]:
+          - /url: /records
+          - generic [ref=e18]: 📋
+          - generic [ref=e19]: EHR Records
+        - link "💊 Pharmacy" [ref=e20] [cursor=pointer]:
+          - /url: /pharmacy
+          - generic [ref=e21]: 💊
+          - generic [ref=e22]: Pharmacy
+        - link "🔬 Lab Results" [ref=e23] [cursor=pointer]:
+          - /url: /lab
+          - generic [ref=e24]: 🔬
+          - generic [ref=e25]: Lab Results
+        - link "🏥 Ward Map" [ref=e26] [cursor=pointer]:
+          - /url: /wards
+          - generic [ref=e27]: 🏥
+          - generic [ref=e28]: Ward Map
+    - generic [ref=e29]:
+      - banner [ref=e30]:
+        - link "MediCore" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Dashboard" [ref=e32] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e33]:
+          - generic "doctor" [ref=e34]
+          - generic [ref=e35]: E2E doctor 1
+          - button "Logout" [ref=e36]
+      - main [ref=e37]:
+        - generic [ref=e38]:
+          - heading "Visit — 3/30/2026" [level=1] [ref=e39]
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - paragraph [ref=e42]: Chief Complaint
+              - paragraph [ref=e43]: Test complaint
+            - paragraph [ref=e45]: Vitals
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Diagnoses
+              - paragraph [ref=e48]:
+                - text: Acute URTI
+                - generic [ref=e50]: (primary)
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: Treatment Plan
+              - paragraph [ref=e53]: Rest and fluids
+    - button "💬" [ref=e54]
+  - region "Notifications Alt+T"
+```

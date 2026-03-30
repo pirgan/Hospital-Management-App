@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__trello__create_label",
+      "mcp__trello__add_card_to_list",
+      "Bash(node -e \":*)",
+      "Bash(grep -E \"\\\\.\\(js|json\\)$\")",
+      "Bash(node --input-type=module:*)",
+      "Bash(find /c/Users/danko.pirgan/OneDrive - Scale Focus AD/Desktop/BASF/PAI/VC/Hospital-MGMT-App/server -type f \\\\\\(-name *.test.js -o -name *.spec.js \\\\\\))",
+      "WebFetch(domain:localhost)",
+      "Bash(unzip -l report.zip)",
+      "Bash(find 'C:\\\\Users\\\\danko.pirgan\\\\OneDrive - Scale Focus AD\\\\Desktop\\\\BASF\\\\PAI\\\\VC\\\\Hospital-MGMT-App\\\\e2e\\\\playwright-report' -type f -name *.json)",
+      "Bash(grep -ao test.*status 'C:\\\\Users\\\\danko.pirgan\\\\OneDrive - Scale Focus AD\\\\Desktop\\\\BASF\\\\PAI\\\\VC\\\\Hospital-MGMT-App\\\\e2e\\\\playwright-report\\\\index.html')",
+      "Bash(python3:*)",
+      "Bash(unzip -q report.zip report.json)",
+      "Bash(unzip -q report.zip)"
+    ]
+  }
+}

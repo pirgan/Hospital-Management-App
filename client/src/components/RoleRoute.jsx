@@ -11,11 +11,12 @@
  */
 import { Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { userHasAnyRole } from '../utils/roles';
 
 export default function RoleRoute({ children, allowedRoles }) {
   const { user } = useAuth();
 
-  if (!user || !allowedRoles.includes(user.role)) {
+  if (!user || !userHasAnyRole(user, allowedRoles)) {
     return <Navigate to="/dashboard" replace />;
   }
 

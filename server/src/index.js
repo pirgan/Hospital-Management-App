@@ -41,6 +41,7 @@ import invoiceRoutes from './routes/invoiceRoutes.js';
 import wardRoutes from './routes/wardRoutes.js';
 import aiRoutes from './routes/aiRoutes.js';
 import userRoutes from './routes/userRoutes.js';
+import dashboardRoutes from './routes/dashboardRoutes.js';
 
 const app = express();
 
@@ -63,6 +64,7 @@ app.use('/api/wards', wardRoutes);
 app.use('/api/ai', aiRoutes);
 // User management (non-auth): list staff, deactivate accounts, change roles
 app.use('/api/users', userRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 
 // ── Utility endpoints ──────────────────────────────────────────────────────
 // Health check — returns 200 { status: 'ok' } for uptime monitoring
