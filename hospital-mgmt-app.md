@@ -874,7 +874,7 @@ cp server/.env.example server/.env
 Edit `server/.env` with your real credentials:
 
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/medicore
+MONGODB_URI=<your-mongodb-atlas-connection-string>
 JWT_SECRET=your_64_char_hex_secret
 ANTHROPIC_API_KEY=sk-ant-...
 CLOUDINARY_CLOUD_NAME=your_cloud_name

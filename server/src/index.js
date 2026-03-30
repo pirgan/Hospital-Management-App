@@ -26,75 +26,22 @@
  *   GET/PUT   /api/users/*            — user management (list staff, update role/status)
  */
 import 'dotenv/config';
-import express from 'express';
-import cors from 'cors';
+import app from './app.js';
 import connectDB from './config/db.js';
 import { registerCronJobs } from './scripts/seedCronJobs.js';
 
-import authRoutes from './routes/authRoutes.js';
-import patientRoutes from './routes/patientRoutes.js';
-import appointmentRoutes from './routes/appointmentRoutes.js';
-import medicalRecordRoutes from './routes/medicalRecordRoutes.js';
-import prescriptionRoutes from './routes/prescriptionRoutes.js';
-import labOrderRoutes from './routes/labOrderRoutes.js';
-import invoiceRoutes from './routes/invoiceRoutes.js';
-import wardRoutes from './routes/wardRoutes.js';
-import aiRoutes from './routes/aiRoutes.js';
-import userRoutes from './routes/userRoutes.js';
-import dashboardRoutes from './routes/dashboardRoutes.js';
-
-const app = express();
-
-// ── Global middleware ──────────────────────────────────────────────────────
-// Allow requests from the React dev server (5173) or configured CLIENT_URL
-app.use(cors({ origin: process.env.CLIENT_URL ?? 'http://localhost:5173' }));
-
-// Parse incoming JSON request bodies (makes req.body available in controllers)
-app.use(express.json());
-
-// ── API route groups ───────────────────────────────────────────────────────
-app.use('/api/auth', authRoutes);
-app.use('/api/patients', patientRoutes);
-app.use('/api/appointments', appointmentRoutes);
-app.use('/api/medical-records', medicalRecordRoutes);
-app.use('/api/prescriptions', prescriptionRoutes);
-app.use('/api/lab-orders', labOrderRoutes);
-app.use('/api/invoices', invoiceRoutes);
-app.use('/api/wards', wardRoutes);
-app.use('/api/ai', aiRoutes);
-// User management (non-auth): list staff, deactivate accounts, change roles
-app.use('/api/users', userRoutes);
-app.use('/api/dashboard', dashboardRoutes);
-
-// ── Utility endpoints ──────────────────────────────────────────────────────
-// Health check — returns 200 { status: 'ok' } for uptime monitoring
-app.get('/health', (_req, res) => res.json({ status: 'ok' }));
-
-// ── Global error handler ───────────────────────────────────────────────────
-// Catches any unhandled errors thrown inside route handlers.
-// Must be the LAST middleware registered (Express identifies error handlers
-// by the four-argument signature: err, req, res, next).
-app.use((err, _req, res, _next) => {
-  console.error(err.stack);
-  res.status(500).json({ message: 'Internal server error' });
-});
-
 const PORT = process.env.PORT ?? 5000;
 
-// Connect to MongoDB first, then start listening — ensures no requests are
-// accepted before the database connection is ready
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
-      // Register cron jobs after the DB is connected so Mongoose models are ready
       registerCronJobs();
     });
   })
   .catch((err) => {
     console.error('DB connection failed:', err.message);
-    process.exit(1); // crash fast so the process manager can restart the server
+    process.exit(1);
   });
 
-// Export app for use in integration tests (supertest imports this)
 export default app;

@@ -1,14 +1,16 @@
 {
-    "version": 2,
-    "buildCommand": "cd client && npm install && npm run build",
-    "outputDirectory": "client/dist",
-    "rewrites": [
-      { "source": "/api/:path*", "destination": "/api/:path*" },
-      { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "functions": {
-      "api/**/*.js": {
-        "runtime": "@vercel/node"
-      }
+  "version": 2,
+  "buildCommand": "cd client && npm install && npm run build",
+  "outputDirectory": "client/dist",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index" },
+    { "source": "/health", "destination": "/api/index" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ],
+  "functions": {
+    "api/index.js": {
+      "runtime": "@vercel/node",
+      "includeFiles": "server/src/**"
     }
   }
+}
