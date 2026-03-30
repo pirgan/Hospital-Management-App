@@ -12,11 +12,14 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import mongoose from 'mongoose';
+import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
-import User from '../src/models/User.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, '../.env') });
+
+const PASSWORD = 'Admin1234!';
+const EMAIL = 'admin@medicore.hospital';
 
 async function main() {
   const uri = process.env.MONGODB_URI;
@@ -25,30 +28,35 @@ async function main() {
   await mongoose.connect(uri);
   console.log('Connected to:', mongoose.connection.host);
 
-  const EMAIL = 'admin@medicore.hospital';
-  const existing = await User.findOne({ email: EMAIL });
+  const db = mongoose.connection.db;
+  const hash = await bcrypt.hash(PASSWORD, 12);
+  const existing = await db.collection('users').findOne({ email: EMAIL });
 
   if (existing) {
-    // Ensure roles are correct even if user was created earlier without them
-    existing.role = 'admin';
-    existing.secondaryRoles = ['doctor'];
-    await existing.save();
-    console.log(`User already exists — roles refreshed: ${EMAIL}`);
+    // Update roles and reset password directly — bypasses pre-save hook to avoid rehash bugs
+    await db.collection('users').updateOne(
+      { email: EMAIL },
+      { $set: { role: 'admin', secondaryRoles: ['doctor'], password: hash } }
+    );
+    console.log(`Updated roles + password for: ${EMAIL}`);
   } else {
-    await User.create({
+    await db.collection('users').insertOne({
       name: 'Danko Pirgan',
       email: EMAIL,
-      password: 'MediCore2024!',
+      password: hash,
       role: 'admin',
       secondaryRoles: ['doctor'],
       department: 'General Practice',
+      isActive: true,
+      createdAt: new Date(),
+      updatedAt: new Date(),
     });
     console.log(`Created admin/doctor user: ${EMAIL}`);
   }
 
   console.log('\nLogin credentials:');
-  console.log('  Email:    admin@medicore.hospital');
-  console.log('  Password: MediCore2024!');
+  console.log(`  Email:    ${EMAIL}`);
+  console.log(`  Password: ${PASSWORD}`);
 
   await mongoose.disconnect();
 }
