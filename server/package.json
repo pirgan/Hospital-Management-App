@@ -13,7 +13,8 @@
     "seed": "node scripts/seedData.js",
     "seed:wipe": "node scripts/seedData.js --wipe",
     "seed:history": "node scripts/seedPatientHistory.js",
-    "seed:history:wipe": "node scripts/seedPatientHistory.js --wipe"
+    "seed:history:wipe": "node scripts/seedPatientHistory.js --wipe",
+    "create:admin": "node scripts/createProdAdmin.js"
   },
   "keywords": [],
   "author": "",
