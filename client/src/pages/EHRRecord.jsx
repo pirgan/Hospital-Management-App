@@ -198,7 +198,20 @@ export default function EHRRecord() {
 
           {/* AI panel — 1/3 width, only shown when patient is selected */}
           <div className="lg:col-span-1">
-            {form.patient && <AIAssistantPanel recordId={form.patient} />}
+            {form.patient && (
+              <AIAssistantPanel
+                recordData={form}
+                onSave={(aiText) => {
+                  setForm((prev) => ({
+                    ...prev,
+                    treatmentPlan: prev.treatmentPlan
+                      ? `${prev.treatmentPlan}\n\n--- AI Differential ---\n${aiText}`
+                      : aiText,
+                  }));
+                  toast.success('AI differential accepted into treatment plan');
+                }}
+              />
+            )}
           </div>
         </div>
       ) : (

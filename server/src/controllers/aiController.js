@@ -91,6 +91,83 @@ export const differentialDiagnosis = async (req, res) => {
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
+// 1b. Differential Diagnosis (v2) — Sonnet, streaming SSE, full clinical context
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * POST /api/ai/differential-diagnosis
+ * Streams a ranked differential diagnosis list via Server-Sent Events.
+ *
+ * Accepts a richer clinical context than the legacy /differential endpoint:
+ *   chiefComplaint (required), vitals, allergies[], chronicConditions[]
+ *
+ * SSE format: each delta is `data: {"chunk":"..."}\n\n`
+ * Stream ends with `data: [DONE]\n\n`
+ *
+ * If recordId is provided, the complete generated text is persisted to
+ * MedicalRecord.aiDifferentialDiagnosis once streaming finishes.
+ *
+ * @body chiefComplaint     — required; free-text presenting complaint
+ * @body vitals             — optional vitals object (HR, BP, temp, SpO2, etc.)
+ * @body allergies          — optional array of known allergy strings
+ * @body chronicConditions  — optional array of pre-existing condition strings
+ * @body recordId           — optional MedicalRecord _id; if given, saves result
+ */
+export const streamDifferentialDiagnosis = async (req, res) => {
+  const { chiefComplaint, vitals, allergies = [], chronicConditions = [], recordId } = req.body;
+
+  if (!chiefComplaint) {
+    return res.status(400).json({ message: 'chiefComplaint is required' });
+  }
+
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+
+  try {
+    const userPrompt = [
+      `Chief Complaint: ${chiefComplaint}`,
+      `Vitals: ${JSON.stringify(vitals ?? {})}`,
+      `Allergies: ${allergies.length ? allergies.join(', ') : 'None reported'}`,
+      `Chronic Conditions: ${chronicConditions.length ? chronicConditions.join(', ') : 'None reported'}`,
+      '',
+      'Generate a ranked differential diagnosis list.',
+    ].join('\n');
+
+    const stream = anthropic.messages.stream({
+      model: 'claude-3-5-sonnet-20241022',
+      max_tokens: 1024,
+      system:
+        'You are a clinical decision support tool. Generate a ranked differential diagnosis. ' +
+        "Format each item as: '1. [Diagnosis] — Confidence: X% — Next Steps: ...' " +
+        'Always include a disclaimer that this is AI assistance, not a final diagnosis. ' +
+        'Never recommend specific drug doses. 3-5 differentials maximum.',
+      messages: [{ role: 'user', content: userPrompt }],
+    });
+
+    let fullText = '';
+    for await (const chunk of stream) {
+      if (chunk.type === 'content_block_delta' && chunk.delta.type === 'text_delta') {
+        fullText += chunk.delta.text;
+        res.write(`data: ${JSON.stringify({ chunk: chunk.delta.text })}\n\n`);
+      }
+    }
+
+    if (recordId) {
+      await MedicalRecord.findByIdAndUpdate(recordId, {
+        $set: { aiDifferentialDiagnosis: fullText },
+      });
+    }
+
+    res.write('data: [DONE]\n\n');
+    res.end();
+  } catch (err) {
+    res.write(`data: ${JSON.stringify({ error: err.message })}\n\n`);
+    res.end();
+  }
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
 // 2. Medical Record Summarisation — Haiku, JSON mode
 // ─────────────────────────────────────────────────────────────────────────────
 

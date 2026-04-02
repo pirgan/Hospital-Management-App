@@ -14,6 +14,7 @@
 import { Router } from 'express';
 import {
   differentialDiagnosis,
+  streamDifferentialDiagnosis,
   summarizeRecord,
   generateDischargeSummary,
   checkInteractions,
@@ -30,6 +31,7 @@ const router = Router();
 router.use(protect, aiRateLimit);
 
 router.post('/differential', requireRole('doctor'), differentialDiagnosis);
+router.post('/differential-diagnosis', requireRole('doctor'), streamDifferentialDiagnosis);
 router.get('/summarize/:patientId', requireRole('doctor', 'nurse', 'admin'), summarizeRecord);
 router.post('/discharge-summary', requireRole('doctor', 'admin'), generateDischargeSummary);
 router.post('/interactions', requireRole('doctor', 'nurse', 'admin'), checkInteractions);
